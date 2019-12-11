@@ -1,11 +1,13 @@
 # Deployment Cofigurations
 ## Container
+
 ```html
 ContainerPort:
     name: app
     port: 8080
     servicePort: 80
 ```
+
 Key |Description
 ----|----
 `name` | name of the container
@@ -13,7 +15,8 @@ Key |Description
 `servicePort` | service port for the container
 
 
-## Liveness Probe<br />
+## Liveness Probe
+
 ```html
 LivenessProbe:
   Path: ""
@@ -44,6 +47,7 @@ Key | Description
 
 
 ## Readiness Probe
+
 ```html
 ReadinessProbe:
   Path: ""
@@ -73,7 +77,6 @@ Key  |Description
 ## Autoscaling 
 
 ```html
-
 autoscaling:
   enabled: false
   MinReplicas: 1
@@ -96,6 +99,7 @@ Key   |Description
 
 
 ## Image
+
 ```html
 image:
   pullPolicy: IfNotPresent
@@ -105,9 +109,9 @@ image:
 
 Image is used to access images in kubernetes, pullpolicy is used to define the instances calling the image, here the image is pulled when the image is not present,it can also be set as "Always". 
 
-<br />
 
 ## Ingress
+
 ```html
 ingress:
   enabled: false
@@ -132,6 +136,7 @@ Key |Description
 
  
  ## Ingress Internal
+ 
 ```html
 ingressInternal:
   enabled: false
@@ -140,6 +145,7 @@ ingressInternal:
   host: ""
   tls: []
 ```
+
 It provides definition for the internal ingress.
 
 Key |Description
@@ -153,6 +159,7 @@ Key |Description
 
  
 ## Resources
+
 ```html
 resources:
   limits:
@@ -162,6 +169,7 @@ resources:
     cpu: 0.10
     memory: 100Mi
 ```
+
 Resources are required to set CPU and memory usage.
 ### Limits
 
@@ -173,6 +181,7 @@ Limits make sure a container never goes above a certain value. The container is 
 
 
 ## Service
+
 ```html
   service:
     type: ClusterIP
@@ -196,6 +205,7 @@ It is required when some values need to be read from or written to an external d
 
 
 ## Volume Mounts
+
 ```html
 volumeMounts: []
 
@@ -227,6 +237,7 @@ tolerations:
   effect: NoSchedule
 
 ```
+
 A given pod can access the given node and avoid the given taint only if the given pod satisfies a given taint.
 
 
@@ -242,11 +253,13 @@ This is used to give arguments to command
 
 
 ## Command
+
 ```html
 command:
   enabled: false
   value: []
 ```
+
 It contains the commands for the server.
 
 Key     | Description
@@ -255,9 +268,8 @@ Key     | Description
 `value` |It contains the commands.
 
 
-
-
 ## Prometheus
+
 ``` html
   prometheus:
     release: monitoring
@@ -277,20 +289,24 @@ If it has expired then the task is requeued to be executed again.
 
 
 ## Min Ready Seconds
+
 ```html
 MinReadySeconds: 60
 
 ```
+
 Minimum time pod should be ready to check readiness of a pod
 
 
 ## Server
+
 ```html
 server:
   deployment:
     image_tag: 1-95a53
     image: ""
 ```
+
 It is used for providing server configurations.
 
 
@@ -307,17 +323,21 @@ Key     | Description
 
 
 ## Service Monitor
+
 ```html
 servicemonitor:
   enabled: false
 ```
+
 It gives the set of targets to be monitored.
 
 ## Db Migration Config
+
 ```html
 dbMigrationConfig:
   enabled: false
 ```
+
 It is used to configure database migration
 
 
