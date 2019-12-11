@@ -13,9 +13,6 @@ Key |Description
 `servicePort` | service port for the container
 
 
-
-<br />
-
 ## Liveness Probe<br />
 ```html
 LivenessProbe:
@@ -41,7 +38,7 @@ Key | Description
 `periodSeconds` |It defines the time to check a given container for liveness.
 `successThreshold` |It defines the number of successes required before a given container is said to fulfil the liveness probe.
 `timeoutSeconds` |It defines the time for checking timeout.
-<br />
+
 
 
 
@@ -60,7 +57,7 @@ ReadinessProbe:
 
 
 
-Readiness defines whether a given container is ready or not.<br />
+Readiness defines whether a given container is ready or not.
 
 Key  |Description
 ---|---
@@ -71,7 +68,7 @@ Key  |Description
 `successThreshold`    |It defines the number of successes required before a given container is said to fulfil the rediness probe.
 `timeoutSeconds`      |It defines the time for checking timeout.
   
-  <br />
+ 
   
 ## Autoscaling 
 
@@ -96,7 +93,7 @@ Key   |Description
 `TargetCPUUtilizationPercentage`	|The target CPU utilization that is expected for a container.
 `TargetMemoryUtilizationPercentage`	|The target memory utilization that is expected for a container.
 `enabled`				|to enable autoscaling or don't enable it.
-<br />
+
 
 ## Image
 ```html
@@ -132,7 +129,7 @@ Key |Description
 `host` | Host name
 `tls` | It contains security details
 
- <br />
+
  
  ## Ingress Internal
 ```html
@@ -152,7 +149,8 @@ Key |Description
 `path`| Path name
 `host` | Host name
 `tls` | It contains security details
-<br/>
+
+
  
 ## Resources
 ```html
@@ -172,8 +170,7 @@ Limits make sure a container never goes above a certain value. The container is 
   ### Requests
  
  Requests are what the container is guaranteed to get.
- <br />
- 
+
 
 ## Service
 ```html
@@ -184,10 +181,10 @@ Limits make sure a container never goes above a certain value. The container is 
 
 
 Service is an abstraction which defines a logical set of Pods and a policy by which to access them.
-<br />
+
 
 ClusterIP-This default type exposes the service on a cluster-internal IP. You can reach the service only from within the cluster.
-<br />
+
 
 ## Volumes
 
@@ -197,7 +194,6 @@ ClusterIP-This default type exposes the service on a cluster-internal IP. You ca
 
 It is required when some values need to be read from or written to an external disk.
 
-<br />
 
 ## Volume Mounts
 ```html
@@ -206,7 +202,6 @@ volumeMounts: []
 ```
 
 It is used to provide mounts to the volume
-<br />
 
 
 ## Affinity 
@@ -221,7 +216,6 @@ Spec:
 Spec is used to define the desire state of the given container.
 Inter-pod affinity allow you to constrain which nodes your pod is eligible to be scheduled based on labels on pods.
 
-<br />
 
 ## Tolerations
 
@@ -234,7 +228,6 @@ tolerations:
 
 ```
 A given pod can access the given node and avoid the given taint only if the given pod satisfies a given taint.
-<br />
 
 
 ## Arguments
@@ -246,7 +239,7 @@ args:
 ```
 
 This is used to give arguments to command 
-<br />
+
 
 ## Command
 ```html
@@ -271,7 +264,7 @@ Key     | Description
 ```
 
 It is a kubernetes monitoring tool and the name of the file to be monitored as monitoring in the given case.It describes the state of the prometheus.
-<br />
+
 
 ## Grace Period
 
@@ -279,7 +272,6 @@ It is a kubernetes monitoring tool and the name of the file to be monitored as m
 GracePeriod: 30
 ```
 If it has expired then the task is requeued to be executed again.
-<br />
 
 
 
@@ -290,7 +282,7 @@ MinReadySeconds: 60
 
 ```
 Minimum time pod should be ready to check readiness of a pod
-<br />
+
 
 ## Server
 ```html
@@ -320,7 +312,6 @@ servicemonitor:
   enabled: false
 ```
 It gives the set of targets to be monitored.
-<br />
 
 ## Db Migration Config
 ```html
@@ -328,6 +319,5 @@ dbMigrationConfig:
   enabled: false
 ```
 It is used to configure database migration
-<br />
 
 
