@@ -29,7 +29,7 @@ LivenessProbe:
 ```
 
 
-Liveness probe is required to check whether the given container is working and responding to requests or not. Certain specifications can be provided to check the condition for checking the liveliness of a given container.<br />
+Liveness probe is required to check whether the given container is working and responding to requests or not. Certain specifications can be provided to check the condition for checking the liveliness of a given container.
 
 
 
@@ -71,9 +71,6 @@ Key  |Description
 `periodSeconds`	      |It defines the time to check a given container for readiness.
 `successThreshold`    |It defines the number of successes required before a given container is said to fulfil the rediness probe.
 `timeoutSeconds`      |It defines the time for checking timeout.
-  
- 
-  
 ## Autoscaling 
 
 ```html
@@ -105,11 +102,7 @@ image:
   pullPolicy: IfNotPresent
  
 ```
-
-
 Image is used to access images in kubernetes, pullpolicy is used to define the instances calling the image, here the image is pulled when the image is not present,it can also be set as "Always". 
-
-
 ## Ingress
 
 ```html
