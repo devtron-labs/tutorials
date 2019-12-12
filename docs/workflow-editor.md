@@ -1,5 +1,9 @@
 # Workflow Editor
 **Workflow is a logical sequenece of different stages used for continous integration and continous deployment of an application**
+<br />
+
+<br />
+
 ![Create new workflow](./workflow-editor.PNG "Create new workflow")
 **Click on Create Workflow to create a new workflow**
 <br />
