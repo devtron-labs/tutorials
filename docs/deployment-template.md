@@ -66,7 +66,7 @@ Readiness defines whether a given container is ready or not.
 Key  |Description
 ---|---
 `Path`                |It define the path where the rediness needs to be checked.
-`failureThreshold`   |It defines the maximum number of failures that are acceptable before a given container is not considered as ready.
+`failureThreshold`    |It defines the maximum number of failures that are acceptable before a given container is not considered as ready.
 `initialDelaySeconds` |It defines the time to wait before a given container is checked for readiness.
 `periodSeconds`	      |It defines the time to check a given container for readiness.
 `successThreshold`    |It defines the number of successes required before a given container is said to fulfil the rediness probe.
@@ -88,11 +88,11 @@ Autoscaling is a feature provided by kubernetes for automatically scaling up or 
 
 Key   |Description
 -------|--------
-`MaxReplicas`				|Maximum number of replicas allowed for scaling.
-`MinReplicas`				|Minimum number of replicas allowed for scaling.
-`TargetCPUUtilizationPercentage`	|The target CPU utilization that is expected for a container.
-`TargetMemoryUtilizationPercentage`	|The target memory utilization that is expected for a container.
-`enabled`				|to enable autoscaling or don't enable it.
+`MaxReplicas`			    	|Maximum number of replicas allowed for scaling.
+`MinReplicas`			    	|Minimum number of replicas allowed for scaling.
+`TargetCPUUtilizationPercentage`    	|The target CPU utilization that is expected for a container.
+`TargetMemoryUtilizationPercentage`	 |The target memory utilization that is expected for a container.
+`enabled`			    	|to enable autoscaling or don't enable it.
 
 
 ## Image
