@@ -1,6 +1,6 @@
 # Docker Build Configuration
 
-![Docker Build Configuration](docs/docker_build_config.PNG "Docker Build Configuration")
+![Docker Build Configuration](./docker_build_config.PNG "Docker Build Configuration")
 
 Key | Description
 -----|-----
