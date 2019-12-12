@@ -1,5 +1,11 @@
 # Docker Build Configuration
 
 ![alt text](docs/docker_build_config.PNG "Adding multiple git materials")
-Here we need to select the repository and the docker file.
-Some build arguments for the docker build can also be added under docker build arguments.
+
+Key | Description
+-----|-----
+`Repository` | Repository containing the docker file.
+`Docker File Path` | Path of the docker file inside the repository.
+`Docker Registry` | Registry where the docker images are to be pushed.
+`Docker Repository` | Docker repository where docker images have to be pushed
+`Docker Build Arguments` | Arguments for docker build can be added here.
