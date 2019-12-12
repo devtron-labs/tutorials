@@ -2,7 +2,7 @@
 Consider a scenario where the source code of the application is present in one repository but the configuration files for that application exist on other git repository. In such cases, checkout path can be used to provide location to the configuration files so that the docker file can use the configuration file cloned from the other repository.
 <br />
 
-![alt text](https://github.com/yvpatrick/document/blob/master/mg4.jpg "Adding multiple artifacts")
+![alt text](./mg5.jpg "Adding multiple artifacts")
 
 <br />
 <br />
