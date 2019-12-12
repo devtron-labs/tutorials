@@ -56,6 +56,33 @@
   <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
   <script>
     window.$docsify = {
+        search: 'auto',
+       // default
+      search : [
+      '/',            // => /README.md
+      '/depstrat',       // => /guide.md
+      '/depconfig', // => /get-started.md
+      'multigit',      // => /zh-cn/README.md
+    ],
+
+
+    // complete configuration parameters
+    search: {
+      maxAge: 86400000, // Expiration time, the default one day
+      paths: 'auto', // or 'auto'
+      placeholder: 'Type to search',
+      // Localization
+     
+      noData: 'No Results!',
+      // Localization
+     
+      // Headline depth, 1 - 6
+      depth: 2,
+      hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+      // To avoid search index collision
+      // between multiple websites under the same domain
+      namespace: 'website-1',
+    }
       name: 'NLLGG Dustpuppy Docs',
       loadSidebar: true,
       subMaxLevel: 2,
