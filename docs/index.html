@@ -61,8 +61,8 @@
       search : [
       '/',            // => /README.md
       '/depstrat',       // => /guide.md
-      '/depconfig', // => /get-started.md
-      'multigit',      // => /zh-cn/README.md
+      '/deployment-template', // => /get-started.md
+      '/multigit',      // => /zh-cn/README.md
     ],
 
 
@@ -84,7 +84,7 @@
       namespace: 'website-1',
     }
       name: 'NLLGG Dustpuppy Docs',
-      loadSidebar: true,
+      loadSidebar: false,
       subMaxLevel: 2,
       plugins: [
         window.DocsifyCopyCodePlugin.init(),
@@ -105,10 +105,7 @@
         }
       ],
       themeColor: '#ff8c01',
-      search: {
-        placeholder: 'Zoeken',
-        noData: 'Geen resultaten!'
-      }
+     
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
