@@ -1,4 +1,7 @@
 # Deployment Configurations
+
+![Deployment Template](./dep-temp.PNG "Deployment Template")
+
 ## Container
 
 ```html
@@ -332,6 +335,10 @@ dbMigrationConfig:
 ```
 
 It is used to configure database migration
+
+## Application Metrics
+
+Application metrics can be enabled to see your application's metrics-CPU usage,Memory Usage,Status,Throughput and Latency.
 
 # Deployment Strategies
 ```html
