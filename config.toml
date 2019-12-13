@@ -1,3 +1,2 @@
 title = "My New Hugo Site"
 theme = "book"
-baseURL = "https:/docs.devtron.ai"
