@@ -1,6 +1,6 @@
 # Deployment Configurations
 
-![Deployment Template](./dep-temp.PNG "Deployment Template")
+![Deployment Templates](./dep-temp.PNG "Deployment Template")
 
 ## Container
 
