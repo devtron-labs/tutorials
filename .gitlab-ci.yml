@@ -1,5 +1,5 @@
-
 image: monachus/hugo
+imagePullPolicy: Always
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
