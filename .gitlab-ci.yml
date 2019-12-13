@@ -1,7 +1,6 @@
 image:
   name: monachus/hugo
   pull: always
-pullPolicy: Always
 
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
