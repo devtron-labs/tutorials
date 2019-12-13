@@ -1,4 +1,6 @@
-image: monachus/hugo
+image:
+  name: monachus/hugo
+  pull: always
 pullPolicy: Always
 
 variables:
