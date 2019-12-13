@@ -1,24 +1,12 @@
-image: ruby:alpine
 
-stages:
-- test
-- deploy
+image: monachus/hugo
 
-markdown_lint:
-  stage: test
-  script:
-  - gem install mdl
-  - mdl docs/
-  allow_failure: true
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
 
 pages:
-  stage: deploy
   script:
-  - cp -r docs/. public
-  - echo "deploying to pages for production"
-  environment:
-    name: production
-    url: https://dimitrieh.gitlab.io/nllgg-docsify
+  - hugo
   artifacts:
     paths:
     - public
