@@ -4,7 +4,7 @@
 
 <br />
 
-![Create new workflow](/workflow-editor.PNG=100x100 "Create new workflow")
+![Create new workflow](/workflow-editor.PNG "Create new workflow")
 **Click on Create Workflow to create a new workflow**
 <br />
 
@@ -21,7 +21,8 @@
 
 <br />
 
-<img src="/workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
+<img src="\workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
+
 
 Key | Description
 -----|-----
