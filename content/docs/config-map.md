@@ -1,6 +1,6 @@
 # Config Maps
 **Click on ConfigMaps to config a map**
-![Config Map](./config.PNG "Create config map")
+![Config Map](/config.PNG "Create config map")
 
 Key  | Description
 -----|-----
@@ -20,7 +20,7 @@ The config map is not specified and if name if given, it will be specified
 **Click Save ConfigMap to save the config map**
 
 
-![Config Map Added](/extconfig.PNG "Config Map is added")
+![Config Map Added](/configmapadded.PNG "Config Map is added")
 
 **The config map is created**
 
