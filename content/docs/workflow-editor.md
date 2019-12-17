@@ -21,7 +21,7 @@
 
 <br />
 
-![a-kitten.jpg](/workflow-editor-combo.jpg =200x200)
+![kitty](/workflow-editor-combo.jpg =200x200)
 
 ![Create new workflow](/workflow-editor-combo.jpg){width=250px}
 <img src="/workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
