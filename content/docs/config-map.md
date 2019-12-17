@@ -1,6 +1,6 @@
 # Config Maps
 **Click on ConfigMaps to config a map**
-![Config Map](/config.PNG "Create config map")
+![Config Map](./config.PNG "Create config map")
 
 Key  | Description
 -----|-----
