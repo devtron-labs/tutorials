@@ -163,10 +163,10 @@ Key |Description
 ```html
 resources:
   limits:
-    cpu: 1
+    cpu: '1'
     memory: 200Mi
   requests:
-    cpu: 0.10
+    cpu: '0.10'
     memory: 100Mi
 ```
 
@@ -231,10 +231,10 @@ Inter-pod affinity allow you to constrain which nodes your pod is eligible to be
 
 ```html
 tolerations:
-  key: key
-  operator: Equal
-  value: value
-  effect: NoSchedule
+  key: "key"
+  operator: "Equal"
+  value: "value"
+  effect: "NoSchedule"
 
 ```
 
