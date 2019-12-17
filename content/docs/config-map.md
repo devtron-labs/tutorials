@@ -15,6 +15,7 @@ Key  | Description
 
 ## Kubernetes External ConfigMap
 The user will have to ensure that the config map is available to the pod.
+
 **Click Save ConfigMap to save the config map**
 
 
