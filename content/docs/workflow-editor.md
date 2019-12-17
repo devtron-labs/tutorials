@@ -21,7 +21,7 @@
 
 <br />
 
-<div style="width:50%">![Create new workflow](/workflow-editor-combo.jpg)</div>
+![Create new workflow](/workflow-editor-combo.jpg){width=250px}
 <img src="/workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
 
 
