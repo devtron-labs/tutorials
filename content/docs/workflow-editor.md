@@ -4,7 +4,7 @@
 
 <br />
 
-![Create new workflow](/workflow-editor.PNG "Create new workflow")
+![Create new workflow](/workflow-editor.PNG=100x100 "Create new workflow")
 **Click on Create Workflow to create a new workflow**
 <br />
 
@@ -21,7 +21,7 @@
 
 <br />
 
-<img src="./workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
+<img src="/workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
 
 Key | Description
 -----|-----
@@ -46,7 +46,7 @@ Key | Description
 
 <br />
 
-<img src="./workflow-editor7.PNG" alt="drawing" width="450" height="500"/>
+<img src="/workflow-editor7.PNG" alt="drawing" width="450" height="500"/>
 
 Key | Description
 ----|----
@@ -56,7 +56,7 @@ Key | Description
 
 <br />
 
-<img src="./workflow-editor8.PNG" alt="drawing" width="450" height="500"/>
+<img src="/workflow-editor8.PNG" alt="drawing" width="450" height="500"/>
 
 **Select Create Pipeline to create the CD Pipeline**
 
