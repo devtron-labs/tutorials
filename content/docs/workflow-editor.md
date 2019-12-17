@@ -21,7 +21,7 @@
 
 <br />
 
-<img src="\workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
+<img src="https://gitlab.com/devtron/tutorials/blob/master/content/docs/workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
 
 
 Key | Description
