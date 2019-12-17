@@ -21,6 +21,10 @@
 
 <br />
 
+\begin{figure}
+ \includegraphics[width=300pt, height = 125 pt]{/workflow-editor-combo.jpg}
+\end{figure}
+
 ![Create new workflow](/workflow-editor-combo.jpg){width=250px}
 <img src="/workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
 
