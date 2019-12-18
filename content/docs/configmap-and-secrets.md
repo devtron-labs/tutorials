@@ -57,7 +57,7 @@ Key | Description
 
 
 
-![Data Volume](/secretdatvol.PNG "Data Volume")
+![Data Volume](/secretdatavol.PNG "Data Volume")
 
 ### Volume Mount Path
 Enter the path of the volume mount
@@ -68,7 +68,9 @@ Enter the path of the volume mount
 
 **Click on Save Secret to save the secret**
 
+![Save Secret](/secretenv.PNG "Save Secret")
 
+**Secret is added**
 
 
 
