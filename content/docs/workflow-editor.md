@@ -22,7 +22,7 @@
 <br />
 
 
-![Create new workflow](/workflow-editor-combo-resize1.jpg)
+![Create new workflow](/workflow-editor-combo1.jpg)
 <img src="/workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
 
 
