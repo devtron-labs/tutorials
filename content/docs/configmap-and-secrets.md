@@ -68,7 +68,7 @@ Enter the path of the volume mount
 
 **Click on Save Secret to save the secret**
 
-![Save Secret](/secretenv.PNG "Save Secret")
+![Save Secret](/secretadded.PNG "Save Secret")
 
 **Secret is added**
 
