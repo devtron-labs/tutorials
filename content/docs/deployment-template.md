@@ -413,7 +413,7 @@ recreate:
 ```
 It terminate the old version and release the new one.
 
-[I'm an inline-style link](https://www.google.com)
+[I'm an inline-style link](./_index.md)
 
 
 
