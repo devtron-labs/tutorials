@@ -22,7 +22,7 @@
 <br />
 
 
-![Create new workflow](/workflow-editor-combo.jpg){width=250px}
+![Create new workflow](/workflow-editor-combo-resize.jpg)
 <img src="/workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
 
 
@@ -49,6 +49,7 @@ Key | Description
 
 <br />
 
+![Add CI Pipeline](/workflow-editor7-resize.PNG "Add CI Pipeline")
 <img src="/workflow-editor7.PNG" alt="drawing" width="450" height="500"/>
 
 Key | Description
@@ -59,7 +60,7 @@ Key | Description
 
 <br />
 
-![Workflow](/workflow-editor8.PNG){: width=150 height=100 style="float:right; padding:16px"}
+![Workflow](/workflow-editor8-resize.PNG)
 
 <img src="/workflow-editor8.PNG" alt="drawing" width="450" height="500"/>
 
