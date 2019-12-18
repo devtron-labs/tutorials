@@ -413,7 +413,7 @@ recreate:
 ```
 It terminate the old version and release the new one.
 
-[I'm an inline-style link](../environment-overrides)
+[Does your app has different requirements in different Environments? Also read Environment Overrides](../environment-overrides)
 
 
 
