@@ -59,6 +59,8 @@ Key | Description
 
 <br />
 
+![Workflow](/workflow-editor8.PNG){: width=150 height=100 style="float:right; padding:16px"}
+
 <img src="/workflow-editor8.PNG" alt="drawing" width="450" height="500"/>
 
 **Select Create Pipeline to create the CD Pipeline**
