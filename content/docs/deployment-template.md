@@ -34,7 +34,6 @@ LivenessProbe:
 ```
 
 
-Liveness probe is required to check whether the given container is working and responding to requests or not. Certain specifications can be provided to check the condition for checking the liveliness of a given container.
 
 
 
@@ -67,7 +66,6 @@ ReadinessProbe:
 
 
 
-Readiness defines whether a given container is ready or not.
 
 Key  |Description
 ---|---
@@ -91,7 +89,6 @@ autoscaling:
 
 
 
-Autoscaling is a feature provided by kubernetes for automatically scaling up or scaling down a container.<br />
 
 Key   |Description
 -------|--------
@@ -113,8 +110,7 @@ image:
 Image is used to access images in kubernetes, pullpolicy is used to define the instances calling the image, here the image is pulled when the image is not present,it can also be set as "Always". 
 ## Ingress
 
-This allows access outside the cluster
-```html
+This allows public access to the url, please ensure you are using right nginx annotation for nginx class, its default value is nginx```html
 ingress:
   enabled: false
   annotations: {}
@@ -124,8 +120,7 @@ ingress:
 ```
 
 
-Ingress is used in kubernetes to provide an interface between the users and the various contents of the container and proxy ports, it also provides load balancing as well as SSL.
-Here enabled is used to enable or disable  given ingress.
+
 
 Key |Description
 ----|----
@@ -149,7 +144,6 @@ ingressInternal:
   tls: []
 ```
 
-It provides definition for the internal ingress.
 
 Key |Description
 ----|----
@@ -195,10 +189,6 @@ This defines annotations and the type of service, optionally can define name als
 ```
 
 
-Service is an abstraction which defines a logical set of Pods and a policy by which to access them.
-
-
-ClusterIP-This default type exposes the service on a cluster-internal IP. You can reach the service only from within the cluster.
 
 
 ## Volumes
