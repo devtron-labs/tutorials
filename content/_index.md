@@ -8,6 +8,9 @@ type: docs
 
 ## Container
 
+
+This defines ports on which application services will be exposed to other services
+
 ```html
 ContainerPort:
     name: app
@@ -24,6 +27,8 @@ Key |Description
 
 ## Liveness Probe
 
+If this check fails, kubernetes restarts the pod. This should return error code in case of non-recoverable error
+
 ```html
 LivenessProbe:
   Path: ""
@@ -36,7 +41,6 @@ LivenessProbe:
 ```
 
 
-Liveness probe is required to check whether the given container is working and responding to requests or not. Certain specifications can be provided to check the condition for checking the liveliness of a given container.
 
 
 
@@ -55,6 +59,8 @@ Key | Description
 
 ## Readiness Probe
 
+If this check fails, kubernetes stops sending traffic to the application. This should return error code in case of errors which can be recovered from if traffic is stopped
+
 ```html
 ReadinessProbe:
   Path: ""
@@ -68,7 +74,6 @@ ReadinessProbe:
 
 
 
-Readiness defines whether a given container is ready or not.
 
 Key  |Description
 ---|---
@@ -79,6 +84,8 @@ Key  |Description
 `successThreshold`    |It defines the number of successes required before a given container is said to fulfil the rediness probe.
 `timeoutSeconds`      |It defines the time for checking timeout.
 ## Autoscaling 
+
+This is connected to HPA and controls scaling up and down in response to request load
 
 ```html
 autoscaling:
@@ -91,7 +98,6 @@ autoscaling:
 
 
 
-Autoscaling is a feature provided by kubernetes for automatically scaling up or scaling down a container.<br />
 
 Key   |Description
 -------|--------
@@ -112,6 +118,8 @@ image:
 Image is used to access images in kubernetes, pullpolicy is used to define the instances calling the image, here the image is pulled when the image is not present,it can also be set as "Always". 
 ## Ingress
 
+This allows public access to the url, please ensure you are using right nginx annotation for nginx class, its default value is nginx
+
 ```html
 ingress:
   enabled: false
@@ -122,8 +130,7 @@ ingress:
 ```
 
 
-Ingress is used in kubernetes to provide an interface between the users and the various contents of the container and proxy ports, it also provides load balancing as well as SSL.
-Here enabled is used to enable or disable  given ingress.
+
 
 Key |Description
 ----|----
@@ -135,8 +142,10 @@ Key |Description
 
 
  
- ## Ingress Internal
+## Ingress Internal
  
+  This allows private access to the url, please ensure you are using right nginx annotation for nginx class, its default value is nginx
+
 ```html
 ingressInternal:
   enabled: false
@@ -146,7 +155,6 @@ ingressInternal:
   tls: []
 ```
 
-It provides definition for the internal ingress.
 
 Key |Description
 ----|----
@@ -160,6 +168,8 @@ Key |Description
  
 ## Resources
 
+These define minimum and maximum RAM and CPU available to the application
+
 ```html
 resources:
   limits:
@@ -170,7 +180,7 @@ resources:
     memory: 100Mi
 ```
 
-Resources are required to set CPU and memory usage.
+
 ### Limits
 
 Limits make sure a container never goes above a certain value. The container is only allowed to go up to the limit, and then it is restricted.<br />
@@ -182,6 +192,7 @@ Limits make sure a container never goes above a certain value. The container is 
 
 ## Service
 
+This defines annotations and the type of service, optionally can define name also
 ```html
   service:
     type: ClusterIP
@@ -189,10 +200,7 @@ Limits make sure a container never goes above a certain value. The container is 
 ```
 
 
-Service is an abstraction which defines a logical set of Pods and a policy by which to access them.
 
-
-ClusterIP-This default type exposes the service on a cluster-internal IP. You can reach the service only from within the cluster.
 
 
 ## Volumes
