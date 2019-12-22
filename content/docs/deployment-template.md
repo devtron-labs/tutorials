@@ -4,6 +4,7 @@
 
 ## Container
 
+This defines ports on which application services will be exposed to other services
 ```html
 ContainerPort:
     name: app
@@ -20,6 +21,7 @@ Key |Description
 
 ## Liveness Probe
 
+If this check fails, kubernetes restarts the pod. This should return error code in case of non-recoverable error
 ```html
 LivenessProbe:
   Path: ""
@@ -51,6 +53,7 @@ Key | Description
 
 ## Readiness Probe
 
+If this check fails, kubernetes stops sending traffic to the application. This should return error code in case of errors which can be recovered from if traffic is stopped
 ```html
 ReadinessProbe:
   Path: ""
@@ -76,6 +79,7 @@ Key  |Description
 `timeoutSeconds`      |It defines the time for checking timeout.
 ## Autoscaling 
 
+This is connected to HPA and controls scaling up and down in response to request load
 ```html
 autoscaling:
   enabled: false
@@ -100,6 +104,7 @@ Key   |Description
 
 ## Image
 
+
 ```html
 image:
   pullPolicy: IfNotPresent
@@ -108,6 +113,7 @@ image:
 Image is used to access images in kubernetes, pullpolicy is used to define the instances calling the image, here the image is pulled when the image is not present,it can also be set as "Always". 
 ## Ingress
 
+This allows access outside the cluster
 ```html
 ingress:
   enabled: false
@@ -131,8 +137,9 @@ Key |Description
 
 
  
- ## Ingress Internal
+## Ingress Internal
  
+ This allows private access to the url, please ensure you are using right nginx annotation for nginx class, its default value is nginx
 ```html
 ingressInternal:
   enabled: false
@@ -156,6 +163,7 @@ Key |Description
  
 ## Resources
 
+These define minimum and maximum RAM and CPU available to the application
 ```html
 resources:
   limits:
@@ -169,15 +177,17 @@ resources:
 Resources are required to set CPU and memory usage.
 ### Limits
 
+
 Limits make sure a container never goes above a certain value. The container is only allowed to go up to the limit, and then it is restricted.<br />
 
-  ### Requests
+### Requests
  
  Requests are what the container is guaranteed to get.
 
 
 ## Service
 
+This defines annotations and the type of service, optionally can define name also
 ```html
   service:
     type: ClusterIP
@@ -192,6 +202,7 @@ ClusterIP-This default type exposes the service on a cluster-internal IP. You ca
 
 
 ## Volumes
+
 
 ```html
  volumes: []
@@ -221,6 +232,12 @@ Spec:
 
 Spec is used to define the desire state of the given container.
 Inter-pod affinity allow you to constrain which nodes your pod is eligible to be scheduled based on labels on pods.
+
+### Key
+Key part of the label for node selection, this should be same as that on node. Please confirm with devops team
+
+### Values
+Value part of the label for node selection, this should be same as that on node. Please confirm with devops team
 
 
 ## Tolerations
@@ -291,8 +308,7 @@ MinReadySeconds: 60
 
 ```
 
-Minimum time pod should be ready to check readiness of a pod
-
+Minimum number of seconds for which a newly created pod should be ready without any of its container crashing, for it to be considered available
 
 ## Server
 
@@ -349,7 +365,7 @@ It is used to assign strategy to deployment.
 <br />
  
   
- ## Blue Green Stategy
+## Blue Green Stategy
  ```html
 blueGreen:
   autoPromotionSeconds: 30
