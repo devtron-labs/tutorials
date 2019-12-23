@@ -21,7 +21,7 @@ Events shows the events that took place during the deployment of an app.These ev
 
 ![Debuggind Deployment](/depdebuglogsedit.JPG "Debuggind Deployment")
 
-Logs contain the logs of the pod deployed which can be used by the user for debugging.
+Logs contain the logs of the pods deployed which can be used by the user for debugging.
 
 ### Pod Status
 
