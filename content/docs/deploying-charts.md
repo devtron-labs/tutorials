@@ -16,7 +16,7 @@
 
 **Select README.MD to get more idea about the configurations of the chart**
 
-**Select Deploy to deploy the chart. **
+**Select Deploy to deploy the chart.**
 
 ![Deployment Charts](/depchart4config.JPG "Deployment Charts")
 
@@ -27,7 +27,7 @@ Key | Description
 `Environment` |Environment of the app
 `Chart Version` | the version of the chart to be used
 
-Below these configuration files are present which can be edited by the help of README.md
+Below this, configuration files are present which can be edited by the help of README.md
 
 
 ![Deployment Charts](/depchart4readme.JPG "Deployment Charts")
