@@ -32,6 +32,8 @@ The Pod Status shows the status of the pod being deployed and check whether the 
 
 ![Debuggind Deployment](/depdebugotheredit.jpg "Debuggind Deployment")
 
+Status of seperate components can be accessed by clicking on the name of that component.
+
 
 
 
