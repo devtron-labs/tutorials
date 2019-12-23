@@ -4,7 +4,11 @@
 
 If the deployment of an app is not successful, then debugging needs to be done for successful deployment.
 
-This can be done through App Details section which can be accessed by Applications->App_Name->App Details.Over here, the status of the app can be seen as Healthy.If there are some error with deployment then the status won't be Healthy.
+This can be done through App Details section which can be accessed by:- 
+
+Applications->App_Name->App Details
+
+Over here, the status of the app can be seen as Healthy.If there are some error with deployment then the status won't be Healthy.
 
 
 .
