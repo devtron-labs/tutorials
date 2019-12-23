@@ -2,11 +2,11 @@
 ## Debugging Deployment
 
 
-If the deployment of an app is not successful, then debugging needs to be done for successful deployment.
+If the deployment of an app is not successful, then debugging needs to be done to check the cause of error.
 
-This can be done through App Details section which can be accessed by:- 
+This can be done through **App Details** section which can be accessed by:- 
 
-Applications->App_Name->App Details
+Applications->AppName->App Details
 
 Over here, the status of the app can be seen as Healthy.If there are some error with deployment then the status won't be Healthy.
 
@@ -16,22 +16,22 @@ Over here, the status of the app can be seen as Healthy.If there are some error 
 ### Events
 
 ![Debuggind Deployment](/depdebugeventedit.JPG "Debuggind Deployment")
-Events of the app are available on bottom left corner
+Events of the app are accessible from the bottom left corner
 
-Events shows the events that took place during the deployment of an app.These events are visible duirng the first 15 minutes of deployment of the app.
+Events shows the events that took place during the deployment of an app.These events are available until 15 minutes of deployment of the app.
 
 
 ### Logs
 
 ![Debuggind Deployment](/depdebuglogsedit.JPG "Debuggind Deployment")
 
-Logs contain the logs of the pods deployed which can be used by the user for debugging.
+Logs contain the logs of the pods/containers deployed which can be used by the user for debugging.
 
 ### Pod Status
 
 ![Debuggind Deployment](/depdebugpodstatusedit.jpg "Debuggind Deployment")
 
-The Pod Status shows the status of the pods deployed and check whether the pods are up or not.
+The Pod Status shows the critical information like container-image, restartCount, state, phase, podIP, startTime etc. and status of the pods deployed..
 
 ### Other
 
