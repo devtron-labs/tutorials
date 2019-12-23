@@ -1,5 +1,5 @@
 # Debugging Deployments And Monitoring
-## Debugging Deployment
+## Debugging Deployments
 
 
 If the deployment of an app is not successful, then debugging needs to be done to check the cause of error.
