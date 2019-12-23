@@ -16,7 +16,7 @@ Over here, the status of the app can be seen as Healthy.If there are some error 
 ### Events
 
 ![Debuggind Deployment](/depdebugeventedit.JPG "Debuggind Deployment")
-Apart from these metrics, Events of the app are available on bottom left corner
+Events of the app are available on bottom left corner
 
 Events shows the events that took place during the deployment of an app.These events are visible duirng the first 15 minutes of deployment of the app.
 
