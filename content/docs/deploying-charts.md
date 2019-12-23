@@ -2,17 +2,17 @@
 
 ![Deployment Charts](/depchart1.JPG "Deployment Charts")
 
-**Select Discover and then select the chart that you want to use.**
+Select Discover and then select the chart that you want to use
 
 ![Deployment Charts](/depchart2.JPG "Deployment Charts")
 
-**Select the version that you want to use from the upper right corner.**
+Select the version that you want to use from the upper right corner
 
 ![Deployment Charts](/depchart3readme.JPG "Deployment Charts")
 
-**Click on README.MD to get more idea about the configurations of the chart**
+Click on README.MD to get more idea about the configurations of the chart
 
-**Select Deploy to deploy the chart.**
+Select Deploy to deploy the chart
 
 
 Key | Description
@@ -26,21 +26,21 @@ The configuration values can be edited in the section given below Chart Version.
 
 
 ![Deployment Charts](/depchart4config.JPG "Deployment Charts")
-**ReadMe.md present on the left can be used by the user to set configuration values.**
+ReadMe.md present on the left can be used by the user to set configuration values
 
 
 ![Deployment Charts](/depchart4readme.JPG "Deployment Charts")
-**Hit Deploy Chart to deploy the chart.**
+Hit Deploy Chart to deploy the chart
 
 
 ![Deployment Charts](/depchartdeployed1.JPG "Deployment Charts")
-**You can see the status of the chart deployed**
+You can see the status of the chart deployed
 
 User can click on Values.Yaml to reconfigure the deployment
 
 
 
 ![Deployment Charts](/depchartreconfig.JPG "Deployment Charts")
-**Configuration values can be edited over here by the help of ReadMe.md**
+Configuration values can be edited over here by the help of ReadMe.md
 
-**Select Update And Deploy to update new settings**
+Select Update And Deploy to update new settings
