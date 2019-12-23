@@ -29,3 +29,8 @@ The configuration values can be edited in the section given below Chart Version.
 ![Deployment Charts](/depchart4readme.JPG "Deployment Charts")
 **Hit Deploy Chart to deploy the chart.**
 
+![Deployment Charts](/depchartdeployed1.JPG "Deployment Charts")
+**You can see the status of the chart deployed**
+User can click on Values.Yaml to reconfigure the deployment
+
+
