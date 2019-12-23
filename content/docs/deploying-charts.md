@@ -23,16 +23,24 @@ Key | Description
 `Chart Version` | Version of the chart to be used
 
 The configuration values can be edited in the section given below Chart Version.
+
+
 ![Deployment Charts](/depchart4config.JPG "Deployment Charts")
 **ReadMe.md present on the left can be used by the user to set configuration values.**
+
 
 ![Deployment Charts](/depchart4readme.JPG "Deployment Charts")
 **Hit Deploy Chart to deploy the chart.**
 
+
 ![Deployment Charts](/depchartdeployed1.JPG "Deployment Charts")
 **You can see the status of the chart deployed**
+
 User can click on Values.Yaml to reconfigure the deployment
+
+
 
 ![Deployment Charts](/depchartreconfig.JPG "Deployment Charts")
 **Configuration values can be edited over here by the help of ReadMe.md**
+
 **Select Update And Deploy to update new settings**
