@@ -22,7 +22,7 @@ Key | Description
 `Environment` |Environment of the app to be deployed
 `Chart Version` | Version of the chart to be used
 
-The configuration values can be edited below.
+The configuration values can be edited in the section given below Chart Version.
 ![Deployment Charts](/depchart4config.JPG "Deployment Charts")
 **ReadMe.md present on the left can be used by the user to set configuration values.**
 
