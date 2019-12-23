@@ -33,7 +33,7 @@ ReadMe.md present on the left can be used by the user to set configuration value
 Hit Deploy Chart to deploy the chart
 
 
-![Deployment Charts](/depchartdeployed1.JPG "Deployment Charts")
+![Deployment Charts](/depchartdeployedredo.JPG "Deployment Charts")
 You can see the status of the chart deployed
 
 User can click on Values.Yaml to reconfigure the deployment
