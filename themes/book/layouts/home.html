@@ -4,6 +4,7 @@
 <head>
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
+  {{ template "_internal/google_analytics.html" . }}
 </head>
 {{ $content := `
 # Hugo Book Theme
