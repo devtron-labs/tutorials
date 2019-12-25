@@ -2,6 +2,9 @@
 title: Introduction
 type: docs
 ---
+<img src="">
+
+
 # Deployment Configurations
 
 ![Deployment Template](./dep-temp.PNG "Deployment Template")
