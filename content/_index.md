@@ -2,7 +2,7 @@
 title: Introduction
 type: docs
 ---
-<img src="">
+<img src="/combo.jpg">
 
 
 # Deployment Configurations
