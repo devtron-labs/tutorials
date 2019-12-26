@@ -7,9 +7,9 @@ Namespaces are intended for use in environments with many users spread across mu
 
 ## Environments
 One of the advantages that Kubernetes provides is the ability to manage various environments easier and better than traditional deployment strategies. For most nontrivial applications, you have test, staging, and production environments. You can spin up a separate cluster of resources, such as VMs, with the same configuration in staging and production, but that can be costly and managing the differences between the environments can be difficult.
-Kubernetes includes a cool feature called namespaces, which enable you to manage different environments within the same cluster. For example, you can have different test and staging environments in the same cluster of machines, potentially saving resources.
+Kubernetes includes a cool feature called namespaces, which enables you to manage different environments within the same cluster. For example, you can have different test and staging environments in the same cluster of machines, potentially saving resources.
 
-Environments can be accessed from:-
+Environments in Devtron can be accessed from:-
 
 Global Configuration->Clusters & Environments
 
