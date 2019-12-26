@@ -10,6 +10,7 @@ One of the advantages that Kubernetes provides is the ability to manage various 
 Kubernetes includes a cool feature called namespaces, which enable you to manage different environments within the same cluster. For example, you can have different test and staging environments in the same cluster of machines, potentially saving resources.
 
 Environments can be accessed from:-
+
 Global Configuration->Clusters & Environments
 
 ![Environments](/environments1.JPG  "Environment")
