@@ -22,6 +22,7 @@ The logs of the CI Pipeline can be accessed from here.
 
 ![CI Pipelines](/CIhistory.JPG "Triggering CI Pipelines")
 
+Select "History" to get the hisotry of the CI Pipeline.
 It contains the history of the CI Pipeline triggered along with reports of pre-stages and post-stages that can be downloaded by clicking "Download Reports"
 
 
