@@ -19,10 +19,10 @@ Select the CI Pipeline or select CI Details to get the details about the CI Pipe
 ![CI Pipelines](/CIlogs.JPG "Triggering CI Pipelines")
 
 The logs of the CI Pipeline can be read from here.
+CLick on "History" tab to get the history of the CI Pipeline.
 
 ![CI Pipelines](/CIhistory.JPG "Triggering CI Pipelines")
 
-CLick on "History" tab to get the history of the CI Pipeline.
 It contains the history of the CI Pipeline triggered along with reports of pre-stages and post-stages that can be downloaded by clicking "Download Reports"
 
 
@@ -35,7 +35,7 @@ After CI Pipeline is complete, CD Pipeline can be triggered by selecting "Select
 
 ![CI Pipelines](/CD1.JPG "Triggering CI Pipelines")
 
-The user will have to select an image to deploy and then select "Deploy" to trigger the CD Pipeline.
+Select an image to deploy and then select "Deploy" to trigger the CD Pipeline.
 
 
 ![CI Pipelines](/depdebug1edit.JPG "Triggering CI Pipelines")
