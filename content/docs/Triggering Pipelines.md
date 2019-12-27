@@ -14,15 +14,15 @@ Select the commit that you want to trigger and then select "Start Build" to trig
 
 It can be seen that the pipeline has been triggered over here and running
 
-Select the CI to get the details about the CI Pipeline.
+Select the CI Pipeline or select CI Details to get the details about the CI Pipeline.
 
 ![CI Pipelines](/CIlogs.JPG "Triggering CI Pipelines")
 
-The logs of the CI Pipeline can be accessed from here.
+The logs of the CI Pipeline can be read from here.
 
 ![CI Pipelines](/CIhistory.JPG "Triggering CI Pipelines")
 
-Select "History" to get the hisotry of the CI Pipeline.
+CLick on "History" tab to get the history of the CI Pipeline.
 It contains the history of the CI Pipeline triggered along with reports of pre-stages and post-stages that can be downloaded by clicking "Download Reports"
 
 
@@ -31,19 +31,17 @@ It contains the history of the CI Pipeline triggered along with reports of pre-s
 
 ![CI Pipelines](/CI3.JPG "Triggering CI Pipelines")
 
-After CI Pipeline is successfully triggered, CD Pipeline can be triggered by selecting "Select Image".
+After CI Pipeline is complete, CD Pipeline can be triggered by selecting "Select Image".
 
 ![CI Pipelines](/CD1.JPG "Triggering CI Pipelines")
 
 The user will have to select an image to deploy and then select "Deploy" to trigger the CD Pipeline.
 
-![CI Pipelines](/CD2.JPG "Triggering CI Pipelines")
 
-The deployment is initiated
+![CI Pipelines](/depdebug1edit.JPG "Triggering CI Pipelines")
 
-![CI Pipelines](/CD3.JPG "Triggering CI Pipelines")
-
-Here, it can be seen that triggering CD Pipeliine was successfull and the deployment is in "Healthy" state.
+The status of the current deployment can be seen by selecting App Details which shows "Progressing" for 1-2 minutes and then gradually shows "Healthy" based on the deployment strategy.
+Here, it can be seen that triggering CD Pipeline was successful and the deployment is in "Healthy" state.
 
 
 
