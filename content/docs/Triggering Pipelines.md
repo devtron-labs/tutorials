@@ -46,7 +46,7 @@ Here, it can be seen that triggering CD Pipeliine was successfull and the deploy
 
 
 
-[To further diagnose deployments, Click here](../debugging-deployments-and-monitoring.md)
+[To further diagnose deployments, Click here](../debugging-deployments-and-monitoring)
 
 
 
