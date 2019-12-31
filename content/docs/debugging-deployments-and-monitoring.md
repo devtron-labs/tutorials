@@ -37,7 +37,7 @@ The Pod Status shows the critical information like container-image, restartCount
 
 ![Debuggind Deployment](/depdebugpodstatusedit.jpg "Debuggind Deployment")
 
-Deleting a pod can be done in many cases, for e.g.,
+Pods can be deleted in many cases, for e.g.,
 When we need to setup a new environment, we can delete a pod and new pod will be created automatically depending on the replcaCount.
 
 Pods can be deleted by selecting "Delete Pod"
