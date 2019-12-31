@@ -116,7 +116,6 @@ Key   |Description
 ```html
 image:
   pullPolicy: IfNotPresent
- 
 ```
 Image is used to access images in kubernetes, pullpolicy is used to define the instances calling the image, here the image is pulled when the image is not present,it can also be set as "Always". 
 ## Ingress
@@ -219,7 +218,6 @@ It is required when some values need to be read from or written to an external d
 
 ```html
 volumeMounts: []
-
 ```
 
 It is used to provide mounts to the volume
@@ -246,7 +244,6 @@ tolerations:
   operator: "Equal"
   value: "value"
   effect: "NoSchedule"
-
 ```
 
 A given pod can access the given node and avoid the given taint only if the given pod satisfies a given taint.
@@ -303,7 +300,6 @@ If it has expired then the task is requeued to be executed again.
 
 ```html
 MinReadySeconds: 60
-
 ```
 
 Minimum time pod should be ready to check readiness of a pod
