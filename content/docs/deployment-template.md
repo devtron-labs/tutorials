@@ -108,9 +108,11 @@ image:
  
 ```
 Image is used to access images in kubernetes, pullpolicy is used to define the instances calling the image, here the image is pulled when the image is not present,it can also be set as "Always". 
+
 ## Ingress
 
-This allows public access to the url, please ensure you are using right nginx annotation for nginx class, its default value is nginx```html
+This allows public access to the url, please ensure you are using right nginx annotation for nginx class, its default value is nginx
+```html
 ingress:
   enabled: false
   annotations: {}
@@ -205,7 +207,6 @@ It is required when some values need to be read from or written to an external d
 
 ```html
 volumeMounts: []
-
 ```
 
 It is used to provide mounts to the volume
@@ -238,7 +239,6 @@ tolerations:
   operator: "Equal"
   value: "value"
   effect: "NoSchedule"
-
 ```
 
 A given pod can access the given node and avoid the given taint only if the given pod satisfies a given taint.
@@ -295,7 +295,6 @@ If it has expired then the task is requeued to be executed again.
 
 ```html
 MinReadySeconds: 60
-
 ```
 
 Minimum number of seconds for which a newly created pod should be ready without any of its container crashing, for it to be considered available
