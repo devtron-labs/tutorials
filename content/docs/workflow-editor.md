@@ -24,6 +24,12 @@ Select on Continous Integration to create a new CI Pipeline
 
 ![Create new workflow](/ci11.jpg)
 ![Create new workflow](/ci12.jpg)
+
+
+
+
+
+![Create new workflow](/ci111.jpg)
 <img src="/workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
 
 
