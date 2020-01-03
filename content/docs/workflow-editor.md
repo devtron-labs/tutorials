@@ -39,11 +39,8 @@ Key | Description
 
 Key | Description
 -----|-----
-`Pipeline Name` | Name of the pipeline
-`Source Type` | Select the source through which CI Pipeline will be triggered.
-`Branch Name/Tag Regex` | Enter branch name/tag regex
-`Pre-build Stages` | Scripts to be executed before building image
 `Post-build Stages` |  Scripts to be executed after building image
+`Advanced Configurations` | Arguments for CI
 
 Click on Create Pipeline to create the  pipeline
 
