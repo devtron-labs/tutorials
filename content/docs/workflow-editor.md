@@ -22,10 +22,6 @@ Select on Continous Integration to create a new CI Pipeline
 <br />
 
 
-![Create new workflow](/ci11.jpg)
-![Create new workflow](/ci12.jpg)
-
-
 
 
 
