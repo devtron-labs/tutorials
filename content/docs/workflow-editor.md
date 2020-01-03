@@ -69,15 +69,14 @@ Key | Description
 ----|----
 `Pipeline Name` | Enter the name of the pipeline to be created
 `Environment` | Select the environment
-`Deployment Strategy` | Select the type of deployment strategy that  you want to enable by clicking "Add Deployment Strategy"
+`Pre-deployment Stage` | Scripts to be executed before deployment
 
 ![Add CI Pipeline](/cd12.jpg "Add CD Pipeline")
 
 Key | Description
 ----|----
-`Pipeline Name` | Enter the name of the pipeline to be created
-`Environment` | Select the environment
 `Deployment Strategy` | Select the type of deployment strategy that  you want to enable by clicking "Add Deployment Strategy"
+`Post-deployment Stage` | Scripts to be executed after deployment
 
 <br />
 
