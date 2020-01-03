@@ -4,6 +4,8 @@ Workflow is a logical sequenece of different stages used for continous integrati
 
 <br />
 
+## Create Workflow
+
 ![Create new workflow](/workflow-editor.PNG "Create new workflow")
 Click on Create Workflow to create a new workflow
 <br />
@@ -11,6 +13,8 @@ Click on Create Workflow to create a new workflow
 ![Create new workflow](/workflow-editor1.PNG "Create new workflow")
 Enter the desired name of the workflow and click on Add Workflow to add a new workflow
 <br />
+
+## CI Pipeline
 
 ![Add CI Pipeline](/workflow-editor2.PNG "Add CI Pipeline")
 After creating the workflow,click on Add CI Pipeline to add a new CI Pipeline
@@ -46,6 +50,8 @@ Click on Create Pipeline to create the  pipeline
 
 <br />
 
+## CD Pipeline
+
 ![Add CI Pipeline](/workflow-editor5.PNG "Add CI Pipeline")
 
 Click on "+" on CI Pipeline to attach a CD Pipeline
@@ -57,8 +63,8 @@ Select Deploy to Environment to create CD Pipeline
 
 <br />
 
-![Add CI Pipeline](/workflow-editor7-resize.PNG "Add CI Pipeline")
-<img src="/workflow-editor7.PNG" alt="drawing" width="450" height="500"/>
+![Add CI Pipeline](/cd11.jpg "Add CD Pipeline")
+![Add CI Pipeline](/cd12.jpg "Add CD Pipeline")
 
 Key | Description
 ----|----
