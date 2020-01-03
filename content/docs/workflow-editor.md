@@ -25,8 +25,16 @@ Select on Continous Integration to create a new CI Pipeline
 
 
 ![Create new workflow](/ci11.jpg)
+
+Key | Description
+-----|-----
+`Pipeline Name` | Name of the pipeline
+`Source Type` | Select the source through which CI Pipeline will be triggered.
+`Branch Name/Tag Regex` | Enter branch name/tag regex
+`Pre-build Stages` | Scripts to be executed before building image
+
 ![Create new workflow](/ci12.jpg)
-<img src="/workflow-editor-combo.jpg" alt="drawing" width="400" height="700"/>
+
 
 
 Key | Description
