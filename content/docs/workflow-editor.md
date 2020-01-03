@@ -64,6 +64,13 @@ Select Deploy to Environment to create CD Pipeline
 <br />
 
 ![Add CI Pipeline](/cd11.jpg "Add CD Pipeline")
+
+Key | Description
+----|----
+`Pipeline Name` | Enter the name of the pipeline to be created
+`Environment` | Select the environment
+`Deployment Strategy` | Select the type of deployment strategy that  you want to enable by clicking "Add Deployment Strategy"
+
 ![Add CI Pipeline](/cd12.jpg "Add CD Pipeline")
 
 Key | Description
