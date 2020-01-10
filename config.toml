@@ -2,5 +2,4 @@ title = "Devtron Labs"
 theme = "book"
 baseURL= "https://docs.devtron.ai/"
 googleAnalytics = "UA-154884741-1"
-params:
-    BookMenuBundle: /menu
+
