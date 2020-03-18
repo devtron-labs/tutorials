@@ -46,6 +46,12 @@ Key | Description
 `Post-build Stages` |  Scripts to be executed after building image
 `Advanced Configurations` | Arguments for CI
 
+## Running Test Cases using `devtron.ci.yaml`
+
+User can run the "Test Cases" using the script `or` by mentioning the "Test Cases" in `devtron.ci.yaml` file in the source git repository. For reference, check: [https://github.com/kumarnishant/getting-started-nodejs/blob/master/devtron-ci.yaml](https://github.com/kumarnishant/getting-started-nodejs/blob/master/devtron-ci.yaml)
+
+The test cases given in the script will run before the Test Cases given in the  `devtron.ci.yaml`
+
 Click on Create Pipeline to create the  pipeline
 
 <br />
