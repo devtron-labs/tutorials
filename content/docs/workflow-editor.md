@@ -20,13 +20,16 @@ Enter the desired name of the workflow and click on Add Workflow to add a new wo
 After creating the workflow,click on Add CI Pipeline to add a new CI Pipeline
 <br />
 
-![Add CI Pipeline](/workflow-editor3.PNG "Add CI Pipeline")
-Select on Continous Integration to create a new CI Pipeline
+![Add CI Pipeline](/add_pipeline.jpg "Add CI Pipeline")
+Click on Continous Integration to create a new CI Pipeline
+
+![Create CI Pipeline](/create_pipeline.jpg "Create CI Pipeline")
+
+Click on Create Pipeline to create the  pipeline
 
 <br />
 
-
-
+## Pre Build and Post Build Stages
 
 ![Create new workflow](/pre_build.jpg)
 
@@ -39,20 +42,18 @@ Key | Description
 
 ![Create new workflow](/post_build.jpg)
 
-
-
 Key | Description
 -----|-----
 `Post-build Stages` |  Scripts to be executed after building image
 `Advanced Configurations` | Arguments for CI
 
-## Running Test Cases using `devtron.ci.yaml`
+## Running Test cases using `devtron.ci.yaml`
 
-User can run the "Test Cases" using the script `or` by mentioning the "Test Cases" in `devtron.ci.yaml` file in the source git repository. For reference, check: [https://github.com/kumarnishant/getting-started-nodejs/blob/master/devtron-ci.yaml](https://github.com/kumarnishant/getting-started-nodejs/blob/master/devtron-ci.yaml)
+User can run the Test case using the Devtron Dashboard `or` by including the Test cases in `devtron.ci.yaml` file in the source git repository. For reference, check: [https://github.com/kumarnishant/getting-started-nodejs/blob/master/devtron-ci.yaml](https://github.com/kumarnishant/getting-started-nodejs/blob/master/devtron-ci.yaml)
 
 The test cases given in the script will run before the Test Cases given in the  `devtron.ci.yaml`
 
-Click on Create Pipeline to create the  pipeline
+
 
 <br />
 
