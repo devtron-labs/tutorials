@@ -28,7 +28,7 @@ Select on Continous Integration to create a new CI Pipeline
 
 
 
-![Create new workflow](/ci11.jpg)
+![Create new workflow](/pre_build.jpg)
 
 Key | Description
 -----|-----
@@ -37,7 +37,7 @@ Key | Description
 `Branch Name/Tag Regex` | Enter branch name/tag regex
 `Pre-build Stages` | Scripts to be executed before building image
 
-![Create new workflow](/ci12.jpg)
+![Create new workflow](/post_build.jpg)
 
 
 

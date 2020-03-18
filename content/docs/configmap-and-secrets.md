@@ -3,7 +3,7 @@ The ConfigMap API resource holds key-value pairs of configuration data that can 
 
 Click on ConfigMaps to config a map
 
-![Config Map](/config.PNG "Create config map")
+![Config Map](/add_config.JPG "Create config map")
 
 Key  | Description
 -----|-----
@@ -14,7 +14,7 @@ Key  | Description
 `Key` | Key 
 `Value` | Value for a given key
 
-
+Click on "Yaml" to view "key" and "Value" in Yaml format
 
 ![Data Volume](/configvolumepath.PNG "Data Volume")
 
