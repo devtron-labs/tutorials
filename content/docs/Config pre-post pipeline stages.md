@@ -44,7 +44,7 @@ Key | Description
 `Environment` | Select the environment
 `Pre-deployment Stage` | Scripts to be executed before deployment
 
-![Add CI Pipeline](/cd_post_build.jpg"Add CD Pipeline")
+![Add CI Pipeline](/cd_post_build.jpg "Add CD Pipeline")
 
 `Execute in application Environment`: If checked, the post-cd pods are created in the deployment cluster otherwise they are created in the devtron build cluster
 
