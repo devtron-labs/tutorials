@@ -2,12 +2,12 @@
 
 ##  Pre/Post CI Stage
 
-`Pre-build Stages`
+##### Pre-build Stages <br>
 These stages are run in sequence before the docker image is built
 
 ![Create new workflow](/pre_build.jpg)
 
-`Post-build Stages`
+`Post-build Stages`<br>
 These stages are run in sequence after the docker image is built
 
 ![Create new workflow](/post_build.jpg)
@@ -39,14 +39,14 @@ Field | Description
 
 ##  Pre/Post CD Stage
 
-`Pre-deployment Stage`
+`Pre-deployment Stage` <br>
 Configure actions like db migration, that you want to run before the deployment.
 
 ![Add CI Pipeline](/cd_pre_build.jpg "Add CD Pipeline")
 
 `Execute in application Environment`: If checked, the pre-cd pods are created in the deployment cluster otherwise they are created in the devtron build cluster
 
-`Post-deployment Stage`
+`Post-deployment Stage`<br>
 Configure actions like jira ticket close,that you want to run after the deployment.
 
 ![Add CI Pipeline](/cd_post_build.jpg "Add CD Pipeline")
