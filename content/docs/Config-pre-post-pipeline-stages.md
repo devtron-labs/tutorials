@@ -3,8 +3,6 @@
 
 ## CI Pipeline
 
-## Pre Build and Post Build Stages
-
 ![Create new workflow](/pre_build.jpg)
 
 
