@@ -13,7 +13,7 @@ Select the commit that you want to trigger and then select "Start Build" to trig
 
 `Ignore Cache` : This option will ignore the previous cache and create a new one and will take a longer build time.
 
-At left side, there is 
+
 
 ![CI Pipelines](/CI2.JPG "Triggering CI Pipelines")
 
