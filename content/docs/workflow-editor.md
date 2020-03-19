@@ -60,9 +60,8 @@ Key | Description
 ----|----
 `Pipeline Name` | Enter the name of the pipeline to be created
 `Environment` | Select the environment
-`Pre-deployment Stage` | Scripts to be executed before deployment
 `Deployment Strategy` | Select the type of deployment strategy that  you want to enable by clicking "Add Deployment Strategy"
-`Post-deployment Stage` | Scripts to be executed after deployment
+
 
 Select Create Pipeline to create the CD Pipeline
 
