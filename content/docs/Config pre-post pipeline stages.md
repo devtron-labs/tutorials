@@ -1,9 +1,14 @@
 # Configuring Pre/Post Pipeline Stages
 
-##  Pre/Post CI Pipeline
+##  Pre/Post CI Stage
+
+`Pre-build Stages`
+These stages are run in sequence before the docker image is built
 
 ![Create new workflow](/pre_build.jpg)
 
+`Post-build Stages`
+These stages are run in sequence after the docker image is built
 
 ![Create new workflow](/post_build.jpg)
 <br>
@@ -32,27 +37,21 @@ Field | Description
 `afterDockerBuildStages`  | script to run after the docker build step
 `outputLocation`          | location where you want to see the output of report of Test cases 
 
-##  Pre/Post CD Pipeline
+##  Pre/Post CD Stage
+
+`Pre-deployment Stage`
+Configure actions like db migration, that you want to run before the deployment.
 
 ![Add CI Pipeline](/cd_pre_build.jpg "Add CD Pipeline")
 
 `Execute in application Environment`: If checked, the pre-cd pods are created in the deployment cluster otherwise they are created in the devtron build cluster
 
-Key | Description
-----|----
-`Pipeline Name` | Enter the name of the pipeline to be created
-`Environment` | Select the environment
-`Pre-deployment Stage` | Scripts to be executed before deployment
+`Post-deployment Stage`
+Configure actions like jira ticket close,that you want to run after the deployment.
 
 ![Add CI Pipeline](/cd_post_build.jpg "Add CD Pipeline")
 
 `Execute in application Environment`: If checked, the post-cd pods are created in the deployment cluster otherwise they are created in the devtron build cluster
-
-Key | Description
-----|----
-`Deployment Strategy` | Select the type of deployment strategy that  you want to enable by clicking "Add Deployment Strategy"
-`Post-deployment Stage` | Scripts to be executed after deployment
-
 
 <br>
 
