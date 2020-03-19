@@ -2,7 +2,7 @@
 
 ##  Pre/Post CI Stage
 
-##### Pre-build Stages 
+##### Pre-build Stages: 
 These stages are run in sequence before the docker image is built
 
 ![Create new workflow](/pre_build.jpg)
