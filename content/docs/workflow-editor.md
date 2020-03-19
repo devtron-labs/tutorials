@@ -74,13 +74,13 @@ The CD Pipeline is created
 <br />
 
 
-## Integrate Automate Test Suite with CI/CD Pipeline
+## Automated Test suite integration in CI step using devtron-ci.yaml
 
 User can run the Test case using the Devtron Dashboard `or` by including the Test cases in `devtron.ci.yaml` file in the source git repository. For reference, check: [https://github.com/kumarnishant/getting-started-nodejs/blob/master/devtron-ci.yaml](https://github.com/kumarnishant/getting-started-nodejs/blob/master/devtron-ci.yaml)
 
 The test cases given in the script will run before the Test Cases given in the  `devtron.ci.yaml`
 
-This job indicates:
+
 <br>
 
 ![Yaml File](/yaml.jpg "Create Yaml File")
