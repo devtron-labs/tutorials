@@ -38,6 +38,15 @@ Key | Description
 
 <br />
 
+
+## External CI Pipeline
+
+You can use your existing CI Architecture, to create your own CI Architecture. For reference, 
+
+## Linked CI Pipeline
+
+If there is only one build, it does not make sense to create multiple CI Pipelines, therefore `Linked CI Pipeline`. For reference,
+
 ## CD Pipeline
 
 ![Add CI Pipeline](/workflow-editor5.PNG "Add CI Pipeline")
@@ -70,5 +79,8 @@ Select Create Pipeline to create the CD Pipeline
 ![Add CI Pipeline](/workflow-editor9.PNG "Add CI Pipeline")
 
 The CD Pipeline is created
+
+<br />
+
 
 
