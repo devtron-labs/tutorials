@@ -41,7 +41,11 @@ Key | Description
 
 ## External CI Pipeline
 
-You can use your existing CI Architecture, to create your own CI Architecture. For reference, click on 
+You can use your existing CI Architecture, to create your own CI Architecture. For reference, click on [External CI Pipeline](https://github.com/kumarnishant/gett)
+
+## Linked CI Pipeline
+
+If there is only one build, it does not make sense to create multiple CI Pipelines, therefore `Linked CI Pipeline`. For reference, click on [Linked CI Pipeline](https://github.com/kumarnishant/gett)
 
 ## CD Pipeline
 
