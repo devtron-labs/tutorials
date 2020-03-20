@@ -41,11 +41,11 @@ Key | Description
 
 ## External CI Pipeline
 
-You can use your existing CI Architecture, to create your own CI Architecture. For reference,[External CI Pipeline](https://docs.devtron.ai/docs/external-ci-pipeline/) 
+You can use your existing CI Architecture, to create your own CI Architecture. For reference, Click on: [External CI Pipeline](https://docs.devtron.ai/docs/external-ci-pipeline/) 
 
 ## Linked CI Pipeline
 
-If there is only one build, it does not make sense to create multiple CI Pipelines, therefore `Linked CI Pipeline`. For reference,[Linked CI Pipeline](https://docs.devtron.ai/docs/linked-ci-pipeline/)
+If there is only one build, it does not make sense to create multiple CI Pipelines, therefore `Linked CI Pipeline`. For reference, Click on: [Linked CI Pipeline](https://docs.devtron.ai/docs/linked-ci-pipeline/)
 
 ## CD Pipeline
 
