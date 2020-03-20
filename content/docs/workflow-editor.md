@@ -45,7 +45,7 @@ You can use your existing CI Architecture, to create your own CI Architecture. F
 
 ## Linked CI Pipeline
 
-If there is only one build, it does not make sense to create multiple CI Pipelines, therefore `Linked CI Pipeline`. For reference, Click on: [Linked CI Pipeline](https://docs.devtron.ai/docs/linked-ci-pipeline/)
+If there is only one build, it does not make sense to create multiple CI Pipelines For reference, Click on: [Linked CI Pipeline](https://docs.devtron.ai/docs/linked-ci-pipeline/)
 
 ## CD Pipeline
 
