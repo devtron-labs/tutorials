@@ -41,7 +41,7 @@ Key | Description
 
 ## External CI Pipeline
 
-You can use your existing CI Architecture, to create your own CI Architecture. For reference, Click on: [External CI Pipeline](https://docs.devtron.ai/docs/external-ci-pipeline/) 
+You can use your existing CI Architecture or if you want to create your own CI Architecture. Click on: [External CI Pipeline](https://docs.devtron.ai/docs/external-ci-pipeline/) 
 
 ## Linked CI Pipeline
 
