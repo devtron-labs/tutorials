@@ -7,8 +7,7 @@ Key | Description
 `Branch Name` | Enter branch name
 
 
-You can use your existing CI Architecture or if you want to create your own CI Architecture you can use 'External CI Pipeline'.
+You can use Devtron for Deployments on Kubernetes while still using your own CI tool such as Jenkins. 
 
 `Use Case`:
-
-You can run the script and send CI Information after the build is complete in your CI Architecture.
+External CI feature can be used for such cases where the CI tool is hosted outside Devtron architecture.
