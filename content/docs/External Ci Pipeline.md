@@ -5,11 +5,13 @@ the CI tool is hosted outside Devtron architecture.
 
 ![Create CI Pipeline](/external_pipeline.jpg "External CI Pipeline")
 
+You can send the 'Payload script' to your CI tool such as Jenkins and `Devtron` will receive the build image everytime the CI Service is triggered or
+you can you use the `Webhook URL` which will build image everytime CI Service is triggered using `Devtron` Dashboard. 
+
 Key | Description
 -----|-----
 `Pipeline Name` | Name of the pipeline
 `Source Type`   | 'Branch Fixed' or 'Tag Regex'
 `Branch Name` | Name of the branch
-
 
 
