@@ -8,6 +8,8 @@ the CI tool is hosted outside Devtron architecture.
 You can send the 'Payload script' to your CI tool such as Jenkins and `Devtron` will receive the build image everytime the CI Service is triggered or
 you can you use the `Webhook URL` which will build image everytime CI Service is triggered using `Devtron` Dashboard. 
 
+<br>
+
 Key | Description
 -----|-----
 `Pipeline Name` | Name of the pipeline
