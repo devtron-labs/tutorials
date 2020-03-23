@@ -345,7 +345,7 @@ It is used to configure database migration
 
 Application metrics can be enabled to see your application's metrics-CPU usage,Memory Usage,Status,Throughput and Latency.
 
-##Deployment Metrics 
+## Deployment Metrics 
 
 A deployment strategy is a way to make changes to an application, without downtime in a way that the user barely notices the changes. There are different types of deployment strategies. Click on: [Types of Deployment Strategies](https://docs.devtron.ai/docs/deployment-strategies/)
 
