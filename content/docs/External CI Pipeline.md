@@ -4,7 +4,7 @@ Key | Description
 -----|-----
 `Pipeline Name` | Name of the pipeline
 `Source Type`   | 'Branch Fixed' or 'Tag Regex'
-`Branch Name` | Enter branch name
+`Branch Name` | Name of the branch
 
 
 You can use Devtron for Deployments on Kubernetes while still using your own CI tool such as Jenkins. 
