@@ -14,7 +14,7 @@ Click on Create Workflow to create a new workflow
 Enter the desired name of the workflow and click on Add Workflow to add a new workflow
 <br />
 
-## CI Pipeline
+##  Create CI Pipeline
 
 ![Add CI Pipeline](/workflow-editor2.PNG "Add CI Pipeline")
 After creating the workflow,click on Add CI Pipeline to add a new CI Pipeline
