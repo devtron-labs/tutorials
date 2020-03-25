@@ -38,17 +38,22 @@ Key | Description
 
 <br />
 
-## Update Pipeline
+## Update CI Pipeline
 
 You can update the pipeline configurations after the CI pipeline is created except for the `pipeline name`
 
 ![Update CI Pipeline](/edit_pipeline.jpg "update CI Pipeline")
 
-## Delete Pipeline 
+<br>
+
+## Delete CI Pipeline 
 
 You can delete pipeline by clicking on `Delete Pipeline`, if you don't require the pipeline.
 
 ![Delete CI Pipeline](/edit_pipeline.jpg "update CI Pipeline")
+
+
+<br>
 
 
 ##  Pre/Post CI Stage
@@ -57,6 +62,9 @@ You can delete pipeline by clicking on `Delete Pipeline`, if you don't require t
 These stages are run in sequence before the docker image is built
 
 ![Create new workflow](/pre_build.jpg)
+
+<br>
+
 
 ##### Post-build Stages
 These stages are run in sequence after the docker image is built
@@ -90,14 +98,76 @@ Field | Description
 
 <br>
 
+## Triggering CI Pipelines
+![CI Pipelines](/triggers.JPG "Triggering CI Pipelines")
+
+The CI Pipeline can be triggered by selecting "Select Material"
+
+
+![CI Pipelines](/CI_select.JPG "Triggering CI Pipelines")
+
+Various commits done in the repository can be seen over here along with details like Author, Date etc.
+Select the commit that you want to trigger and then select "Start Build" to trigger the CI Pipeline.
+`Refresh` icon, refreshes Git Commits in CI and Fetches the latest "Repository"
+
+`Ignore Cache` : This option will ignore the previous cache and create a new one and will take a longer build time.
+
+
+
+![CI Pipelines](/CI2.JPG "Triggering CI Pipelines")
+
+It can be seen that the pipeline has been triggered over here and running
+
+Select the CI Pipeline or select CI Details to get the details about the CI Pipeline.
+
+![CI Pipelines](/CIlogs.JPG "Triggering CI Pipelines")
+
+The logs of the CI Pipeline can be read from here.
+CLick on "History" tab to get the history of the CI Pipeline.
+
+![CI Pipelines](/CIhistory.JPG "Triggering CI Pipelines")
+
+It contains the history of the CI Pipeline triggered along with reports of pre-stages and post-stages that can be downloaded by clicking "Download Reports"
+
+<br>
 
 ## External CI Pipeline
 
-You can use your existing CI Architecture or if you want to create your own CI Architecture you can do this using External CI Pipeline. For reference, Click on: [External CI Pipeline](https://docs.devtron.ai/docs/external-ci-pipeline/) 
+You can use Devtron for Deployments on Kubernetes while still using your own CI tool such as Jenkins. External CI feature can be used for such cases where 
+the CI tool is hosted outside Devtron architecture.
+
+<br>
+
+
+![Create CI Pipeline](/external_pipeline.jpg "External CI Pipeline")
+
+You can send the 'Payload script' to your CI tool such as Jenkins and `Devtron` will receive the build image everytime the CI Service is triggered or
+you can you use the `Webhook URL` which will build image everytime CI Service is triggered using `Devtron` Dashboard. 
+
+<br>
+
+<br>
+
+
+Key | Description
+-----|-----
+`Pipeline Name` | Name of the pipeline
+`Source Type`   | 'Branch Fixed' or 'Tag Regex'
+`Branch Name` | Name of the branch
+
+<br>
+
 
 ## Linked CI Pipeline
 
-If there is only one build, it does not make sense to create multiple CI Pipelines For reference, Click on: [Linked CI Pipeline](https://docs.devtron.ai/docs/linked-ci-pipeline/)
+If one code is shared across multiple applications Linked CI Pipeline can be used, and only one image will be build for multiple applications because
+if there is only one build, it is not advisable to create multiple CI Pipelines.
+
+![Create CI Pipeline](/linked.jpg "Linked CI Pipeline")
+
+
+<br>
+
 
 ## CD Pipeline
 
