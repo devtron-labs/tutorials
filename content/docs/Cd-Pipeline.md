@@ -33,6 +33,21 @@ The CD Pipeline is created
 
 <br />
 
+
+## Update CD Pipeline 
+
+![Update CD Pipeline](/edit_cd_pipeline.jpg "Update CD Pipeline")
+
+<br>
+
+
+## Delete CD Pipeline
+
+![Delete CD Pipeline](/edit_cd_pipeline.jpg "Delete CD Pipeline")
+
+<br>
+
+
 ##  Pre/Post CD Stage
 
 ##### Pre-deployment Stage
