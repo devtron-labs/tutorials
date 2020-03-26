@@ -23,7 +23,7 @@ Key | Description
 `Deployment Strategy` | Select the type of deployment strategy that  you want to enable by clicking "Add Deployment Strategy"
 
 
-Select Create Pipeline to create the CD Pipeline
+Click on `Create Pipeline` to create the CD Pipeline
 
 <br />
 
@@ -36,14 +36,28 @@ The CD Pipeline is created
 
 ## Update CD Pipeline 
 
+You can update the CD Pipeline, updatations such as adding Deployment Stage, Deployment Strategy but you cannot update the name of CD Pipeline or it's Deploy Environment, if you require to change such configurations you need to make another CD Pipeline 
+
+<br>
+
+
 ![Update CD Pipeline](/edit_cd_pipeline.jpg "Update CD Pipeline")
+
+Click on `Update Pipeline` to update the CD Pipeline
 
 <br>
 
 
 ## Delete CD Pipeline
 
+If you no longer require the CD Pipeline, you can also Delete the Pipeline.
+
+<br>
+
 ![Delete CD Pipeline](/edit_cd_pipeline.jpg "Delete CD Pipeline")
+
+
+Click on `Delete Pipeline` to delete the CD Pipeline
 
 <br>
 
