@@ -40,6 +40,12 @@ You can update the CD Pipeline, updatations such as adding Deployment Stage, Dep
 
 <br>
 
+![Update CD Pipeline](/update_pipeline_cd.jpg "Update CD Pipeline")
+
+Click on your CD Pipeline to Update/Delete the  CD Pipeline
+
+<br>
+
 
 ![Update CD Pipeline](/edit_cd_pipeline.jpg "Update CD Pipeline")
 
