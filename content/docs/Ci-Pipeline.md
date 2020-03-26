@@ -40,18 +40,25 @@ Key | Description
 
 ## Update CI Pipeline
 
-You can update the pipeline configurations after the CI pipeline is created except for the `pipeline name`
+You can update all the CI pipeline configurations after the CI pipeline is created except for the pipeline name, if you wish to change that you need to create another CI Pipeline
+
+<br>
 
 ![Update CI Pipeline](/edit_pipeline.jpg "update CI Pipeline")
+
+Click on `Update Pipeline` to update the changes you have made to your CI Pipeline
 
 <br>
 
 ## Delete CI Pipeline 
 
-You can delete pipeline by clicking on `Delete Pipeline`, if you don't require the pipeline.
+You can delete the CI pipeline, if you don't require the CD pipeline.
+
+<br>
 
 ![Delete CI Pipeline](/edit_pipeline.jpg "update CI Pipeline")
 
+Click on `Delete Pipeline` to delete the CD Pipeline
 
 <br>
 
