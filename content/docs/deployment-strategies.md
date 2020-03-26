@@ -3,12 +3,6 @@
 A deployment strategy is a way to make changes to an application, without downtime in a way that the user barely notices the changes. 
 There are different types of deployment strategies like Blue/Green Strategy, Rolling Strategy, Canary Strategy, Recreate Strategy. 
 These deployment configuration-based strategies are discussed in this section.
-
- ```html
-deployment:
-  strategy:
-  ``` 
-It is used to assign strategy to deployment.
 <br />
  
   
