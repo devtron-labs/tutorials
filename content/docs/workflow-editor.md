@@ -169,40 +169,7 @@ if there is only one build, it is not advisable to create multiple CI Pipelines.
 <br>
 
 
-## CD Pipeline
 
-![Add CI Pipeline](/workflow-editor5.PNG "Add CI Pipeline")
-
-Click on "+" on CI Pipeline to attach a CD Pipeline
-
-<br />
-
-![Add CI Pipeline](/workflow-editor6.PNG "Add CI Pipeline")
-Select Deploy to Environment to create CD Pipeline
-
-
-<br />
-
-![Workflow](/workflow-editor8-resize.PNG)
-
-<img src="/workflow-editor8.PNG" alt="drawing" width="450" height="500"/>
-
-Key | Description
-----|----
-`Pipeline Name` | Enter the name of the pipeline to be created
-`Environment` | Select the environment
-`Deployment Strategy` | Select the type of deployment strategy that  you want to enable by clicking "Add Deployment Strategy"
-
-
-Select Create Pipeline to create the CD Pipeline
-
-<br />
-
-![Add CI Pipeline](/workflow-editor9.PNG "Add CI Pipeline")
-
-The CD Pipeline is created
-
-<br />
 
 
 
