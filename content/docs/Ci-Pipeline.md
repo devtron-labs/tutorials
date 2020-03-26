@@ -44,6 +44,13 @@ You can update all the CI pipeline configurations after the CI pipeline is creat
 
 <br>
 
+![Update CI Pipeline](/update_pipeline_ci.jpg "update CI Pipeline")
+
+Click on your CI Pipeline, to update the changes to your CI Pipeline.
+
+<br>
+
+
 ![Update CI Pipeline](/edit_pipeline.jpg "update CI Pipeline")
 
 Click on `Update Pipeline` to update the changes you have made to your CI Pipeline
@@ -52,7 +59,7 @@ Click on `Update Pipeline` to update the changes you have made to your CI Pipeli
 
 ## Delete CI Pipeline 
 
-You can delete the CI pipeline, if you don't require the CD pipeline.
+You can delete the CI pipeline, if you don't require the CI pipeline. You can only delete CI Pipeline if you have no CD Pipeline created in your workflow or to delete CI Pipeline you first have to delete CD Pipeline if you have created it.
 
 <br>
 
