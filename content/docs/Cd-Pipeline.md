@@ -1,4 +1,4 @@
-# CD Pipeline 
+# CD Pipelines
 
 ## Create CD Pipeline
 
