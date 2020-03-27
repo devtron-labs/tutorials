@@ -43,6 +43,10 @@ Key | Description
 You can update all the CI pipeline configurations after the CI pipeline is created except for the pipeline name, if you wish to change that you need to create another CI Pipeline
 
 <br>
+ To Update a CI Pipeline, go to the App Configurations and then click on Workflow editor
+ 
+ <br>
+ 
 
 ![Update CI Pipeline](/update_pipeline_ci.jpg "update CI Pipeline")
 
@@ -60,6 +64,9 @@ Click on `Update Pipeline` to update the changes you have made to your CI Pipeli
 ## Delete CI Pipeline 
 
 You can delete the CI pipeline, if you don't require the CI pipeline. You can only delete CI Pipeline if you have no CD Pipeline created in your workflow or to delete CI Pipeline you first have to delete CD Pipeline if you have created it.
+
+<br>
+To Delete a CI Pipeline, go to the App Configurations and then click on Workflow editor
 
 <br>
 
