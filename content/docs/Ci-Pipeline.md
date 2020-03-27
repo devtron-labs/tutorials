@@ -1,4 +1,4 @@
-# Workflow Editor
+# CI Pipeline
 Workflow is a logical sequenece of different stages used for continous integration and continous deployment of an application
 <br />
 
