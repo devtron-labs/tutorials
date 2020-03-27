@@ -66,6 +66,10 @@ If you no longer require the CD Pipeline, you can also Delete the Pipeline.
 
 <br>
 
+To Delete a CD Pipeline, go to the App Configurations and then click on Workflow editor
+
+<br>
+
 ![Delete CD Pipeline](/edit_cd_pipeline.jpg "Delete CD Pipeline")
 
 
