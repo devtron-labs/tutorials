@@ -42,6 +42,10 @@ You can update the CD Pipeline, updatations such as adding Deployment Stage, Dep
 
 <br>
 
+ To Update a CD Pipeline, go to the App Configurations and then click on Workflow editor
+ 
+ <br>
+
 ![Update CD Pipeline](/update_pipeline_cd.jpg "Update CD Pipeline")
 
 Click on your CD Pipeline to Update/Delete the  CD Pipeline
