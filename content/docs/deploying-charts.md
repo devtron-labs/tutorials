@@ -72,3 +72,27 @@ You can use `Default Values` or the `Custom Values`, just make sure the Value th
 ![Select Chart ](/select_charts2.jpg  "Select Charts")
 
 
+To edit the Chart Configuration, Click on 'Edit'
+
+![Edit Chart ](/edit_group.jpg  "Edit Charts")
+
+You can `Add` more Charts to your existing Chart Group or `Delete` Charts from your existing Chart Group. 
+
+After making changes, Click on `Save` to save changes to your Chart Group. 
+
+![Save Chart ](/edit_group2.jpg  "Save Charts")
+
+If you wish to edit the Chart Configuration, Double Click on that Chart and edit the Configurations.
+
+You can edit the `App Name`, `Chart Version`, `Values`, `Deploy Environment` and the YAML file.
+
+Key | Description
+----|----
+`App Name` | The name of the app
+`Project` | Project of the app
+`Environment` |Environment of the app to be deployed
+`Chart Version` | Version of the chart to be used
+
+![Save Chart ](/edit_chart.jpg  "Save Charts")
+
+Click on `Deploy` to initiate the deployment of a Chart in Chart Group.
