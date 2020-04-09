@@ -44,3 +44,31 @@ User can click on Values.Yaml to reconfigure the deployment
 Configuration values can be edited over here by the help of ReadMe.md
 
 Select Update And Deploy to update new settings
+
+
+
+# Deploying Chart Groups 
+
+To deploy multiple applications and work with them simulataneously, you can use `Chart Groups`.
+
+To create Chart Groups 
+Click on  `Discover` and Click on `Create Group`
+
+![Chart Group](/screen2.jpg  "Chart Groups")
+
+Add the Group Name and Description and click on `Create Group`
+
+![Create Group](/create_group.jpg  "Create Groups")
+
+You can select the Charts that you want to add in your Chart Group by clicking on '+' sign. 
+You can select a particular chart multiple number of times according to your requirements.
+
+![Select Chart ](/select_charts.jpg  "Select Charts")
+
+Select the `Version` and `Values` for your charts.
+
+You can use `Default Values` or the `Custom Values`, just make sure the Value that you select for your Chart is comptabile with the `Version` of the Chart that you are using.
+
+![Select Chart ](/select_charts2.jpg  "Select Charts")
+
+
