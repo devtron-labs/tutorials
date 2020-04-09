@@ -93,6 +93,6 @@ Key | Description
 `Environment` |Environment of the app to be deployed
 `Chart Version` | Version of the chart to be used
 
-![Save Chart ](/edit_chart.jpg  "Save Charts")
+![Save Chart ](/edit_chart1.jpg  "Save Charts")
 
 Click on `Deploy` to initiate the deployment of a Chart in Chart Group.
