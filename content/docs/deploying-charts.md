@@ -15,11 +15,17 @@ Select Discover and then select the chart that you want to use
 
 ![Deployment Charts](/custom.jpg "Deployment Charts")
 
+Click on README.MD to get more idea about the configurations of the chart
+
 Select the Chart Version that you want to use from the upper right corner
 
-Select the Chart Value, you can either use the default Values or create custom value by clicking on ` Create Custom`
+Select the Chart Value, you can either use the default Values or custom values.
 
-Click on README.MD to get more idea about the configurations of the chart
+## Custom Values
+
+You can create Custom value by clicking on ` Create Custom`
+
+
 
 ![Deployment Charts](/custom2.jpg "Deployment Charts")
 
