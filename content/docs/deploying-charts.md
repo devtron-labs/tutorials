@@ -1,19 +1,29 @@
-## Deploying Charts
+# Deploying Charts
+
+Charts can be deployed individually or by creating a group of Charts.
+
+Both methods are mentioned in the given document.
+
+
+## Deploy individiual Chart
 
 ![Deployment Charts](/depchart1.JPG "Deployment Charts")
 
 Select Discover and then select the chart that you want to use
 
-![Deployment Charts](/depchart2.JPG "Deployment Charts")
+<br>
 
-Select the version that you want to use from the upper right corner
+![Deployment Charts](/custom.jpg "Deployment Charts")
 
-![Deployment Charts](/depchart3readme.JPG "Deployment Charts")
+Select the Chart Version that you want to use from the upper right corner
+
+Select the Chart Value, you can either use the default Values or create custom value by clicking on ` Create Custom`
 
 Click on README.MD to get more idea about the configurations of the chart
 
-Select Deploy to deploy the chart
+Select `Deploy` to deploy the chart
 
+<br>
 
 Key | Description
 ----|----
@@ -47,7 +57,7 @@ Select Update And Deploy to update new settings
 
 
 
-## Deploying Chart Groups 
+## Deploy Chart Groups 
 
 To deploy multiple applications and work with them simulataneously, you can use `Chart Groups`.
 
@@ -67,7 +77,7 @@ You can select a particular chart multiple number of times according to your req
 
 Select the `Version` and `Values` for your charts.
 
-You can use `Default Values` or the `Custom Values`, just make sure the Value that you select for your Chart is comptabile with the `Version` of the Chart that you are using.
+You can use Default Values or the Custom Values, just make sure the Value that you select for your Chart is comptabile with the Version of the Chart that you are using.
 
 ![Select Chart ](/select_charts2.jpg  "Select Charts")
 
@@ -85,6 +95,8 @@ After making changes, Click on `Save` to save changes to your Chart Group.
 If you wish to edit the Chart Configuration, Double Click on that Chart and edit the Configurations.
 
 You can edit the `App Name`, `Chart Version`, `Values`, `Deploy Environment` and the YAML file.
+
+<br>
 
 Key | Description
 ----|----
