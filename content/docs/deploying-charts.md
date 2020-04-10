@@ -13,25 +13,40 @@ Select Discover and then select the chart that you want to use
 
 <br>
 
+Click on README.MD to get more idea about the configurations of the chart
+
+<br>
+
 ![Deployment Charts](/custom.jpg "Deployment Charts")
 
-Click on README.MD to get more idea about the configurations of the chart
 
 Select the Chart Version that you want to use from the upper right corner
 
 Select the Chart Value, you can either use the default Values or custom values.
 
-## Custom Values
-
-You can create Custom value by clicking on ` Create Custom`
-
-
-
 ![Deployment Charts](/custom2.jpg "Deployment Charts")
 
 Select `Deploy` to deploy the chart
 
+##  Custom Values
+
+You can use the default values or create Custom value by clicking on ` Create Custom`
+
+![Deployment Charts](/custom.jpg "Deployment Charts")
+
+You can name your Custom Value, select the Chart Version and change the configurations in YAML file 
+
+![Deployment Charts](/custom_val.jpg "Deployment Charts")
+
+Click on `Save Template` to save the configurations.
+
+
+
 <br>
+
+
+
+The configuration values can be edited in the section given below Chart Version.
 
 Key | Description
 ----|----
@@ -39,8 +54,6 @@ Key | Description
 `Project` | Project of the app
 `Environment` |Environment of the app to be deployed
 `Chart Version` | Version of the chart to be used
-
-The configuration values can be edited in the section given below Chart Version.
 
 
 ![Deployment Charts](/depchart4config.JPG "Deployment Charts")
