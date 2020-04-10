@@ -5,7 +5,7 @@ Charts can be deployed individually or by creating a group of Charts.
 Both methods are mentioned in the given document.
 
 
-## Deploy a Chart
+## Deploying Chart
 
 ![Deployment Charts](/depchart1.JPG "Deployment Charts")
 
@@ -65,7 +65,7 @@ Select Update And Deploy to update new settings
 
 
 
-## Deploy Chart Groups 
+## Deploying Chart Groups 
 
 To deploy multiple applications and work with them simulataneously, you can use `Chart Groups`.
 
