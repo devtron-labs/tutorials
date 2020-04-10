@@ -1,4 +1,4 @@
-# Deploying Charts
+## Deploying Charts
 
 ![Deployment Charts](/depchart1.JPG "Deployment Charts")
 
@@ -47,7 +47,7 @@ Select Update And Deploy to update new settings
 
 
 
-# Deploying Chart Groups 
+## Deploying Chart Groups 
 
 To deploy multiple applications and work with them simulataneously, you can use `Chart Groups`.
 
