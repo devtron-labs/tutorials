@@ -24,21 +24,6 @@ Select the Chart Version that you want to use from the upper right corner
 
 Select the Chart Value, you can either use the default Values or custom values.
 
-![Deployment Charts](/custom2.jpg "Deployment Charts")
-
-Select `Deploy` to deploy the chart
-
-##  Custom Values
-
-You can use the default values or create Custom value by clicking on ` Create Custom`
-
-![Deployment Charts](/custom.jpg "Deployment Charts")
-
-You can name your Custom Value, select the Chart Version and change the configurations in YAML file 
-
-![Deployment Charts](/custom_val.jpg "Deployment Charts")
-
-Click on `Save Template` to save the configurations.
 
 
 
@@ -81,6 +66,18 @@ User can click on Values.Yaml to reconfigure the deployment
 Configuration values can be edited over here by the help of ReadMe.md
 
 Select Update And Deploy to update new settings
+
+##  Custom Values
+
+You can use the default values or create Custom value by clicking on ` Create Custom`
+
+![Deployment Charts](/custom.jpg "Deployment Charts")
+
+You can name your Custom Value, select the Chart Version and change the configurations in YAML file 
+
+![Deployment Charts](/custom_val.jpg "Deployment Charts")
+
+Click on `Save Template` to save the configurations.
 
 
 
