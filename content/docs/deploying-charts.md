@@ -5,7 +5,7 @@ Charts can be deployed individually or by creating a group of Charts.
 Both methods are mentioned in the given document.
 
 
-## Deploy individiual Chart
+## Deploy a Chart
 
 ![Deployment Charts](/depchart1.JPG "Deployment Charts")
 
