@@ -1,8 +1,8 @@
----
-headless: true
-bookMenuLevels: 2
----
++++
+headless = true
++++
 
- - [Deployment Templates]({{< relref "/deployment-template" >}})
- - [Workflow Editor]({{< relref "/workflow-editor" >}})
- 
+- [Book Example]({{< relref "/docs/" >}})
+  - [Page One]({{< relref "/docs/page-one" >}})
+  - [Page Two]({{< relref "/docs/page-two" >}})
+- [Blog]({{< relref "/posts" >}})
