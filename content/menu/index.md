@@ -1,6 +1,6 @@
 ---
 headless: true
-bookMenuLevels: 1
+bookMenuLevels: 2
 ---
 
  - [Deployment Templates]({{< relref "/deployment-template" >}})
