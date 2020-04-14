@@ -3,5 +3,5 @@ headless = true
 +++
 
 - [Book Example]({{< relref "/docs/" >}})
-  - [Page One]({{< relref "/docs/page-one" >}})
-  - [Page Two]({{< relref "/docs/page-two" >}})
+  - [Page One]({{< relref "/docs/Cd-Pipeline.md" >}})
+  - [Page Two]({{< relref "/docs/Ci-Pipeline.md" >}})
