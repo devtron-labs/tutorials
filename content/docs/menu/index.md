@@ -2,7 +2,7 @@
 headless = true
 +++
 
-- [Book Example]({{< relref "/posts/" >}})
+- [Book Example]({{< relref "/docs/" >}})
   - [Page One]({{< relref "/docs/page-one" >}})
   - [Page Two]({{< relref "/docs/page-two" >}})
-- [Blog]({{< relref "/docs" >}})
+- [Blog]({{< relref "/posts" >}})
