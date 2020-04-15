@@ -3,9 +3,3 @@ theme = "book"
 baseURL= "https://docs.devtron.ai/"
 googleAnalytics = "UA-154884741-1"
 BookMenuBundle= "/menu"
-# (Optional) Set this to true if you use capital letters in file names
-disablePathToLower = true
-
-# (Optional, default none) Set leaf bundle to render as side menu
-# When not specified file structure and weights will be used
-BookMenuBundle = '/docs'
