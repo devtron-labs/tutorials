@@ -3,3 +3,16 @@ theme = "book"
 baseURL= "https://docs.devtron.ai/"
 googleAnalytics = "UA-154884741-1"
 BookMenuBundle= "/menu"
+
+
+
+[[menu.main]]
+name = "Pipeline"
+identifier = "sect"
+url = “/content/”
+
+[[menu.main]]
+name = "Sublevel topic"
+parent = "sect"
+identifier = "sub1"
+url = “/content/docs/”
