@@ -8,6 +8,6 @@ pages:
   - hugo
   artifacts:
     paths:
-    - private
+    - public
   only:
   - master
