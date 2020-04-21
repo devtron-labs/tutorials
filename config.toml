@@ -2,4 +2,5 @@ googleAnalytics = "UA-154884741-1"
 title = "Devtron Labs"
 theme = "book"
 baseURL= "https://devtron.gitlab.io/tutorials-dev"
+BookEditPath = "edit/master/exampleSite/content"
 
