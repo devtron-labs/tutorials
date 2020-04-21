@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devtron Labs</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Devtron Labs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git Material</title>
+      <link>http://example.org/docs/example/reference/creating-application/3rd-level/git-material/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/example/reference/creating-application/3rd-level/git-material/</guid>
+      <description>chcgjkg</description>
+    </item>
+    
+    <item>
+      <title>Triggering Ci</title>
+      <link>http://example.org/docs/example/reference/cloning-applications/deploying-applications/triggering-ci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/example/reference/cloning-applications/deploying-applications/triggering-ci/</guid>
+      <description>chcgjkg dahjsdvjvdfs sdfhjvsdjvsdfvjhfvjvsdhjvsd</description>
+    </item>
+    
+    <item>
+      <title>Docker Configuration</title>
+      <link>http://example.org/docs/example/reference/creating-application/3rd-level/docker-config/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/example/reference/creating-application/3rd-level/docker-config/</guid>
+      <description>chcgjkg dahjsdvjvdfs sdfhjvsdjvsdfvjhfvjvsdhjvsd</description>
+    </item>
+    
+    <item>
+      <title>Triggering Cd</title>
+      <link>http://example.org/docs/example/reference/cloning-applications/deploying-applications/triggering-cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/example/reference/cloning-applications/deploying-applications/triggering-cd/</guid>
+      <description>hhhsfhfshfhsfsgf</description>
+    </item>
+    
+    <item>
+      <title>Deployment Template</title>
+      <link>http://example.org/docs/example/reference/creating-application/3rd-level/deploytemp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/example/reference/creating-application/3rd-level/deploytemp/</guid>
+      <description>hey you how r u?</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/docs/example/hidden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/docs/example/hidden/</guid>
+      <description>This page is hidden in menu Quondam non pater est dignior ille Eurotas Latent te facies Lorem markdownum arma ignoscas vocavit quoque ille texit mandata mentis ultimus, frementes, qui in vel. Hippotades Peleus pennas conscia cuiquam Caeneus quas.
+ Pater demittere evincitque reddunt Maxime adhuc pressit huc Danaas quid freta Soror ego Luctus linguam saxa ultroque prior Tatiumque inquit Saepe liquitur subita superata dederat Anius sudor  Cum honorum Latona O fallor in sustinui iussorum equidem.</description>
+    </item>
+    
+  </channel>
+</rss>
