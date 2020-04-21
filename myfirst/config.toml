@@ -3,4 +3,4 @@ baseURL = "https://devtron.gitlab.io/tutorials-dev/myfirst/"
 languageCode = "en-us"
 theme = "hugo-book"
 title = "Devtron Labs"
-
+BookEditPath = "edit/master/exampleSite/content"
