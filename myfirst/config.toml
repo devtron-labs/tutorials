@@ -1,5 +1,7 @@
-baseURL = "http://example.org/"
+baseURL = "https://devtron.gitlab.io/tutorials-dev/"
 languageCode = "en-us"
 title = "Devtron Labs"
 theme = "hugo-book"
+googleAnalytics = "UA-154884741-1"
+
 
