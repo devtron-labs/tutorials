@@ -1,6 +1,6 @@
+googleAnalytics = "UA-154884741-1"
 baseURL = "https://devtron.gitlab.io/tutorials-dev/myfirst/"
 languageCode = "en-us"
 theme = "hugo-book"
 title = "Devtron Labs"
-googleAnalytics = "UA-154884741-1"
 
