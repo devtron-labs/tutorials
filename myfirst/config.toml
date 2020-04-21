@@ -1,0 +1,6 @@
+baseURL = "https://devtron.gitlab.io/tutorials-dev/"
+languageCode = "en-us"
+theme = "hugo-book"
+title = "Devtron Labs"
+googleAnalytics = "UA-154884741-1"
+
