@@ -10,6 +10,34 @@
   input.addEventListener('focus', init);
   input.addEventListener('keyup', search);
 
+  document.addEventListener('keypress', focusSearchFieldOnKeyPress);
+
+  /**
+   * @param {Event} event
+   */
+  function focusSearchFieldOnKeyPress(event) {
+    if (input === document.activeElement) {
+      return;
+    }
+
+    const characterPressed = String.fromCharCode(event.charCode);
+    if (!isHotkey(characterPressed)) {
+      return;
+    }
+
+    input.focus();
+    event.preventDefault();
+  }
+
+  /**
+   * @param {String} character
+   * @returns {Boolean} 
+   */
+  function isHotkey(character) {
+    const dataHotkeys = input.getAttribute('data-hotkeys') || '';
+    return dataHotkeys.indexOf(character) >= 0;
+  }
+
   function init() {
     input.removeEventListener('focus', init); // init once
     input.required = true;
@@ -42,6 +70,10 @@
     });
   }
 
+  /**
+   * @param {String} src 
+   * @param {Function} callback 
+   */
   function loadScript(src, callback) {
     const script = document.createElement('script');
     script.defer = true;

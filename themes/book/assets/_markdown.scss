@@ -30,12 +30,15 @@
   b, optgroup, strong {
     font-weight: bolder;
   }
-  
+
   a {
     text-decoration: none;
 
     &:hover {
       text-decoration: underline;
+    }
+    &:visited {
+      color: $color-visited-link;
     }
   }
 
@@ -80,7 +83,7 @@
     border-collapse: collapse;
     margin-top: $padding-16;
     margin-bottom: $padding-16;
-  
+
     tr th, tr td {
       padding: $padding-8 $padding-16;
       border: $padding-1 solid $gray-200;
@@ -122,5 +125,26 @@
       margin: 0;
       padding-left: 0;
     }
+  }
+
+  details {
+    padding: $padding-16;
+    border: $padding-1 solid $gray-200;
+    border-radius: $border-radius;
+
+    summary {
+      line-height: 1;
+      cursor: pointer;
+    }
+  }
+}
+
+.markdown-inner {
+  // Util class to remove extra margin in nested markdown content
+  > :first-child {
+    margin-top: 0;
+  }
+  > :last-child {
+    margin-bottom: 0;
   }
 }
