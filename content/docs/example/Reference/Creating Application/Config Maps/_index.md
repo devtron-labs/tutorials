@@ -9,7 +9,7 @@ The ConfigMap API resource holds key-value pairs of configuration data that can 
 
 Click on ConfigMaps to config a map
 
-![Config Map](/add_config.JPG "Create config map")
+![Config Map](/myfirst/content/img/add_config.JPG "Create config map")
 
 Key  | Description
 -----|-----
@@ -22,12 +22,12 @@ Key  | Description
 
 Click on "Yaml" to view "key" and "Value" in Yaml format
 
-![Data Volume](/configvolumepath.PNG "Data Volume")
+![Data Volume](/img/configvolumepath.PNG "Data Volume")
 
 ### Volume Mount Path
 Enter the path of the volume mount
 
-![External Config Map](/extconfig.PNG "External config map")
+![External Config Map](/img/extconfig.PNG "External config map")
 
 ### Kubernetes External ConfigMap
 The user will have to ensure that the config map is available to the pod.
@@ -37,7 +37,7 @@ Click Save ConfigMap to save the config map
 
 
 
-![Config Map Added](/configmapadded.PNG "Config Map is added")
+![Config Map Added](/img/configmapadded.PNG "Config Map is added")
 
 The config map is created
 
