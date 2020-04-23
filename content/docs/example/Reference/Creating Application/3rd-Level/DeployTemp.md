@@ -6,7 +6,7 @@ bookToc: false
 
 # Deployment Configurations
 
-![Deployment Template](/img/dep-temp.PNG "Deployment Template")
+![Deployment Template](./dep-temp.PNG "Deployment Template")
 
 ## Container
 
