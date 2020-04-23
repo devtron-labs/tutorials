@@ -1,5 +1,5 @@
 title = "Devtron Labs"
-theme = "hugo-book"
+theme = "book1"
 baseURL= "https://devtron.gitlab.io/tutorials-dev"
 languageCode = "en-us"
 
