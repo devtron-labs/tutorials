@@ -9,11 +9,11 @@ weight: 21
 
 <br />
 
-![Create new workflow](./img/workflow-editor.PNG "Create new workflow")
+![Create new workflow](./workflow-editor.PNG "Create new workflow")
 **Click on Create Workflow to create a new workflow**
 <br />
 
-![Create new workflow](./img/workflow-editor1.PNG "Create new workflow")
+![Create new workflow](./workflow-editor1.PNG "Create new workflow")
 **Enter the desired name of the workflow and click on Add Workflow to add a new workflow.**
 <br />
 

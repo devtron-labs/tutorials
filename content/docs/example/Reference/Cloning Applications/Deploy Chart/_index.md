@@ -11,7 +11,7 @@ Both methods are mentioned in the given document.
 
 ## Deploying Chart
 
-![Deployment Charts](/img/depchart1.JPG "Deployment Charts")
+![Deployment Charts](./depchart1.JPG "Deployment Charts")
 
 Select Discover and then select the chart that you want to use
 
@@ -21,7 +21,7 @@ Click on README.MD to get more idea about the configurations of the chart
 
 <br>
 
-![Deployment Charts](/img/custom.jpg "Deployment Charts")
+![Deployment Charts](./custom.jpg "Deployment Charts")
 
 
 Select the Chart Version that you want to use and Chart Value, you can either use the default Values or custom values.
@@ -43,7 +43,7 @@ Key | Description
 `Chart Version` | Version of the chart to be used
 
 
-![Deployment Charts](/img/depchart4config.JPG "Deployment Charts")
+![Deployment Charts](./depchart4config.JPG "Deployment Charts")
 
 <br>
 
@@ -51,20 +51,20 @@ ReadMe.md present on the left can be used by the user to set configuration value
 
 
 
-![Deployment Charts](/img/depchart4readme.JPG "Deployment Charts")
+![Deployment Charts](./depchart4readme.JPG "Deployment Charts")
 <br>
 
 Click on `Deploy Chart` to deploy the chart
 
 
-![Deployment Charts](/img/depchartdeployedredo.JPG "Deployment Charts")
+![Deployment Charts](./depchartdeployedredo.JPG "Deployment Charts")
 You can see the status of the chart deployed
 
 User can click on Values.Yaml to reconfigure the deployment
 
 
 
-![Deployment Charts](/img/depchartreconfig.JPG "Deployment Charts")
+![Deployment Charts](./depchartreconfig.JPG "Deployment Charts")
 Configuration values can be edited over here by the help of ReadMe.md
 
 Select Update And Deploy to update new settings
@@ -73,11 +73,11 @@ Select Update And Deploy to update new settings
 
 You can use the default values or create Custom value by clicking on ` Create Custom`
 
-![Deployment Charts](/img/custom.jpg "Deployment Charts")
+![Deployment Charts](./custom.jpg "Deployment Charts")
 
 You can name your Custom Value, select the Chart Version and change the configurations in YAML file 
 
-![Deployment Charts](/custom_val.jpg "Deployment Charts")
+![Deployment Charts](./custom_val.jpg "Deployment Charts")
 
 Click on `Save Template` to save the configurations.
 
@@ -90,37 +90,37 @@ To deploy multiple applications and work with them simulataneously, you can use 
 To create Chart Groups 
 Click on  `Discover` and Click on `Create Group`
 
-![Chart Group](/img/screen2.jpg  "Chart Groups")
+![Chart Group](./screen2.jpg  "Chart Groups")
 
 Add the Group Name and Description and click on `Create Group`
 
-![Create Group](/img/create_group.jpg  "Create Groups")
+![Create Group](./create_group.jpg  "Create Groups")
 
 You can select the Charts that you want to add in your Chart Group by clicking on '+' sign. 
 You can select a particular chart multiple number of times according to your requirements.
 <br>
-![Select Chart ](/img/select_charts.jpg  "Select Charts")
+![Select Chart ](./select_charts.jpg  "Select Charts")
 
 Select the `Version` and `Values` for your charts.
 
 You can use Default Values or the Custom Values, just make sure the Value that you select for your Chart is comptabile with the Version of the Chart that you are using.
 
-![Select Chart ](/img/select_charts2.jpg  "Select Charts")
+![Select Chart ](./select_charts2.jpg  "Select Charts")
 
 
 To edit the Chart Configuration, Click on 'Edit'
 
-![Edit Chart ](/img/edit_group.jpg  "Edit Charts")
+![Edit Chart ](./edit_group.jpg  "Edit Charts")
 
 You can `Add` more Charts to your existing Chart Group or `Delete` Charts from your existing Chart Group. 
 
 After making changes, Click on `Save` to save changes to your Chart Group. 
 
-![Save Chart ](/img/edit_group2.jpg  "Save Charts")
+![Save Chart ](./edit_group2.jpg  "Save Charts")
 
 If you wish to edit the Chart Configuration, Double Click on that Chart and edit the Configurations in YAML File.
 
-![Save Chart ](/img/edit_chart1.jpg  "Save Charts")
+![Save Chart ](./edit_chart1.jpg  "Save Charts")
 
 <br>
 
