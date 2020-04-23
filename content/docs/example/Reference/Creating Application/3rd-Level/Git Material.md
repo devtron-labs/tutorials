@@ -5,7 +5,7 @@ weight: 1
 # Git Material
 Git material is used to put the source codes of your file which needs to be compiled.
 
-![hello](images/git-material.PNG "Adding multiple git materials")
+![hello](/git-material.PNG "Adding multiple git materials")
 
 
 ## Multi Git/Checkout Path
