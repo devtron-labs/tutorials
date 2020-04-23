@@ -19,7 +19,7 @@ Over here, the status of the app can be seen as Healthy.If there are some error 
 
 ### Events
 
-![Debuggind Deployment](/content/depdebugeventedit.JPG "Debuggind Deployment")
+![Debuggind Deployment](./depdebugeventedit.JPG "Debuggind Deployment")
 Events of the app are accessible from the bottom left corner
 
 Events shows the events that took place during the deployment of an app.These events are available until 15 minutes of deployment of the app.
@@ -27,19 +27,19 @@ Events shows the events that took place during the deployment of an app.These ev
 
 ### Logs
 
-![Debuggind Deployment](/img/depdebuglogsedit.JPG "Debuggind Deployment")
+![Debuggind Deployment](./depdebuglogsedit.JPG "Debuggind Deployment")
 
 Logs contain the logs of the pods/containers deployed which can be used by the user for debugging.
 
 ### Pod Status
 
-![Debuggind Deployment](/img/depdebugpodstatusedit.jpg "Debuggind Deployment")
+![Debuggind Deployment](./depdebugpodstatusedit.jpg "Debuggind Deployment")
 
 The Pod Status shows the critical information like container-image, restartCount, state, phase, podIP, startTime etc. and status of the pods deployed..
 
 ### Deleting Pods
 
-![Debuggind Deployment](/img/deletepod.JPG "Debuggind Deployment")
+![Debuggind Deployment](./deletepod.JPG "Debuggind Deployment")
 
 Pods can be deleted in many cases, for e.g.,
 When we need to setup a new environment, we can delete a pod and new pod will be created automatically depending on the replcaCount.
@@ -49,13 +49,13 @@ Pods can be deleted by selecting "Delete Pod"
 
 ### Other
 
-![Debuggind Deployment](/img/depdebugotheredit.jpg "Debuggind Deployment")
+![Debuggind Deployment](./depdebugotheredit.jpg "Debuggind Deployment")
 
 Status of Pods, ReplicaSet, Services, Endpoints, Ingress, ConfigMap, Secret, ExternalSecret, StatefulSet and ServiceMonitor can be accessed by clicking on the name of that component.
 
 ## Monitoring
 
-![Debuggind Deployment](/img/depdebug1edit.JPG "Debuggind Deployment")
+![Debuggind Deployment](./depdebug1edit.JPG "Debuggind Deployment")
 
 Monitoring of an app can be done from here.
 
