@@ -17,11 +17,11 @@ weight: 21
 **Enter the desired name of the workflow and click on Add Workflow to add a new workflow.**
 <br />
 
-![Add CI Pipeline](./img/workflow-editor2.PNG "Add CI Pipeline")
+![Add CI Pipeline](./workflow-editor2.PNG "Add CI Pipeline")
 **After creating the workflow,click on Add CI Pipeline to add a new CI Pipeline**
 <br />
 
-![Add CI Pipeline](./img/workflow-editor3.PNG "Add CI Pipeline")
+![Add CI Pipeline](./workflow-editor3.PNG "Add CI Pipeline")
 **Select on Continous Integration to create a new CI Pipeline.**
 
 <br />
@@ -40,13 +40,13 @@ Key | Description
 
 <br />
 
-![Add CI Pipeline](./img/workflow-editor5.PNG "Add CI Pipeline")
+![Add CI Pipeline](./workflow-editor5.PNG "Add CI Pipeline")
 
 **Click on "+" on CI Pipeline to attach a CD Pipeline**
 
 <br />
 
-![Add CI Pipeline](./img/workflow-editor6.PNG "Add CI Pipeline")
+![Add CI Pipeline](./workflow-editor6.PNG "Add CI Pipeline")
 **Select Deploy to Environment to create CD Pipeline**
 
 <br />
@@ -67,7 +67,7 @@ Key | Description
 
 <br />
 
-![Add CI Pipeline](./img/workflow-editor9.PNG "Add CI Pipeline")
+![Add CI Pipeline](./workflow-editor9.PNG "Add CI Pipeline")
 
 **The CD Pipeline is created**
 

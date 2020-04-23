@@ -5,7 +5,7 @@ weight: 26
 
 # Environment Overrides
 
-![Environment Overrides](/img/envoverride.JPG  "Environment Overrides")
+![Environment Overrides](./envoverride.JPG  "Environment Overrides")
 
 You can customize the Deployment template in Environment overrides section to customize things according to different environments.
 
