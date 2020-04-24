@@ -5,7 +5,7 @@ weight: 22
 
 Welcome! This is the documentation for Deploying Applications
 
-** Parts of Documentation ** 
+**Parts of Documentation** 
 
 [Triggering CI](https://devtron.gitlab.io/tutorials-dev/docs/example/reference/cloning-applications/deploying-applications/triggering-ci/)
 
