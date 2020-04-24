@@ -1,7 +1,6 @@
 ---
 title: Deployment Template
 weight: 3
-bookToc: false
 ---
 
 # Deployment Configurations
