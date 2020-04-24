@@ -24,4 +24,9 @@ Key  | Description
 
 <br>
 
-Click on `save Configuration` to save the Docker Build Configuration.
+
+<br>
+
+
+
+Click on **Save Configuration** to save the Docker Build Configuration.
