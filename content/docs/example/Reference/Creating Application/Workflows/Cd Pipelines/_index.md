@@ -103,7 +103,7 @@ cluster, running in Deployment cluster is recommended if your scripts interact w
 <br>
 
 
-# Deployment Strategies
+## Deployment Strategies
 
 A deployment strategy is a way to make changes to an application, without downtime in a way that the user barely notices the changes. 
 There are different types of deployment strategies like Blue/Green Strategy, Rolling Strategy, Canary Strategy, Recreate Strategy. 
@@ -111,7 +111,7 @@ These deployment configuration-based strategies are discussed in this section.
 <br />
  
   
-## Blue Green Stategy
+##### Blue Green Stategy
 
 Blue-green deployments involve running two versions of an application at the same time and moving traffic from the in-production version (the green version)
 to the newer version (the blue version).
@@ -133,7 +133,7 @@ Key   | Description
 
 <br />
 
-## Rolling Strategy
+##### Rolling Strategy
 
 A rolling deployment slowly replaces instances of the previous version of an application with instances of the new version of the application.
 Rolling deployment typically waits for new pods to become ready via a readiness check before scaling down the old components.
@@ -152,7 +152,7 @@ Key   | Description
 
 <br />
 
-## Canary Strategy
+##### Canary Strategy
 
 Canary deployments are a pattern for rolling out releases to a subset of users or servers. The idea is to first deploy the change to a small subset of servers, 
 test it, and then roll the change out to the rest of the servers.
@@ -183,7 +183,7 @@ Key   | Description
 
 <br />
 
-## Recreate 
+##### Recreate 
 
 The recreate strategy is a dummy deployment which consists of shutting down version A then deploying version B after version A is turned off. 
 A recreate deployment incurs downtime because, for a brief period, no instances of your application are running.
@@ -194,4 +194,4 @@ recreate:
 ```
 It terminate the old version and release the new one.
 
-[Does your app has different requirements in different Environments? Also read Environment Overrides](../environment-overrides)
+[Does your app has different requirements in different Environments? Also read Environment Overrides](https://devtron.gitlab.io/tutorials-dev/docs/example/reference/creating-application/environment-overrides/)
