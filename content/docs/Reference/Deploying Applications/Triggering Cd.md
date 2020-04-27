@@ -23,5 +23,5 @@ Here, it can be seen that triggering CD Pipeline was successful and the deployme
 
 
 
-[To further diagnose deployments, Click here](https://devtron.gitlab.io/tutorials-dev/docs/example/reference/cloning-applications/debugging-deployments-and-monitoring/)
+[To further diagnose deployments, Click here](https://devtron.gitlab.io/tutorials-dev/docs/reference/debugging-deployments-and-monitoring/)
 
