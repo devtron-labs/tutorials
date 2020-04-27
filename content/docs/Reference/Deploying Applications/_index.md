@@ -15,12 +15,3 @@ Welcome! This is the documentation for Deploying Applications
 
 
 
-[Deploy Chart](https://devtron.gitlab.io/tutorials-dev/docs/reference/deploy-chart/) 
-
-
-
-[Debugging Deployments and Monitoring](https://devtron.gitlab.io/tutorials-dev/docs/reference/debugging-deployments-and-monitoring/) 
-
-
-
-[Namespaces and Environments](https://devtron.gitlab.io/tutorials-dev/docs/reference/namespaces-and-environments-/) 
