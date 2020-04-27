@@ -17,7 +17,7 @@ Environments in Devtron can be accessed from:-
 
 Global Configuration->Clusters & Environments
 
-![Environments](../../environments1.JPG  "Environment")
+![Environments](../../../../environments1.JPG  "Environment")
 Here multiple environments can be created
 
 An environment created here actually means that a new namespace is created in kubernetes.
