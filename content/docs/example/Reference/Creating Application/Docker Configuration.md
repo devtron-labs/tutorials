@@ -1,6 +1,7 @@
 ---
 title: Docker Configuration
 weight: 2
+bookToc: true
 ---
 
 # Docker build Configuration 

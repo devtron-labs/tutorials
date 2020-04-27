@@ -1,7 +1,9 @@
 ---
 title: Git Material
 weight: 1
+bookToc: true
 ---
+
 # Git Material
 Git material is used to put the source codes of your file which needs to be compiled.
 
