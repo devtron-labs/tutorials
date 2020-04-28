@@ -1,6 +1,7 @@
-title = "Devtron Labs"
-theme = "book"
-baseURL= "https://docs.devtron.ai/"
 googleAnalytics = "UA-154884741-1"
-BookMenuBundle= "/menu"
+title = "Devtron Labs"
+theme = "hugo-book"
+baseURL= "https://docs.devtron.ai/"
+languageCode = "en-us"
+
 
