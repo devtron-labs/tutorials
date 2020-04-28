@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-+++
-headless = true
-+++
-
-- [Book Example]({{< relref "/docs/" >}})
-  - [Page One]({{< relref "/docs/page-one" >}})
-  - [Page Two]({{< relref "/docs/page-two" >}})
-- [Blog]({{< relref "/posts" >}})
-=======
 ---
 headless: true
 ---
@@ -30,4 +20,3 @@ headless: true
 - [Mermaid]({{< relref "/docs/shortcodes/mermaid" >}})
 - [Tabs]({{< relref "/docs/shortcodes/tabs" >}})
 <br />
->>>>>>> r7remote/master
