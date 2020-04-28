@@ -194,5 +194,5 @@ recreate:
 ```
 It terminate the old version and release the new one.
 
-[Does your app has different requirements in different Environments? Also read Environment Overrides](https://devtron.gitlab.io/tutorials-dev/docs/reference/creating-application/environment-overrides/)
+[Does your app has different requirements in different Environments? Also read Environment Overrides](https://docs.devtron.ai/docs/reference/creating-application/environment-overrides/)
 

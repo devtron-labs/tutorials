@@ -353,7 +353,7 @@ Application metrics can be enabled to see your application's metrics-CPU usage,M
 
 ## Deployment Metrics 
 
-A deployment strategy is a way to make changes to an application, without downtime in a way that the user barely notices the changes. There are different types of deployment strategies. Click on: [Types of Deployment Strategies](https://devtron.gitlab.io/tutorials-dev/docs/reference/creating-application/workflows/cd-pipelines/#deployment-strategies)
+A deployment strategy is a way to make changes to an application, without downtime in a way that the user barely notices the changes. There are different types of deployment strategies. Click on: [Types of Deployment Strategies](https://docs.devtron.ai/docs/reference/creating-application/workflows/cd-pipelines/#deployment-strategies)
 
 
 
