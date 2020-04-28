@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 title = "Devtron Labs"
 theme = "book"
 baseURL= "https://docs.devtron.ai/"
 googleAnalytics = "UA-154884741-1"
 BookMenuBundle= "/menu"
+=======
+googleAnalytics = "UA-154884741-1"
+title = "Devtron Labs"
+theme = "hugo-book"
+baseURL= "https://devtron.gitlab.io/tutorials-dev/"
+languageCode = "en-us"
+
+>>>>>>> r7remote/master
 

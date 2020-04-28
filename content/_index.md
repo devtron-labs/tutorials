@@ -2,6 +2,7 @@
 title: Introduction
 type: docs
 ---
+<<<<<<< HEAD
 <img src="/combo.jpg">
 
 
@@ -427,4 +428,12 @@ It terminate the old version and release the new one.
 
 [Does your app has different requirements in different Environments? Also read Environment Overrides](/docs/environment-overrides)
 
+=======
+
+# Devtron Documentation 
+
+Continuous Deployment for Kubernetes that increases your productivity and reduces cost.
+
+[Browse Devtron Documentation](https://devtron.gitlab.io/tutorials-dev/docs/reference/creating-application/)
+>>>>>>> r7remote/master
 

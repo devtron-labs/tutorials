@@ -11,4 +11,8 @@ pages:
     paths:
     - public
   only:
+<<<<<<< HEAD
   - master
+=======
+  - master
+>>>>>>> r7remote/master
