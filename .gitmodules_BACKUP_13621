@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-[submodule "themes/book"]
-	path = themes/book
-=======
-[submodule "hugo-book"]
-	path = hugo-book
->>>>>>> r7remote/master
-	url = https://github.com/alex-shpak/hugo-book
