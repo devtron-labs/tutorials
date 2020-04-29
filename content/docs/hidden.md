@@ -1,4 +1,3 @@
 ---
 bookHidden: true
-
-
+---
