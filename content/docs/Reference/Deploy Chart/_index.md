@@ -11,8 +11,9 @@ Both methods are mentioned in the given document.
 
 ## Deploying Chart
 
+<br>
 ![Deployment Charts](./depchart1.JPG "Deployment Charts")
-
+<br>
 Select Discover and then select the chart that you want to use
 
 <br>
@@ -23,7 +24,7 @@ Click on README.MD to get more idea about the configurations of the chart
 
 ![Deployment Charts](./custom.jpg "Deployment Charts")
 
-
+<br>
 Select the Chart Version that you want to use and Chart Value, you can either use the default Values or custom values.
 To know about Custom Values, Click On: [Custom Values](https://docs.devtron.ai/docs/deploying-charts/#custom-values)
 
@@ -50,16 +51,16 @@ Key | Description
 ReadMe.md present on the left can be used by the user to set configuration values
 
 
-
+<br>
 ![Deployment Charts](./depchart4readme.JPG "Deployment Charts")
 <br>
 
 Click on `Deploy Chart` to deploy the chart
 
-
+<br>
 ![Deployment Charts](./depchartdeployedredo.JPG "Deployment Charts")
 You can see the status of the chart deployed
-
+<br>
 User can click on Values.Yaml to reconfigure the deployment
 
 
@@ -73,12 +74,18 @@ Select Update And Deploy to update new settings
 
 You can use the default values or create Custom value by clicking on ` Create Custom`
 
+<br>
+
 ![Deployment Charts](./custom.jpg "Deployment Charts")
 
+<br>
 You can name your Custom Value, select the Chart Version and change the configurations in YAML file 
+
+<br>
 
 ![Deployment Charts](./custom_val.jpg "Deployment Charts")
 
+<br>
 Click on `Save Template` to save the configurations.
 
 
@@ -93,8 +100,10 @@ Click on  `Discover` and Click on `Create Group`
 ![Chart Group](./screen2.jpg  "Chart Groups")
 
 Add the Group Name and Description and click on `Create Group`
+<br>
 
 ![Create Group](./create_group.jpg  "Create Groups")
+<br>
 
 You can select the Charts that you want to add in your Chart Group by clicking on '+' sign. 
 You can select a particular chart multiple number of times according to your requirements.
@@ -109,17 +118,20 @@ You can use Default Values or the Custom Values, just make sure the Value that y
 
 
 To edit the Chart Configuration, Click on 'Edit'
+<br>
 
 ![Edit Chart ](./edit_group.jpg  "Edit Charts")
+<br>
 
 You can `Add` more Charts to your existing Chart Group or `Delete` Charts from your existing Chart Group. 
 
 After making changes, Click on `Save` to save changes to your Chart Group. 
-
+<br>
 ![Save Chart ](./edit_group2.jpg  "Save Charts")
+<br>
 
 If you wish to edit the Chart Configuration, Double Click on that Chart and edit the Configurations in YAML File.
-
+<br>
 ![Save Chart ](./edit_chart1.jpg  "Save Charts")
 
 <br>

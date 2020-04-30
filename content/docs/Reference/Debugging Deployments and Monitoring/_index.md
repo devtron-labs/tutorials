@@ -18,29 +18,29 @@ Over here, you can see the status of the app as Healthy.If there are some errors
 .
 
 ### Events
-
+<br>
 ![Debuggind Deployment](./app_detail1.jpg "Debuggind Deployment")
 Events of the app are accessible from the bottom left corner
-
+<br>
 Events section displays you the events that took place during the deployment of an app. These events are available until 15 minutes of deployment of the app.
 
 
 ### Logs
-
+<br>
 ![Debuggind Deployment](./app_detail2.jpg "Debuggind Deployment")
-
+<br>
 Logs contain the logs of the pods/containers deployed which you can use for the process of debugging.
 
 ### Pod Status
-
+<br>
 ![Debuggind Deployment](./app_detail3.jpg "Debuggind Deployment")
-
+<br>
 The Pod Status shows the critical information such as container-image, restartCount, state, phase, podIP, startTime etc. and status of the pods deployed.
 
 ### Deleting Pods
-
+<br>
 ![Debuggind Deployment](./app_details4.jpg "Debuggind Deployment")
-
+<br>
 Pods can be deleted in many cases, For Example,
 When we need to setup a new environment, we can delete a pod and new pod will be created automatically depending on the replica count.
 
@@ -48,15 +48,15 @@ Pods can be deleted by selecting "Delete Pod"
 
 
 ### Other
-
+<br>
 ![Debuggind Deployment](./app_details5.jpg "Debuggind Deployment")
-
+<br>
 Status of Pods, ReplicaSet, Services, Endpoints, Ingress, ConfigMap, Secret, ExternalSecret, StatefulSet and ServiceMonitor can be accessed by clicking on the name of that component.
 
 ## Monitoring
-
+<br>
 ![Debuggind Deployment](./app_detail7.jpg "Debuggind Deployment")
-
+<br>
 Monitoring of an app can be done from here.
 
 Metrics like CPU Usage, Memory Usage, Status 5xx, Throughput and Latency are visible over here.

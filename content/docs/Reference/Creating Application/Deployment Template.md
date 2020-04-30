@@ -6,7 +6,11 @@ bookToc: true
 
 # Deployment Configurations
 
+<br>
+
 ![Deployment Template](../../dep-temp.PNG "Deployment Template")
+
+<br>
 
 ## Container
 

@@ -12,7 +12,7 @@ Docker Build Configuration is required to execute CI Pipeline for your applicati
 
 ![Docker Configuration](../../docker_config.jpg "Docker Build Configurations")
 
-
+<br>
 
 Key  | Description
 -----|-----
