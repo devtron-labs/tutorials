@@ -3,10 +3,10 @@ bookCollapseSection: false
 weight: 24
 ---
 ## Secrets 
-Secret objects let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys. Putting this information in a secret is safer and more flexible than putting it verbatim in a Pod definition or in a container image.
+Secret objects lets you store and manage sensitive information, such as passwords, Auth tokens, and ssh keys. Putting this information in a secret is safer and more flexible than putting it verbatim in a Pod definition or in a container image.
 
 ![Secret](./secret.PNG "Secret")
-Click on Add Secret to add a new secret
+Click on Add Secret to add a new secret.
 
 
 
@@ -26,16 +26,16 @@ Key | Description
 ![Data Volume](./secretdatavol.PNG "Data Volume")
 
 ### Volume Mount Path
-Enter the path of the volume mount
+Enter the path of the volume mount.
 
 ![Save Secret](/img/secretenv.PNG "Save Secret")
 
 
 
-Click on Save Secret to save the secret
+Click on Save Secret to save the secret.
 
 ![Save Secret](./secretadded.PNG "Save Secret")
 
-Secret is added
+You can see the Secret is added.
 
 
