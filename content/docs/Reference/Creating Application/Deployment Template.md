@@ -8,7 +8,7 @@ bookToc: true
 
 <br>
 
-![Deployment Template](../../images/deployment-template.jpg "Deployment Template")
+![Deployment Template](../../depchart2.JPG "Deployment Template")
 
 <br>
 
