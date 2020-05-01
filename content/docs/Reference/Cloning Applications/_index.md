@@ -9,14 +9,14 @@ weight: 21
 
 ![Cloning Apps](./d1.JPG "Duplicate Templates")
 
-<br>
+
 Select Add New App to add a new app
 
-<br>
+
 
 ![Cloning Apps](./d2.JPG "Duplicate Templates")
 
-<br>
+
 
 Key | Description
 ---- | -----
@@ -27,14 +27,14 @@ Key | Description
 <br>
 
 ![Cloning Apps](./d4.JPG "Duplicate Templates")
-<br>
+
 
 Select Create App to create App
 
-<br>
+
 
 ![Cloning Apps](./d5.JPG "Duplicate Templates")
 
-<br>
+__
 New app with duplicate template is created
 
