@@ -10,7 +10,7 @@ bookToc: false
 
 After CI Pipeline is complete, CD Pipeline can be triggered by selecting "Select Image".
 
-![CI Pipelines](./CD1.JPG "Triggering CI Pipelines")
+![CI Pipelines](../../CD1.JPG "Triggering CI Pipelines")
 
 Select an image to deploy and then click on "Deploy" to trigger the CD Pipeline.
 The running images are tagged as "Running"
