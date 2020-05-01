@@ -14,6 +14,7 @@ Git material is used to manage the source code repositories of your application.
 <br>
 
 ## Multi Git/Checkout Path
+
 Consider a scenario where the source code of the application is present in one repository but the configuration files for that application exist on other git repository. In such cases, checkout path can be used to provide location to the configuration files so that the docker file can use the configuration file cloned from the other repository.
 
 <br>
