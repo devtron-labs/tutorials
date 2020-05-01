@@ -5,11 +5,11 @@ bookToc: true
 ---
 
 # Git Material
-Git material is used to put the source codes of your file which needs to be compiled.
+Git material is used to manage the source code repositories of your application.
 
 <br>
 
-![hello](../../git-material.PNG "Adding multiple git materials")
+![git Material](../../git-material.PNG "Adding multiple git materials")
 
 <br>
 
