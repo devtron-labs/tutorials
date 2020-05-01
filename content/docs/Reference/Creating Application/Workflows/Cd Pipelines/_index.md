@@ -6,6 +6,8 @@ weight: 11
 
 ## Create CD Pipeline
 
+<br>
+
 ![Add CI Pipeline](./workflow-editor5.PNG "Add CI Pipeline")
 
 Click on "+" on CI Pipeline to attach a CD Pipeline
@@ -20,7 +22,11 @@ Select Deploy to Environment to create CD Pipeline
 
 ![Workflow](./workflow-editor8-resize.PNG)
 
+<br>
+
 <img src="/workflow-editor8.PNG" alt="drawing" width="450" height="500"/>
+
+<br>
 
 Key | Description
 ----|----
@@ -30,14 +36,15 @@ Key | Description
 
 
 Click on `Create Pipeline` to create the CD Pipeline
-
-<br />
+<br>
 
 ![Add CI Pipeline](./workflow-editor9.PNG "Add CI Pipeline")
 
+<br>
+
 The CD Pipeline is created
 
-<br />
+
 
 
 ## Update CD Pipeline 
@@ -52,12 +59,16 @@ You can update the CD Pipeline, updatations such as adding Deployment Stage, Dep
 
 ![Update CD Pipeline](./update_pipeline_cd.jpg "Update CD Pipeline")
 
+<br>
+
 Click on your CD Pipeline to Update/Delete the  CD Pipeline
 
 <br>
 
 
 ![Update CD Pipeline](./edit_cd_pipeline.jpg "Update CD Pipeline")
+
+<br>
 
 Click on `Update Pipeline` to update the CD Pipeline
 
@@ -76,6 +87,7 @@ To Delete a CD Pipeline, go to the App Configurations and then click on Workflow
 
 ![Delete CD Pipeline](./edit_cd_pipeline.jpg "Delete CD Pipeline")
 
+<br>
 
 Click on `Delete Pipeline` to delete the CD Pipeline
 
@@ -87,7 +99,11 @@ Click on `Delete Pipeline` to delete the CD Pipeline
 ##### Pre-deployment Stage
 Configure actions like db migration, that you want to run before the deployment.
 
+<br>
+
 ![Add CI Pipeline](./cd_pre_build.jpg "Add CD Pipeline")
+
+<br>
 
 `Execute in application Environment`: If checked, the pre-cd / post-cd pods are created in the deployment cluster otherwise they're created in the devtron build cluster,
 running in Deployment cluster is recommended if your scripts interact with the cluster services which are not publically exposed
@@ -95,8 +111,10 @@ running in Deployment cluster is recommended if your scripts interact with the c
 ##### Post-deployment Stage
 Configure actions like jira ticket close,that you want to run after the deployment.
 
+<br>
 ![Add CI Pipeline](./cd_post_build.jpg "Add CD Pipeline")
 
+<br>
 `Execute in application Environment`: If checked, the pre-cd / post-cd pods are created in the deployment cluster otherwise they're created in the devtron build 
 cluster, running in Deployment cluster is recommended if your scripts interact with the cluster services which are not publically exposed
 

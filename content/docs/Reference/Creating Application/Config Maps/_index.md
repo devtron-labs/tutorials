@@ -44,10 +44,12 @@ You will have to ensure that the config map is available to the pod.
 
 Click Save ConfigMap to save the config Map
 
-
+<br>
 
 
 ![Config Map Added](./configmapadded.PNG "Config Map is added")
+
+<br>
 
 The config map is created
 
