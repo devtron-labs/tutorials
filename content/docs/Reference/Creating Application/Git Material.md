@@ -9,7 +9,7 @@ Git material is used to manage the source code repositories of your application.
 
 <br>
 
-![git Material](../../git-material.PNG "Adding multiple git materials")
+![git Material](../../git_material1.jpg "Adding multiple git materials")
 
 <br>
 
@@ -19,7 +19,7 @@ Consider a scenario where the source code of the application is present in one r
 
 <br>
 
-![alt text](../../combo.jpg "Adding multiple git materials")
+![alt text](../../git_material2.jpg "Adding multiple git materials")
 
 <br>
 
