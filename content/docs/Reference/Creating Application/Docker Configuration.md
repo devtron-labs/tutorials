@@ -18,8 +18,8 @@ Key  | Description
 -----|-----
 `Repository` | Select the path of the Repository
 `Docker File Path` | Give a Relative Path for your Dockerfile
-`Docker registry` | Select the Docker Registry you wish to use, which will be used to store distributed images.
-`Docker repository` | Name of your Docker Repository that will store collection of related images usually providing different version of the same application.  
+`Docker Registry` | Select the Docker Registry you wish to use, which will be used to store distributed images.
+`Docker Repository` | Name of your Docker Repository that will store collection of related images usually providing different version of the same application.  
 `Key` | Key parameter for your Docker Build
 `Value` | Value for a given key for your Docker build 
 

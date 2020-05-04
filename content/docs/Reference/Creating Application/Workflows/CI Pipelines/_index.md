@@ -160,6 +160,7 @@ If one code is shared across multiple applications Linked CI Pipeline can be use
 if there is only one build, it is not advisable to create multiple CI Pipelines.
 
 <br>
-![Create CI Pipeline](./linked.jpg "Linked CI Pipeline")
+
+![Create CI Pipeline](../../linked.jpg "Linked CI Pipeline")
 
 <br>

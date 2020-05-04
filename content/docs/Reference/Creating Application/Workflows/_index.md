@@ -25,15 +25,11 @@ Then, Create CI/CD Pipelines for your application.
 
 <br />
 
-To know how to Create the CI Pipeline for your application Click On:
-
-[Create CI Pipelines](https://docs.devtron.ai/docs/reference/creating-application/workflows/ci-pipelines/)
+To know how to Create the CI Pipeline for your application Click On: [Create CI Pipelines](https://docs.devtron.ai/docs/reference/creating-application/workflows/ci-pipelines/)
 
 <br />
 
-To know how to Create the CD Pipeline for your application Click On:
-
-[Create CD Pipelines](https://docs.devtron.ai/docs/reference/creating-application/workflows/cd-pipelines/)
+To know how to Create the CD Pipeline for your application Click On: [Create CD Pipelines](https://docs.devtron.ai/docs/reference/creating-application/workflows/cd-pipelines/)
 
 
 
