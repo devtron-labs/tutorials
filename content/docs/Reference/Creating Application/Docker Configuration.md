@@ -16,10 +16,10 @@ Docker Build Configuration is required to execute CI Pipeline for your applicati
 
 Key  | Description
 -----|-----
-`Repository` | Select the path of Repository
+`Repository` | Select the path of the Repository
 `Docker File Path` | Give a Relative Path for your Dockerfile
-`Docker registry` | Select the Docker Registry to be used
-`Docker repository` | Name of the Docker Repository
+`Docker registry` | Select the Docker Registry you wish to use, which will be used to store distributed images.
+`Docker repository` | Name of your Docker Repository that will store collection of related images usually providing different version of the same application.  
 `Key` | Key parameter for your Docker Build
 `Value` | Value for a given key for your Docker build 
 
