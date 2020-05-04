@@ -8,11 +8,11 @@ bookToc: true
 
 Docker Build Configuration is required to execute CI Pipeline for your application.
 
-<br>
+<br />
 
 ![Docker Configuration](../../docker_config.jpg "Docker Build Configurations")
 
-<br>
+<br />
 
 Key  | Description
 -----|-----
@@ -23,11 +23,9 @@ Key  | Description
 `Key` | Key parameter for your Docker Build
 `Value` | Value for a given key for your Docker build 
 
-<br>
+<br />
 
 
-<br>
-
-
+<br />
 
 Click on **Save Configuration** to save the Docker Build Configuration.

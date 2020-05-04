@@ -6,11 +6,21 @@ bookToc: true
 
 # Deployment Configurations
 
-<br>
+It is required to execute deployment pipelines for your application.
+
+<br />
 
 ![Deployment Template](../../deployment_template.jpg "Deployment Template")
 
-<br>
+<br />
+
+Key  | Description
+-----|-----
+`Chart Version` | Select the Chart Version using which you want to deploy the  application
+
+If you want to see `Application Metrics` (For example: Status codes 2xx, 3xx, 5xx; throughput and latency) over time for your application, then you need to make sure you select the latest `chart version`. 
+
+`Application Metrics` is not supported for all the Chart Versions.
 
 ## Container
 
@@ -357,7 +367,7 @@ Application metrics can be enabled to see your application's metrics-CPU usage,M
 
 ## Deployment Metrics 
 
-A deployment strategy is a way to make changes to an application, without downtime in a way that the user barely notices the changes. There are different types of deployment strategies. Click on: [Types of Deployment Strategies](https://docs.devtron.ai/docs/reference/creating-application/workflows/cd-pipelines/#deployment-strategies)
+A deployment strategy is a way to make changes to your application, without downtime in a way that your application user barely notices the changes. There are different types of deployment strategies. To know about Deployment Strategies, Click on: [Types of Deployment Strategies](https://docs.devtron.ai/docs/reference/creating-application/workflows/cd-pipelines/#deployment-strategies)
 
 
 

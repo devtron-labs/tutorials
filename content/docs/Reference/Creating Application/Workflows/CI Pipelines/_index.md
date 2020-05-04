@@ -3,21 +3,6 @@ weight: 10
 ---
 # CI Pipelines
 
-<br>
-
-## Create Workflow
-
-Workflow is a logical sequenece of different stages used for continous integration and continous deployment of an application
-
-<br>
-![Create new workflow](./workflow-editor.PNG "Create new workflow")
-Click on Create Workflow to create a new workflow
-<br>
-
-![Create new workflow](./workflow-editor1.PNG "Create new workflow")
-Enter the desired name of the workflow and click on Add Workflow to add a new workflow
-<br>
-
 ##  Create CI Pipeline
 
 

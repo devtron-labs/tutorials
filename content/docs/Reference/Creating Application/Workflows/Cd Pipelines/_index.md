@@ -6,7 +6,7 @@ weight: 11
 
 ## Create CD Pipeline
 
-<br>
+<br />
 
 ![Add CI Pipeline](./workflow-editor5.PNG "Add CI Pipeline")
 
@@ -22,7 +22,7 @@ Select Deploy to Environment to create CD Pipeline
 
 ![Workflow](./workflow-editor8-resize.PNG)
 
-<br>
+<br />
 
 <img src="/workflow-editor8.PNG" alt="drawing" width="450" height="500"/>
 
