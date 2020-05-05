@@ -49,7 +49,11 @@ You can Select the Data Type as `Kubernetes ConfigMap` if you wish to use the Co
 
 ![Data Volume](../../cf3.jpg "Data Volume")
 
-<br>
+<br />
+
+Click Save ConfigMap to save the configMap.
+
+<br />
 
 ### Kubernetes External ConfigMap
 
@@ -59,9 +63,9 @@ If you are using Kubernetes External ConfigMap make sure you give the name of Co
 
 You have to ensure that the External ConfigMap exists and is made available to the pod.
 
-Click Save ConfigMap to save the configMap.
 
-<br>
+
+<br />
 
 
 ![Config Map Added](../../cf5.jpg "Config Map is added")
