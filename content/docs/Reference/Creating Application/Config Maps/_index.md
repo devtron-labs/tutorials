@@ -4,53 +4,70 @@ weight: 23
 ---
 
 
-## Config Maps
+## ConfigMaps
+
 The ConfigMap API resource holds key-value pairs of configuration data that can be consumed in pods or used to store configuration data for system components such as controllers. ConfigMap is similar to Secrets, but designed to more conveniently support working with strings that do not contain sensitive information.
 
-Click on ConfigMaps to config a map
+Click on `Add ConfigMap` to add a config map to your application.
 
-<br>
+<br />
 
-![Config Map](./add_config.JPG "Create config map")
+![Config Map](../../cf1.jpg "Create config map")
 
-<br>
+<br />
+
+Configure the ConfigMap 
+
+![Config Map](../../cf2.jpg "Create config map")
+
+<br />
 
 Key  | Description
 -----|-----
-`Name` | Name of the configmap
+`Name` | Name of ConfigMap
 `Environment Variable` | Select if there are Environment Variables to be injected in pods
-`Data Volume` | Select if a directory accessible to all containers running in a pod needs to be added
-`Kubernetes ConfigMap` | ConfigMap created by Devtron
+`Data Volume` | Specify if there is a directory accessible to all containers running in a pod needs to be added
+`Kubernetes ConfigMap` | ConfigMap that is created by Devtron 
 `Key` | Key 
 `Value` | Value for a given key
 
-Click on "Yaml" to view "key" and "Value" in Yaml format
+<br />
 
-<br>
+You can Click on "YAML" or "GUI" to view the key and Value parameters of the ConfigMap that you have created.
 
-![Data Volume](./configvolumepath.PNG "Data Volume")
+<br />
+
+
 
 ### Volume Mount Path
-Enter the path of the volume mount
 
-<br>
+Specify Volume Mount folder path in `Volume Mount Path`, path where the data volume needs to be mounted, which will be accessible to the Containers running in a pod.
 
-![External Config Map](./extconfig.PNG "External config map")
+You can Select the Data Type as `Kubernetes ConfigMap` if you wish to use the ConfigMap created by Devtron or `Kubernetes External ConfigMap ` if you have created a ConfigMap using Kubectl command. 
+
+<br />
+
+![Data Volume](../../cf3.jpg "Data Volume")
 
 <br>
 
 ### Kubernetes External ConfigMap
-You will have to ensure that the config map is available to the pod.
 
-Click Save ConfigMap to save the config Map
+Kubernetes External ConfigMap is created using `kubectl create configmap` or you can use ConfigMap generator in kustomization.yaml to create a ConfigMap.
+
+If you are using Kubernetes External ConfigMap make sure you give the name of ConfigMap same as the name that you have given using `kubectl create Configmap <configmap-name> <data source>` command, otherwise it might result in error during the built.
+
+You have to ensure that the External ConfigMap exists and is made available to the pod.
+
+Click Save ConfigMap to save the configMap.
 
 <br>
 
 
-![Config Map Added](./configmapadded.PNG "Config Map is added")
+![Config Map Added](../../cf5.jpg "Config Map is added")
 
 <br>
 
-The config map is created
+The config map is created.
 
 
