@@ -35,9 +35,7 @@ Select Create App to create App
 
 ![Cloning Apps](./d5.JPG "Duplicate Templates")
 
-__
-
-
+<br />
 
 New app with duplicate template is created
 
