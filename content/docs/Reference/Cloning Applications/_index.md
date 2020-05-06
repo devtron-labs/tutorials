@@ -10,13 +10,13 @@ weight: 21
 ![Cloning Apps](./d1.JPG "Duplicate Templates")
 
 
-Select Add New App to add a new app
+Select `Add New App` to Create a new app.
 
+<br />
 
+![Cloning Apps](../clone_app1.jpg "Duplicate Templates")
 
-![Cloning Apps](./d2.JPG "Duplicate Templates")
-
-
+<br />
 
 Key | Description
 ---- | -----
@@ -24,18 +24,15 @@ Key | Description
 `Project` | Project name
 `Template` | App from which the template has to be copied
 
-<br>
-
-![Cloning Apps](./d4.JPG "Duplicate Templates")
+<br />
 
 
-Select Create App to create App
+Click on `Duplicate App` to create App with a template of the Application you have selected from the Drop-down.
 
 
-
-![Cloning Apps](./d5.JPG "Duplicate Templates")
+![Cloning Apps](../clone_app2.jpg "Duplicate Templates")
 
 <br />
 
-New app with duplicate template is created
+New application with a duplicate template is created.
 

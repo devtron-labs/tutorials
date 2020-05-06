@@ -62,14 +62,18 @@ Suppose you want to setup a new environment, you can delete a pod and thereafter
 ### Other
 
 ![Debuggind Deployment](./app_details5.jpg "Debuggind Deployment")
-<br>
-Status of Pods, ReplicaSet, Services, Endpoints, Ingress, ConfigMap, Secret, ExternalSecret, StatefulSet and ServiceMonitor can be accessed by clicking on the name of that component.
+
+<br />
+
+Status of Pods, ReplicaSet, Services, Endpoints, Ingress, ConfigMap, Secret, ExternalSecret, StatefulSet and ServiceMonitor can be accessed by Clicking on the name of that component.
 
 ## Monitoring
 
 ![Debuggind Deployment](./app_detail7.jpg "Debuggind Deployment")
-<br>
-Monitoring of an app can be done from here.
+
+<br />
+
+You can monitor the application in this section.
 
 Metrics like CPU Usage, Memory Usage, Status 5xx, Throughput and Latency are visible over here.
 
