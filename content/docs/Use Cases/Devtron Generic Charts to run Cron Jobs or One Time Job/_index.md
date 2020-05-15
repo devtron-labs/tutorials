@@ -9,10 +9,10 @@ weight: 39
 You can discover over 50 Charts from the Devtron Chart store to perform different tasks such as to deploy a YAML file.
 
 
-You can use *Devtron-generic-Helm Chart* to run the cron jobs or one time job. 
+You can use **Devtron-generic-Helm Chart** to run the cron jobs or one time job. 
 
 
-Select the *Devtron-generic Helm Chart* from the Devtron Chart Store.
+Select the **Devtron-generic Helm Chart** from the Devtron Chart Store.
 
 <br />
 
@@ -23,7 +23,7 @@ Select the *Devtron-generic Helm Chart* from the Devtron Chart Store.
 Select the Chart Version and the Chart Value of the Chart.
 
 
-And, then Click on `Deploy` 
+And, then Click on **Deploy** 
 
 <br />
 
@@ -39,7 +39,7 @@ And, then Click on `Deploy`
 
 <br />
 
-Click on `Deploy Chart`
+Click on **Deploy Chart**
 
 Key | Description
 ----|----
@@ -49,8 +49,7 @@ Key | Description
 `Chart Version` | Select the Version of the chart 
 `Chart Values`  | Select the Chart Value or Create a Custom Value 
 
-In, `values.yaml`, you can specify the YAML file that schedules the cron job for your application.
+In `values.yaml`, you can specify the YAML file that schedules the cron job for your application.
 
 <br />
 
-The deployment of the chart is initiated, you can check for Events, Logs and Pod Status of your application.
