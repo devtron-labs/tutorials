@@ -8,10 +8,10 @@ weight: 38
 <br />
 
 <p align="right">
-  <img src="../dev_chart.jpg" />
+  <img src="./dev_chart.jpg" />
 </p>
 
-![Generic Charts](../dev_chart.jpg "Deploying Chart")
+![Generic Charts](./dev_chart.jpg "Deploying Chart")
 
 
 <br />
