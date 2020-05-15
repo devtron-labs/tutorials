@@ -31,7 +31,7 @@ And, then Click on **Deploy**
 
 <br />
 
-*Configure Devtron-generic-helm chart* 
+**Configure Devtron-generic-helm chart** 
 
 <br />
 
