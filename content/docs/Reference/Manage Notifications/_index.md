@@ -9,7 +9,7 @@ This feature helps you manage the notifications for your build and deployment pi
 
 Click on Global Configurations-> Notification
 
-< br />
+<br />
 
 ## Manage Configuration
 
@@ -21,7 +21,7 @@ Click on **Configurations** to manage `SES Configurations` or `Slack Configurati
 
 <br />
 
-## Manage SES Configurations
+### Manage SES Configurations
 
 You can manage the SES configuration to recieve e-mails by entering the valid credentials. Make sure your e-mail is verified by SES. 
 
@@ -73,12 +73,12 @@ Key | Description
 ----|----
 `Slack Channel` | Name of the Slack channel on which you wish to recieve notifications.
 `Webhook URL` | Enter the valid [Webhook URL link](https://slack.com/intl/en-gb/help/articles/115005265063-Incoming-webhooks-for-Slack) 
-`Project` | Enter the project name to control user access
+`Project` | Select the project name to control user access
 
 
 <br />
 
-# Manage Notifications
+## Manage Notifications
 
 Click on **Add New** to recieve new notification.
 
