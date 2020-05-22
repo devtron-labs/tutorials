@@ -5,10 +5,14 @@ weight: 1
 ---
 
 ## Triggering CI Pipelines
+
 ![CI Pipelines](../../tri_ci.jpg "Triggering CI Pipelines")
 
-The CI Pipeline can be triggered by selecting "Select Material"
+The CI Pipeline can be triggered by selecting **Select Material**
 
+CI Pipelines that are set as Automatic are always triggered as soon as a new commit is made to the git branch they're sensing. However, CI Pipelines can always be manually triggered as and if required.
+
+<br />
 
 ![CI Pipelines](../../tri_ci2.jpg "Triggering CI Pipelines")
 
@@ -17,14 +21,16 @@ Select the commit that you want to trigger and then select "Start Build" to trig
 
 <br />
 
-`Refresh` icon, refreshes Git Commits in CI and Fetches the latest "Repository"
+**Refresh** icon, refreshes Git Commits in the CI Pipeline and fetches the latest commits from the “Repository”  
 
-`Ignore Cache` : This option will ignore the previous build cache and create a new build cache. If selected, will take a longer build time than usual.
+**Ignore Cache** : This option will ignore the previous build cache and create a fresh build. If selected, will take a longer build time than usual.
 
 
 ![CI Pipelines](../../tri_ci3.jpg "Triggering CI Pipelines")
 
-It can be seen that the pipeline is triggered, here and is the **Running** state.
+<br />
+
+It can be seen that the pipeline is triggered here and is the *Running* state.
 
 Click on your **CI Pipeline** or Click on **Build History** to get the details about the CI Pipeline such as logs, reports etc.
 
@@ -40,13 +46,12 @@ You can read the **logs** of the CI Pipeline from here.
 
 ![CI Pipelines](../../tri_ci6.jpg "Triggering CI Pipelines")
 
-Click on **Source code** to know the details such as commit id, Author etc. of the Git Material that you have selected for build.
+Click on **Source code** to view the details such as commit id, Author and commit message of the Git Material that you have selected for the build.
 
 <br />
 
 ![CI Pipelines](../../tri_ci4.jpg "Triggering CI Pipelines")
 
-Click on **Artifacts** to download the reports of the build and to see the details of Docker Repository.
-
+Click on **Artifacts** to download the *reports* of the Pre-CI and Post-CI stages if any.
 
 <br />
