@@ -6,7 +6,7 @@ bookToc: false
 
 ## Triggering CD Pipelines
 
-![CI Pipelines](../../CI3.JPG "Triggering CI Pipelines")
+![CI Pipelines](../../tri_cd.jpg) "Triggering CI Pipelines")
 
 After CI Pipeline is complete, CD Pipeline can be triggered by selecting "Select Image".
 
