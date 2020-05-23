@@ -49,7 +49,7 @@ Key | Description
 
 <br />
 
-### Manage Slack Configuration
+### Manage Slack Configurations
 
 You can manage the Slack configurations to recieve notifications on your preferred Slack channel.
 
@@ -88,7 +88,7 @@ Click on **Add New** to recieve new notification.
 
 <br />
 
-### Manage Slack Notification
+### Manage Slack Notifications
 
 ![Notification](../notifi6.jpg  "Notification")
 
@@ -97,7 +97,7 @@ Click on **Add New** to recieve new notification.
 **Send To**
 
 First, enter the name of your Slack Channel if you have already configured Slack Channel. 
-If you have not yet configured the Slack Channel, Click on `Configure Slack Channel` 
+If you have not yet configured the Slack Channel, Click on [Configure Slack Channel](https://docs.devtron.ai/docs/reference/manage-notifications/#manage-slack-configurations)
 
 <br />
 
@@ -105,9 +105,9 @@ If you have not yet configured the Slack Channel, Click on `Configure Slack Chan
 
 * Then, to fetch pipelines of an application, project and environment.
 
-   * Choose a filter type(environment, project or application)
+   * Choose a filter type(`environment`, `project` or `application`)
 
-   * Then you will see a list of pipelines, you can select any number of pipelines. For each pipeline there are 3 types of events Trigger, Success and Failure. Click on the check boxes for the events, you wish to recieve notifications. 
+   * Then you will see a list of pipelines, you can select any number of pipelines. For each pipeline there are 3 types of events `Trigger`, `Success` and `Failure`. Click on the check boxes for the events, you wish to recieve notifications. 
 
 <br />
 
@@ -123,11 +123,15 @@ Click on `Save` after you have configured Slack notifications.
 
 ### Manage SES Notifications
 
+![Notification](../notifi6.jpg  "Notification")
+
+<br />
+
 **Send To**
 
-* First, enter the e-mail address/addresses of users to whom you  want to send e-mail notifications. Make sure e-mail id's are SES Verified.
+* First, enter the e-mail address/addresses on which you want to send e-mail notifications. Make sure e-mail id's are SES Verified.
 
-If you have not yet configured SES, Click on `Configure SES`
+If you have not yet configured SES, Click on [Configure SES](https://docs.devtron.ai/docs/reference/manage-notifications/#manage-ses-configurations)
 
 <br />
 
