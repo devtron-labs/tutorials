@@ -49,7 +49,7 @@ Key | Description
 
 <br />
 
-## Manage Slack Configuration
+### Manage Slack Configuration
 
 You can manage the Slack configurations to recieve notifications on your preferred Slack channel.
 
@@ -88,45 +88,56 @@ Click on **Add New** to recieve new notification.
 
 <br />
 
-**Send To**
+### Manage Slack Notification
 
-There are two options of recieving notifications
-
-![Notification](../notifi.jpg  "Notification")
+![Notification](../notifi6.jpg  "Notification")
 
 <br />
 
-
+**Send To**
 
 First, enter the name of your Slack Channel if you have already configured Slack Channel. 
 If you have not yet configured the Slack Channel, Click on `Configure Slack Channel` 
 
 <br />
 
+**Select Pipelines**
+
+* Then, to fetch pipelines of an application, project and environment.
+
+   * Choose a filter type(environment, project or application)
+
+   * Then you will see a list of pipelines, you can select any number of pipelines. For each pipeline there are 3 types of events Trigger, Success and Failure. Click on the check boxes for the events, you wish to recieve notifications. 
+
+<br />
 
 ![Notification](../not10.jpg  "Notification")
 
 <br />
 
-**Select Pipelines**
 
-This is to fetch pipelines of an app, project and environment. It is a 2 step process 
-
-Choose a filter type(environment, project or application)
-
-Then you will see a list of pipelines, 
-You can select any number of pipelines.For each pipeline there are 3 types of events Trigger, Success and Failure
-
-Click on the check boxes for the events, you wish to recieve notifications. 
-
-Click on `Save` after you have configured Slack notification. 
+Click on `Save` after you have configured Slack notifications. 
 
 
 <br />
 
-Another option, is to enter the e-mail address/addresses of users to whom you  want to send e-mail notifications. Make sure e-mail id's are SES Verified.
+### Manage SES Notifications
+
+**Send To**
+
+* First, enter the e-mail address/addresses of users to whom you  want to send e-mail notifications. Make sure e-mail id's are SES Verified.
 
 If you have not yet configured SES, Click on `Configure SES`
+
+<br />
+
+**Select Pipelines**
+
+* Then, to fetch pipelines of an application, project and environment.
+
+   * Choose a filter type(environment, project or application)
+
+   * Then you will see a list of pipelines, you can select any number of pipelines. For each pipeline there are 3 types of events Trigger, Success and Failure. Click on the check boxes for the events, you wish to recieve notifications. 
 
 <br />
 
