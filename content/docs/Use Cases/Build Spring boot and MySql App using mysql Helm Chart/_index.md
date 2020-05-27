@@ -28,7 +28,7 @@ Click on `stable/mysql` helm chart
 
 <br />
 
-Clik on `Deploy` to configure the chart
+Click on `Deploy` to configure the chart
 
 <br />
 
@@ -298,16 +298,16 @@ Click on `Deploy Chart` to initiate the deployment of chart.
 
 <br />
 
-Now, copy the `Endpoint` of the deployed chart.
+Now, copy the `Endpoint` of the deployed chart, to use it in `application.properties`.
 
 <br />
 
-[endpt](../endpoint.jpg)
+[endpt](../endpoint.jpg "endpoint")
 
 
 ### Configure application.properties 
 
-Spring Boot application.properties to configure the Spring boot application.
+Spring Boot `application.properties` to configure the Spring boot application.
 
 <br />
 
@@ -328,8 +328,11 @@ Make sure to set the values of `application.properties` same as values given in 
 `spring.database.url` --> jdbc:mysql://endpoint of mysql helm chart/name of mysqlDatabase
 
 
-# Configure the Application
+## Configure the Application
 
-Create an application that will run your spring boot and mysql application.
+Create an application that will run connect mysql to your spring boot application.
 
 [Create an app on Devtron](https://docs.devtron.ai/docs/reference/creating-application/)
+
+<br />
+
