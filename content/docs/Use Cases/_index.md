@@ -25,5 +25,7 @@ weight: 38
 
 <img align="right" width="100" height="100" src="./chart.jpg">
 
+![Generic Charts](./chart.jpg "Deploying Chart")
+
 </p>
 
