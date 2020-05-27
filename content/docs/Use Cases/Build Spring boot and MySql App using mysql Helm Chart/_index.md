@@ -28,11 +28,30 @@ Click on `stable/mysql` helm chart
 
 <br />
 
-Clik on `Deploy` to initiate the deployment.
+Clik on `Deploy` to configure the chart
 
 <br />
 
-```python
+![Discover chart store](../deploy_chart.jpg)
+
+<br />
+
+Set the configurations to deploy chart
+
+![Discover chart store](../chart1.jpg)
+
+
+<br />
+
+Configure `values.yml` and set the following parameters:
+
+* mysqlRootPassword
+* mysqlUser
+* mysqlDatabase
+* mysqlPassword
+
+
+```bash
 ## mysql image version
 ## ref: https://hub.docker.com/r/library/mysql/tags/
 ##
@@ -267,3 +286,50 @@ initContainer:
       cpu: 10m
 
 ```
+
+<br />
+
+Click on `Deploy Chart` to initiate the deployment of chart.
+
+
+
+**Note**: Set `initialDelaySeconds: 120` of `liveliness prob` property in **values.yaml** file, if you encounter *Bad Handshake* or *Authentication Failed Error* in the logs of pod during deployment of the chart.
+
+
+<br />
+
+Now, copy the `Endpoint` of the deployed chart.
+
+<br />
+
+[endpt](../endpoint.jpg)
+
+
+### Configure application.properties 
+
+Spring Boot application.properties to configure the Spring boot application.
+
+<br />
+
+```java
+spring.datasource.url=jdbc:mysql://java-app-con-dev-mysql/test
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.datasource.username=root
+spring.datasource.password=password
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+spring.jpa.open-in-view=true
+
+```
+
+Make sure to set the values of `application.properties` same as values given in `values.yaml`
+
+`spring.database.url` --> jdbc:mysql://endpoint of mysql helm chart/name of mysqlDatabase
+
+
+# Configure the Application
+
+Create an application that will run your spring boot and mysql application.
+
+[Create an app on Devtron](https://docs.devtron.ai/docs/reference/creating-application/)
