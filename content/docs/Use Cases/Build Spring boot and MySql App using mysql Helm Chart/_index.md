@@ -16,7 +16,7 @@ Find  `stable/mysql` helm chart in Chart Store
 
 <br />
 
-![Discover chart store](./chart_store.jpg)
+![Discover chart store](../chart_store.jpg)
 
 <br />
 
@@ -24,7 +24,7 @@ Click on `stable/mysql` helm chart
 
 <br />
 
-![Discover chart store](./deploy_chart.jpg)
+![Discover chart store](../deploy_chart.jpg)
 
 <br />
 
