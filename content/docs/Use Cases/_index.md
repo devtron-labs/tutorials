@@ -21,4 +21,6 @@ weight: 38
 
 <br />
 
-<img align="right" width="100" height="100" src="use-cases/dev_chart.jpg">
+<img align="right" width="100" height="100" src="./dev_chart.jpg">
+
+![picture](./dev_chart.jpg)
