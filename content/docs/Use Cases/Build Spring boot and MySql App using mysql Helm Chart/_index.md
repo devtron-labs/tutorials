@@ -307,7 +307,7 @@ Now, copy the `Endpoint` of the deployed chart, to use it in `application.proper
 
 ### Configure application.properties 
 
-Spring Boot `application.properties` to configure the Spring boot application.
+Make following changes to Spring Boot `application.properties` to configure the Spring boot application.
 
 <br />
 
@@ -328,6 +328,7 @@ Make sure to set the values of `application.properties` same as values given in 
 `spring.database.url` --> jdbc:mysql://endpoint of mysql helm chart/name of mysqlDatabase
 
 
+
 ## Configure the Application
 
 Create an application that will run connect mysql to your spring boot application.
@@ -335,4 +336,76 @@ Create an application that will run connect mysql to your spring boot applicatio
 [Create an app on Devtron](https://docs.devtron.ai/docs/reference/creating-application/)
 
 <br />
+
+
+For explaining, we are considering the following git repository [**Repo**](https://github.com/anushkaarora/my-sql)
+
+### Configure  Deployment Template
+
+Ensure that you enable `Ingress` while configuring Deployment Template.
+
+<br />
+
+![Discover chart store](../chart1.jpg)
+
+
+<br />
+
+
+After, you have correctly configured the application. 
+Go to Trigger and run the application.
+
+[Learn about Triggering of an application](https://docs.devtron.ai/docs/reference/deploying-applications/)
+
+<br />
+
+### Test Rest API
+
+To test Rest API, you can use *curl* command line tool
+
+
+**Create a new Transaction**
+
+Create a new POST request to create a new Transaction. Once the transaction is successfully created, you will get the *transaction id* as a response.
+
+Curl Request is as follows:
+
+```bash
+sudo curl -d '{"fromAccount": "356753632", "toAccount": "235865455", "amount": 783.00}' -H "Content-Type: application/json" -X POST http://cd.devtron.ai:32080/my-java-app/create
+```
+
+<br />
+
+**View All Transactions**
+
+To view all Transactions, GET Request is as follows:
+
+<br />
+
+http://cd.devtron.ai:32080/my-java-app/viewAll
+
+![Discover chart store](../post.jpg)
+
+
+<br />
+
+
+**View Transactions By Transaction ID**
+
+
+To view Transactions by transaction id, GET Request is as follows:
+
+<br />
+
+http://cd.devtron.ai:32080/my-java-app/view/2
+
+![Discover chart store](../view2.jpg)
+
+<br />
+
+
+
+
+
+
 
