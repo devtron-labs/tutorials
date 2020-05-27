@@ -17,10 +17,13 @@ weight: 38
 <br />
 
 
+<p align = "right">
+
 [Develop a Spring Boot and MySQL Application using MySql Helm Chart]()
 
 <br />
 
-<img align="right" width="100" height="100" src="./dev_chart.jpg">
+<img align="right" width="100" height="100" src="./chart.jpg">
 
-![picture](./dev_chart.jpg)
+</p>
+
