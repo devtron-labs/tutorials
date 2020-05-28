@@ -331,7 +331,7 @@ Make sure to set the values of `application.properties` same as values given in 
 
 ## Configure the Application
 
-Create an application that will run connect mysql database to your spring boot application.
+Create an application using Devtron, that will connect mysql database to your spring boot application.
 
 [Create an app on Devtron](https://docs.devtron.ai/docs/reference/creating-application/)
 
@@ -340,9 +340,8 @@ Create an application that will run connect mysql database to your spring boot a
 
 For explaining, we are considering the following git repository [**Repository**](https://github.com/anushkaarora/springboot)
 
-This repository contains code of spring boot application which establishes connect with mysql database, which you have deployed using stable/mysql Helm chart.
+This repository contains files required for spring boot application to establish connection with mysql database, that you have deployed using stable/mysql Helm chart.
 
-It has Student's records which persists all transactions performed in the application in database. It exposes 3 REST endpoints for its users to create, to *view specific* student record and *view all* student records.
 
 
 <br />
@@ -362,18 +361,20 @@ Ensure that you enable `Ingress` while configuring Deployment Template.
 After, you have correctly configured the application. 
 Go to Trigger and run the application.
 
-[Learn about Triggering of an application](https://docs.devtron.ai/docs/reference/deploying-applications/)
+[Learn about Triggering of Pipelines](https://docs.devtron.ai/docs/reference/deploying-applications/)
 
 <br />
 
 ### Test Rest API
+
+It exposes 3 REST endpoints for it's users to create, to *view specific* student record and *view all* student records.
 
 To test Rest API, you can use *curl* command line tool
 
 
 **Create a new Student Record**
 
-Create a new POST request to create a new Transaction. Once the transaction is successfully created, you will get the *transaction id* as a response.
+Create a new POST request to create a new Transaction. Once the transaction is successfully created, you will get the *student id* as a response.
 
 Curl Request is as follows:
 
@@ -409,6 +410,14 @@ http://cd.devtron.ai:32080/my-java-app/view/5
 ![Discover chart store](../view6.jpg)
 
 <br />
+
+
+
+
+
+
+
+
 
 
 
