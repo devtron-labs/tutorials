@@ -302,7 +302,7 @@ Now, copy the `Endpoint` of the deployed chart, to use it in `application.proper
 
 <br />
 
-[endpt](../endpoint.jpg "endpoint")
+![endpt](../endpoint.jpg "endpoint")
 
 
 ### Configure application.properties 
@@ -331,14 +331,21 @@ Make sure to set the values of `application.properties` same as values given in 
 
 ## Configure the Application
 
-Create an application that will run connect mysql to your spring boot application.
+Create an application that will run connect mysql database to your spring boot application.
 
 [Create an app on Devtron](https://docs.devtron.ai/docs/reference/creating-application/)
 
 <br />
 
 
-For explaining, we are considering the following git repository [**Repo**](https://github.com/anushkaarora/my-sql)
+For explaining, we are considering the following git repository [**Repository**](https://github.com/anushkaarora/springboot)
+
+This repository contains code of spring boot application which establishes connect with mysql database, which you have deployed using stable/mysql Helm chart.
+
+It has Student's records which persists all transactions performed in the application in database. It exposes 3 REST endpoints for its users to create, to *view specific* student record and *view all* student records.
+
+
+<br />
 
 ### Configure  Deployment Template
 
@@ -364,42 +371,42 @@ Go to Trigger and run the application.
 To test Rest API, you can use *curl* command line tool
 
 
-**Create a new Transaction**
+**Create a new Student Record**
 
 Create a new POST request to create a new Transaction. Once the transaction is successfully created, you will get the *transaction id* as a response.
 
 Curl Request is as follows:
 
 ```bash
-sudo curl -d '{"fromAccount": "356753632", "toAccount": "235865455", "amount": 783.00}' -H "Content-Type: application/json" -X POST http://cd.devtron.ai:32080/my-java-app/create
+sudo curl -d '{"name": "Anushka", "marks": 98}' -H "Content-Type: application/json" -X POST http://cd.devtron.ai:32080/my-java-app/create
 ```
 
 <br />
 
-**View All Transactions**
+**View All Student's Data**
 
-To view all Transactions, GET Request is as follows:
+To view all student records, GET Request is:
 
 <br />
 
 http://cd.devtron.ai:32080/my-java-app/viewAll
 
-![Discover chart store](../post.jpg)
+![Discover chart store](../view5.jpg)
 
 
 <br />
 
 
-**View Transactions By Transaction ID**
+**View student's data By student ID**
 
 
-To view Transactions by transaction id, GET Request is as follows:
+To view student data by student id, GET Request is:
 
 <br />
 
-http://cd.devtron.ai:32080/my-java-app/view/2
+http://cd.devtron.ai:32080/my-java-app/view/5
 
-![Discover chart store](../view2.jpg)
+![Discover chart store](../view6.jpg)
 
 <br />
 
