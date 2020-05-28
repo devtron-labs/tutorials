@@ -15,17 +15,3 @@ weight: 38
 
 
 <br />
-
-
-<p align = "right">
-
-[Develop a Spring Boot and MySQL Application using MySql Helm Chart](https://docs.devtron.ai/docs/use-cases/build-spring-boot-and-mysql-app-using-mysql-helm-chart/)
-
-<br />
-
-<img align="right" width="100" height="100" src="./chart.jpg">
-
-![Generic Charts](./chart.jpg "Deploying Chart")
-
-</p>
-
