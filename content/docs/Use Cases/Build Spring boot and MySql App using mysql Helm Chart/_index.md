@@ -331,12 +331,21 @@ Make sure to set the values of `application.properties` same as values given in 
 
 ## Configure the Application
 
-Create an application that will run connect mysql to your spring boot application.
+Create an application that will run connect mysql database to your spring boot application.
 
 [Create an app on Devtron](https://docs.devtron.ai/docs/reference/creating-application/)
 
 <br />
 
+
+For explaining, we are considering the following git repository [**Repository**](https://github.com/anushkaarora/springboot)
+
+This repository contains code of spring boot application which establishes connect with mysql database, which you have deployed using stable/mysql Helm chart.
+
+It has Student's records which persists all transactions performed in the application in database. It exposes 3 REST endpoints for its users to create, to *view specific* student record and *view all* student records.
+
+
+<br />
 
 ### Configure  Deployment Template
 
@@ -359,4 +368,51 @@ Go to Trigger and run the application.
 
 ### Test Rest API
 
-To test Rest API, you can use *curl* command line tool for POST Request.
+To test Rest API, you can use *curl* command line tool
+
+
+**Create a new Student Record**
+
+Create a new POST request to create a new Transaction. Once the transaction is successfully created, you will get the *transaction id* as a response.
+
+Curl Request is as follows:
+
+```bash
+sudo curl -d '{"name": "Anushka", "marks": 98}' -H "Content-Type: application/json" -X POST http://cd.devtron.ai:32080/my-java-app/create
+```
+
+<br />
+
+**View All Student's Data**
+
+To view all student records, GET Request is:
+
+<br />
+
+http://cd.devtron.ai:32080/my-java-app/viewAll
+
+![Discover chart store](../view5.jpg)
+
+
+<br />
+
+
+**View student's data By student ID**
+
+
+To view student data by student id, GET Request is:
+
+<br />
+
+http://cd.devtron.ai:32080/my-java-app/view/5
+
+![Discover chart store](../view6.jpg)
+
+<br />
+
+
+
+
+
+
+
