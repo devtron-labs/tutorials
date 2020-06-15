@@ -77,7 +77,7 @@ Click on `Deploy` to deploy the Chart
 
 <br />
 
-## Step 3: Deployment is initiated 
+## Step 3: Check the Status of Deployment
 
 After clicking on `Deploy` you will landed to a page, that shows the Status of the deployment of the Chart. 
 
@@ -97,7 +97,7 @@ Click on the `Status` or check the logs  of the pods to debug the issue.
 
 
 
-## Step 4: 
+## Step 4: Extract the Service Name
 
 Copy the service name, it will be used to connect your application to mySQL.
 

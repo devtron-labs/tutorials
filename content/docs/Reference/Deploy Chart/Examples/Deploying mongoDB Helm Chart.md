@@ -7,7 +7,9 @@ weight: 2
 
 ## Introduction 
 
-Let's assume that you are building an application which needs mongoDB .
+Let's assume that you are building an application which needs mongoDB.
+
+![Helm Chart](../../../mongo.jpg "Deploying Chart")
 
 Deploying applications as Helm Charts is the easiest way to create applications on Devtron. 
 
@@ -69,7 +71,7 @@ Click on `Deploy` after you have finished configuring the chart.
 <br />
 
 
-## Step 3: Deployment is initiated 
+## Step 3: Check the Status of Deployment
 
 After clicking on `Deploy` you will landed to a page, that shows the Status of the deployment of the Chart. 
 
@@ -88,7 +90,7 @@ In case the Status of the deployment is `Degraded` or takes a long time to get d
 Click on the `Status` or check the logs  of the pods to debug the issue.
 
 
-## Step 4: 
+## Step 4: Extract the Service name
 
 Copy the service name, it will be used to connect your application to mongoDB .
 
