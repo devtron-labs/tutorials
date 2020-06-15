@@ -1,7 +1,6 @@
 ---
 title: Triggering Cd
 weight: 2
-bookToc: false
 ---
 
 ## Triggering CD Pipelines

@@ -1,3 +1,8 @@
+---
+title: Deploying MongoDB Helm chart
+weight: 2
+---
+
 # Deploying mongoDB Helm chart
 
 ## Introduction 

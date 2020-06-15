@@ -1,3 +1,8 @@
+---
+title: Deploying mySQL Helm chart
+weight: 1
+---
+
 
 # Deploying mySQL Helm chart
 
