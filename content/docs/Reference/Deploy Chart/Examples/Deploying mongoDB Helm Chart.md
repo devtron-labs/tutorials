@@ -1,9 +1,3 @@
----
-title: Deploying mongoDB Helm Chart
-weight: 2
-bookToc: false
----
-
 # Deploying mongoDB Helm chart
 
 ## Introduction 
@@ -21,7 +15,7 @@ Select the `Charts` section from the left pane, you will be landed to the `Chart
 
 <br />
 
-![Create Group](../../first.jpg  "Create Groups")
+![Create Group](../../../first.jpg  "Create Groups")
 
 <br />
 
@@ -31,7 +25,7 @@ After selecting the stable/mongodb helm chart, click on `Deploy`
 
 <br />
 
-![Create Group](../../second.jpg  "Create Groups")
+![Create Group](../../../second.jpg  "Create Groups")
 
 <br />
 
