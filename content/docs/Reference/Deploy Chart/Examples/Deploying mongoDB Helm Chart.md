@@ -4,6 +4,7 @@ weight: 2
 bookToc: false
 ---
 
+# Deploying mongoDB Helm chart
 
 ## Introduction 
 
@@ -60,7 +61,7 @@ To learn about different parameters used in the chart, you can check [Documentat
 <br />
 
 
-![Create Group](../../15.jpg  "Create Groups")
+![Create Group](../../../15.jpg  "Create Groups")
 
 <br />
 
@@ -78,7 +79,7 @@ The Status of the chart should be `Healthy`. It might take few seconds after  in
 <br />
 
 
-![Create Group](../../16.jpg  "Create Groups")
+![Create Group](../../../16.jpg  "Create Groups")
 
 <br />
 
@@ -95,7 +96,7 @@ Copy the service name, it will be used to connect your application to mongoDB .
 <br />
 
 
-![Create Group](../../18.jpg  "Create Groups")
+![Create Group](../../../18.jpg  "Create Groups")
 
 <br />
 

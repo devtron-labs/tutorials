@@ -4,6 +4,8 @@ weight: 1
 bookToc: false
 ---
 
+# Deploying mySQL Helm chart
+
 
 ## Introduction 
 
@@ -11,7 +13,7 @@ stable/mysql Helm chart bootstraps a single node MySQL deployment on a Kubernete
 
 <br />
 
-![Helm Chart](../mysql.jpg "Deploying Chart")
+![Helm Chart](../../../mysql.jpg "Deploying Chart")
 
 <br />
 
@@ -22,7 +24,7 @@ Select the `Charts` section from the left pane, you will be landed to the `Chart
 
 <br />
 
-![Helm Chart](../../chart21.jpg "Deploying Chart")
+![Helm Chart](../../../chart21.jpg "Deploying Chart")
 
 <br />
 
@@ -54,7 +56,7 @@ Set the following parameters in the chart, to be later used to connect mysql wit
 <br />
 
 
-![Helm Chart](../../chart3.jpg "Deploying Chart")
+![Helm Chart](../../../chart3.jpg "Deploying Chart")
 
 <br />
 
@@ -67,7 +69,7 @@ Parameters     | Description
 
 <br />
 
-![Helm Chart](../chart4o.jpg "Deploying Chart")
+![Helm Chart](../../../chart4o.jpg "Deploying Chart")
 
 <br />
 
@@ -84,7 +86,7 @@ The Status of the chart should be `Healthy`. It might take few seconds after  in
 <br />
 
 
-![Create Group](../../21.jpg  "Create Groups")
+![Create Group](../../../21.jpg  "Create Groups")
 
 <br />
 
@@ -101,7 +103,7 @@ Copy the service name, it will be used to connect your application to mySQL.
 
 <br />
 
-![Create Group](../../22.jpg  "Create Groups")
+![Create Group](../../../22.jpg  "Create Groups")
 
 <br />
 
