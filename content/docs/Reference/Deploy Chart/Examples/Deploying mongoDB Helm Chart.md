@@ -73,7 +73,7 @@ Click on `Deploy` after you have finished configuring the chart.
 
 ## Step 3: Check the Status of Deployment
 
-After clicking on `Deploy` you will landed to a page, that shows the Status of the deployment of the Chart. 
+After clicking on `Deploy` you will land on a page, that shows the Status of the deployment of the Chart. 
 
 The Status of the chart should be `Healthy`. It might take few seconds after  initiating the deployment of the chart.
 
