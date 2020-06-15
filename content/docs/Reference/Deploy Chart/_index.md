@@ -1,5 +1,5 @@
 ---
-bookCollapseSection: false
+bookCollapseSection: true
 weight: 30
 ---
 
@@ -7,9 +7,12 @@ Welcome! This is the documentation for Deploying Charts
 
 **Parts of Documentation** 
 
-[Overview](https://docs.devtron.ai/docs/reference/deploying-applications/triggering-ci/)
-<br>
+[Overview](https://docs.devtron.ai/docs/reference/deploy-chart/overview/)
+<br />
 
-[Examples](https://docs.devtron.ai/docs/reference/deploying-applications/triggering-cd/) 
+[Examples](https://docs.devtron.ai/docs/reference/deploy-chart/examples/) 
+
+<br />
+
 
 
