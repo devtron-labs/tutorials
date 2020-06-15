@@ -57,7 +57,7 @@ Key        | Description
 
 In this example `replicas` is set to **1** and `persistenceVolume` is set to **false**. You can configure it according to your project's requirements. 
 
-To learn about different parameters used in the chart, you can check [Documentation of mongodb's Helm chart](https://hub.helm.sh/charts/bitnami/mongodb)
+To learn about different parameters used in the chart, you can check [Documentation of mongodb Helm chart](https://hub.helm.sh/charts/bitnami/mongodb)
 
 <br />
 
