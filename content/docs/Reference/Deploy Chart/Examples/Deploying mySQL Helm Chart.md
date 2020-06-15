@@ -1,8 +1,3 @@
----
-title: Deploying mySQL Helm Chart
-weight: 1
-bookToc: false
----
 
 # Deploying mySQL Helm chart
 
