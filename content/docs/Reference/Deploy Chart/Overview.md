@@ -16,7 +16,7 @@ Both methods are mentioned in the given document.
 
 <br />
 
-![Deployment Charts](./depchart1.JPG "Deployment Charts")
+![Deployment Charts](../../depchart1.JPG "Deployment Charts")
 
 <br />
 
@@ -28,7 +28,7 @@ Click on README.MD to get more idea about the configurations of the chart
 
 <br />
 
-![Deployment Charts](./custom.jpg "Deployment Charts")
+![Deployment Charts](../../custom.jpg "Deployment Charts")
 
 <br>
 Select the Chart Version that you want to use and Chart Value, you can either use the default Values or custom values.
@@ -50,7 +50,7 @@ Key | Description
 `Chart Version` | Version of the chart to be used
 
 
-![Deployment Charts](./depchart4config.JPG "Deployment Charts")
+![Deployment Charts](../../depchart4config.JPG "Deployment Charts")
 
 <br />
 
@@ -59,7 +59,7 @@ ReadMe.md present on the left can be used by the user to set configuration value
 
 <br />
 
-![Deployment Charts](./depchart4readme.JPG "Deployment Charts")
+![Deployment Charts](../../depchart4readme.JPG "Deployment Charts")
 
 <br />
 
@@ -67,7 +67,7 @@ Click on `Deploy Chart` to deploy the chart
 
 <br />
 
-![Deployment Charts](./depchartdeployedredo.JPG "Deployment Charts")
+![Deployment Charts](../../depchartdeployedredo.JPG "Deployment Charts")
 
 <br />
 
@@ -78,7 +78,7 @@ You can see the status of the chart deployed
 User can click on Values.Yaml to reconfigure the deployment
 
 
-![Deployment Charts](./depchartreconfig.JPG "Deployment Charts")
+![Deployment Charts](../../depchartreconfig.JPG "Deployment Charts")
 
 Configuration values can be edited over here by the help of ReadMe.md
 
@@ -90,7 +90,7 @@ You can use the default values or create Custom value by clicking on ` Create Cu
 
 <br />
 
-![Deployment Charts](./custom.jpg "Deployment Charts")
+![Deployment Charts](../../custom.jpg "Deployment Charts")
 
 <br />
 
@@ -98,7 +98,7 @@ You can name your Custom Value, select the Chart Version and change the configur
 
 <br />
 
-![Deployment Charts](./custom_val.jpg "Deployment Charts")
+![Deployment Charts](../../custom_val.jpg "Deployment Charts")
 
 <br />
 
@@ -113,13 +113,13 @@ To deploy multiple applications and work with them simulataneously, you can use 
 To create Chart Groups 
 Click on  `Discover` and Click on `Create Group`
 
-![Chart Group](./screen2.jpg  "Chart Groups")
+![Chart Group](../../screen2.jpg  "Chart Groups")
 
 Add the Group Name and Description and click on `Create Group`
 
 <br />
 
-![Create Group](./create_group.jpg  "Create Groups")
+![Create Group](../../create_group.jpg  "Create Groups")
 
 <br />
 
@@ -130,7 +130,7 @@ You can select a particular chart multiple number of times according to your req
 <br />
 
 
-![Select Chart ](./select_charts.jpg  "Select Charts")
+![Select Chart ](../../select_charts.jpg  "Select Charts")
 
 Select the `Version` and `Values` for your charts.
 
