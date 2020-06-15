@@ -7,10 +7,10 @@ This Documentation guides you to Deploy different Helm Charts available on Devtr
 
 **Parts of Documentation** 
 
-[Deploying mySQL Helm Chart](https://docs.devtron.ai/docs/reference/deploying-applications/triggering-ci/)
+[Deploying mySQL Helm Chart](https://docs.devtron.ai/docs/reference/deploy-chart/examples/deploying-mysql-helm-chart/)
 <br />
 
-[Deploying mongoDB Helm Chart](https://docs.devtron.ai/docs/reference/deploying-applications/triggering-cd/) 
+[Deploying mongoDB Helm Chart](https://docs.devtron.ai/docs/reference/deploy-chart/examples/deploying-mongodb-helm-chart/) 
 
 
 <br />
