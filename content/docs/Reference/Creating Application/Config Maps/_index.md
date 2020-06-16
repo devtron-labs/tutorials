@@ -10,17 +10,19 @@ The ConfigMap API resource holds key-value pairs of configuration data that can 
 
 Click on `Add ConfigMap` to add a config map to your application.
 
-<br />
+&nbsp;&nbsp;
 
 ![Config Map](../../cf1.jpg "Create config map")
 
-<br />
+&nbsp;&nbsp;
 
 ### Configure the ConfigMap 
 
+&nbsp;&nbsp;
+
 ![Config Map](../../cf2.jpg "Create config map")
 
-<br />
+&nbsp;&nbsp;
 
 Key  | Description
 -----|-----
@@ -37,15 +39,13 @@ You can Click on "YAML" or "GUI" to view the key and Value parameters of the Con
 
 <br />
 
-
-
 ### Volume Mount Path
 
 Specify Volume Mount folder path in `Volume Mount Path`, path where the data volume needs to be mounted, which will be accessible to the Containers running in a pod.
 
 You can Select the Data Type as `Kubernetes ConfigMap` if you wish to use the ConfigMap created by Devtron or `Kubernetes External ConfigMap ` if you have created a ConfigMap using Kubectl command. 
 
-<br />
+&nbsp;&nbsp;
 
 ![Data Volume](../../cf3.jpg "Data Volume")
 
@@ -63,15 +63,11 @@ If you are using Kubernetes External ConfigMap make sure you give the name of Co
 
 You have to ensure that the External ConfigMap exists and is made available to the pod.
 
-
-
-<br />
-
+&nbsp;&nbsp;
 
 ![Config Map Added](../../cf5.jpg "Config Map is added")
 
-<br>
-
+<br />
 The config map is created.
 
 

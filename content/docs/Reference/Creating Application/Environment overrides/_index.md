@@ -8,6 +8,7 @@ weight: 26
 
 ![Environment Overrides](./env_ride.jpg  "Environment Overrides")
 
+&nbsp;&nbsp;
 
 You can customize the Deployment template in Environment Overrides section to customize things according to multiple environments such dev, test, integration, prod, etc.
 
