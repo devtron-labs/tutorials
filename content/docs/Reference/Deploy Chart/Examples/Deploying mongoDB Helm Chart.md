@@ -9,13 +9,8 @@ weight: 2
 
 Let's assume that you are building an application which needs mongoDB. 
 
-<br /> 
-<br />
-<br />
-<br />
 
-
-![Helm Chart](../../../mongo.jpg.Fill "600x400") 
+![Helm Chart](../../../mongo.jpg "600x400") 
 
 Deploying applications as Helm Charts is the easiest way to create applications on Devtron. 
 
