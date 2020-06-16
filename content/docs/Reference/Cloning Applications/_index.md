@@ -31,7 +31,7 @@ Click on `Duplicate App` to create App with a template of the Application you ha
 
 <br />
 
-![Cloning Apps](../clone-app2.jpg "Duplicate Templates")
+![Cloning Apps](../clone-app2.jpg "Duplicate Templates"){: border: "1px solid #D0D4D9" padding: "16px"}
 
 <br />
 
