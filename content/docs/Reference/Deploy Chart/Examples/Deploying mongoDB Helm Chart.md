@@ -10,7 +10,7 @@ weight: 2
 Let's assume that you are building an application which needs mongoDB. 
 
 
-![Helm Chart](../../../mongo.jpg ) 
+![An image](../../../mongo.jpg) <!-- .element height="50%" width="70%" -->
 
 &nbsp;&nbsp;
 
