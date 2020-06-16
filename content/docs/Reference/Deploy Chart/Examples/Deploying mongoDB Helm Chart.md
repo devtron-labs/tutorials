@@ -12,7 +12,7 @@ Let's assume that you are building an application which needs mongoDB.
 <br />
 
 
-![Helm Chart](../../../mongo.jpg "Deploying Chart"){:height="36px" width="36px" align="center"}
+![Helm Chart](../../../mongo.jpg){:height="36px" width="36px" align="center"}
 
 <br />
 
@@ -28,7 +28,7 @@ Select the `Charts` section from the left pane, you will be landed to the `Chart
 
 <br />
 
-![Create Group](../../../first.jpg  "Create Groups")
+![Create Group](../../../first.jpg  "Create Groups")&nbsp;&nbsp;
 
 <br />
 
@@ -68,7 +68,7 @@ To learn about different parameters used in the chart, you can check [Documentat
 <br />
 
 
-![Create Group](../../../15.jpg  "Create Groups")
+![Create Group](../../../15.jpg  "Create Groups")&nbsp;&nbsp;
 
 <br />
 
@@ -86,7 +86,7 @@ The Status of the chart should be `Healthy`. It might take few seconds after  in
 <br />
 
 
-![Create Group](../../../16.jpg  "Create Groups")
+![Create Group](../../../16.jpg  "Create Groups")&nbsp;&nbsp;
 
 <br />
 
@@ -103,7 +103,7 @@ Copy the service name, it will be used to connect your application to mongoDB .
 <br />
 
 
-![Create Group](../../../18.jpg  "Create Groups")
+![Create Group](../../../18.jpg  "Create Groups")&nbsp;&nbsp;
 
 <br />
 
