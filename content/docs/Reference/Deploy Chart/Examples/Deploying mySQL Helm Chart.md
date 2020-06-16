@@ -17,7 +17,7 @@ stable/mysql Helm chart bootstraps a single node MySQL deployment on a Kubernete
 
 &nbsp; &nbsp;
 
-![Helm Chart](../../../mysql.jpg "Deploying Chart")
+![Helm Chart](../../../mysql.1500x750.jpg )
 
 
 ## Step 1: Discover the chart from the Chart Store
