@@ -7,15 +7,8 @@ weight: 2
 
 ## Introduction 
 
-Let's assume that you are building an application which needs mongoDB.
-
-<br />
-
-
+Let's assume that you are building an application which needs mongoDB. <br /> <br />
 ![Helm Chart](../../../mongo.jpg){:height="36px" width="36px" align="center"}
-
-<br />
-
 
 Deploying applications as Helm Charts is the easiest way to create applications on Devtron. 
 
@@ -24,13 +17,10 @@ This guide will introduce you to how to deploy the mongoDB's Helm chart.
 
 ## Step 1: Discover the Chart from the Chart Store
 
-Select the `Charts` section from the left pane, you will be landed to the `Chart Store` page. Click on `Discover` and find `stable/mongodb-replicaset` Helm Chart.
-
-<br />
+Select the `Charts` section from the left pane, you will be landed to the `Chart Store` page. Click on `Discover` and find `stable/mongodb-replicaset` Helm Chart. <br /> <br />
 
 ![Create Group](../../../first.jpg  "Create Groups")&nbsp;&nbsp;
 
-<br />
 
 ## Step 2: Configure the Chart 
 
