@@ -1,5 +1,5 @@
 ---
-title: Triggering Cd
+title: Triggering CD
 weight: 2
 ---
 

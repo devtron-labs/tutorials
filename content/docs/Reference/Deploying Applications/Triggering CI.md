@@ -1,5 +1,5 @@
 ---
-title: Triggering Ci
+title: Triggering CI
 weight: 1
 
 ---
