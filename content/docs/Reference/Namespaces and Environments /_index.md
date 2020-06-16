@@ -17,8 +17,11 @@ Environments in Devtron can be accessed from:-
 
 Global Configuration->Clusters & Environments
 
+&nbsp;&nbsp;
+
 ![Environments](../environments1.JPG  "Environment")
 
+&nbsp;&nbsp;
 
 Here multiple environments can be created
 

@@ -8,11 +8,11 @@ bookToc: true
 
 It is required to execute deployment pipelines for your application.
 
-<br />
+&nbsp;&nbsp;
 
 ![Deployment Template](../../deployment_template.jpg "Deployment Template")
 
-<br />
+&nbsp;&nbsp;
 
 Key  | Description
 -----|-----
@@ -52,10 +52,7 @@ LivenessProbe:
   timeoutSeconds: 5
   failureThreshold: 3
 ```
-
-
-
-
+&nbsp;&nbsp;
 
 Key | Description
 -----|-----
@@ -65,8 +62,6 @@ Key | Description
 `periodSeconds` |It defines the time to check a given container for liveness.
 `successThreshold` |It defines the number of successes required before a given container is said to fulfil the liveness probe.
 `timeoutSeconds` |It defines the time for checking timeout.
-
-
 
 
 
@@ -143,7 +138,6 @@ ingress:
 
 
 
-
 Key |Description
 ----|----
 `enabled` | Enable or disable ingress
@@ -191,6 +185,7 @@ resources:
 ```
 
 Resources are required to set CPU and memory usage.
+
 ### Limits
 
 

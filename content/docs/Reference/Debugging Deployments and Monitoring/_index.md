@@ -17,9 +17,11 @@ Over here, you can see the status of the app as Healthy. If there are some error
 
 ### Events
 
+&nbsp;&nbsp;
+
 ![Debuggind Deployment](./app_detail1.jpg "Debuggind Deployment")
 
-<br />
+&nbsp;&nbsp;
 
 Events of the application are accessible from the bottom left corner.
 
@@ -31,13 +33,17 @@ Events section displays you the events that took place during the deployment of 
 
 ### Logs
 
+&nbsp;&nbsp;
+
 ![Debuggind Deployment](./app_detail2.jpg "Debuggind Deployment")
 
-<br />
+&nbsp;&nbsp;
 
 Logs contain the logs of the Pods and Containers deployed which you can use for the process of debugging.
 
 ### Pod Status
+
+&nbsp;&nbsp;
 
 ![Debuggind Deployment](./app_detail3.jpg "Debuggind Deployment")
 
@@ -47,10 +53,11 @@ The Pod Status shows the critical information such as Container-image, restartCo
 
 ### Deleting Pods
 
+&nbsp;&nbsp;
+
 ![Debuggind Deployment](./app_details4.jpg "Debuggind Deployment")
 
-<br />
-
+&nbsp;&nbsp;
 
 You might run into a situation where you need to delete Pods. You may need to bounce or restart a pod.
 
@@ -61,17 +68,21 @@ Suppose you want to setup a new environment, you can delete a pod and thereafter
 
 ### Other
 
+&nbsp;&nbsp;
+
 ![Debuggind Deployment](./app_details5.jpg "Debuggind Deployment")
 
-<br />
+&nbsp;&nbsp;
 
 Status of Pods, ReplicaSet, Services, Endpoints, Ingress, ConfigMap, Secret, ExternalSecret, StatefulSet and ServiceMonitor can be accessed by Clicking on the name of that component.
 
 ## Monitoring
 
+&nbsp;&nbsp;
+
 ![Debuggind Deployment](./app_detail7.jpg "Debuggind Deployment")
 
-<br />
+&nbsp;&nbsp;
 
 You can monitor the application in this section.
 
