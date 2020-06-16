@@ -16,13 +16,16 @@ stable/mysql Helm chart bootstraps a single node MySQL deployment on a Kubernete
 ![Helm Chart](../../../mysql.jpg )
 
 &nbsp;&nbsp;
+
 ## Step 1: Discover the chart from the Chart Store
 
 Select the `Charts` section from the left pane, you will be landed to the `Chart Store` page. Click on `Discover` and find `stable/mongodb-replicaset` Helm Chart.
 
 &nbsp;&nbsp;
 ![Helm Chart](../../../chart21.jpg "Deploying Chart")
+
 &nbsp;&nbsp;
+
 ## Step 2: Configure the Chart
 
 After selecting the stable/mySQL Helm chart, click on `Deploy` 
@@ -40,7 +43,9 @@ Key        | Description
 `Environment` | Select the environment in which you want to deploy the chart
 `Chart Version` | Select the latest Chart Version
 `Chart Value` | Select the latest default value or create a custom value
+
 &nbsp;&nbsp;
+
 ### Configure `values.yaml` 
 
 Set the following parameters in the chart, to be later used to connect mysql with your Django Application.
@@ -48,7 +53,9 @@ Set the following parameters in the chart, to be later used to connect mysql wit
 &nbsp;&nbsp;
 
 ![Helm Chart](../../../chart3.jpg "Deploying Chart")
+
 &nbsp;&nbsp;
+
 Parameters     | Description
 ---------------|-------------
 `mysqlRootPassword` | Password for the root user. Ignored if existing secret is provided
@@ -73,7 +80,9 @@ The Status of the chart should be `Healthy`. It might take few seconds after  in
 &nbsp;&nbsp;
 
 ![Create Group](../../../21.jpg  "Create Groups")
+
 &nbsp;&nbsp;
+
 In case the Status of the deployment is `Degraded` or takes a long time to get deployed. 
 
 Click on the `Status` or check the logs  of the pods to debug the issue.
@@ -87,4 +96,5 @@ Copy the service name, it will be used to connect your application to mySQL.
 &nbsp;&nbsp;
 
 ![Create Group](../../../22.jpg  "Create Groups")
+
 &nbsp;&nbsp;
