@@ -12,6 +12,8 @@ Let's assume that you are building an application which needs mongoDB.
 
 ![Helm Chart](../../../mongo.jpg ) 
 
+&nbsp;&nbsp;
+
 Deploying applications as Helm Charts is the easiest way to create applications on Devtron. 
 
 This guide will introduce you to how to deploy the mongoDB's Helm chart. 
