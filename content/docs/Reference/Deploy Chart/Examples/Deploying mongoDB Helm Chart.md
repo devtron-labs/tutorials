@@ -12,7 +12,7 @@ Let's assume that you are building an application which needs mongoDB.
 <br />
 
 
-![Helm Chart](../../../mongo.jpg "Deploying Chart")
+![Helm Chart](../../../mongo.jpg "Deploying Chart"){: align="center}
 
 <br />
 
@@ -38,7 +38,7 @@ After selecting the stable/mongodb helm chart, click on `Deploy`
 
 <br />
 
-![Create Group](../../../second.jpg  "Create Groups")
+![Create Group](../../../second.jpg  "Create Groups")&nbsp;&nbsp;
 
 <br />
 
