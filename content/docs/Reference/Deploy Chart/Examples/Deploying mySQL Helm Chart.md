@@ -10,12 +10,11 @@ weight: 1
 ## Introduction 
 
 stable/mysql Helm chart bootstraps a single node MySQL deployment on a Kubernetes cluster using the Helm package manager.
-
 <br />
 
+&nbsp;&nbsp;
 
 ![Helm Chart](../../../mysql.jpg )
-
 
 ## Step 1: Discover the chart from the Chart Store
 
