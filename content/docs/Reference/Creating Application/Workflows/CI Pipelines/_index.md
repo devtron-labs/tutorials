@@ -5,22 +5,28 @@ weight: 10
 
 ##  Create CI Pipeline
 
+<br />
 
-<br>
 ![Add CI Pipeline](./workflow-editor2.PNG "Add CI Pipeline")
 
-<br>
+&nbsp;&nbsp;
+
 After creating the workflow,click on Add CI Pipeline to add a new CI Pipeline
-<br>
+
+&nbsp;&nbsp;
 
 ![Add CI Pipeline](./add_pipeline.jpg "Add CI Pipeline")
 
-<br>
+<br />
+
 Click on Continous Integration to create a new CI Pipeline
 
-<br>
+&nbsp;&nbsp;
+
 ![Create CI Pipeline](./create_pipeline.jpg "Create CI Pipeline")
-<br>
+
+&nbsp;&nbsp;
+
 Click on Create Pipeline to create the  pipeline
 
 Key | Description
@@ -40,43 +46,42 @@ You can update all the CI pipeline configurations after the CI pipeline is creat
 
 <br>
  To Update a CI Pipeline, go to the App Configurations and then click on Workflow editor
- 
- <br>
- 
+
+&nbsp;&nbsp;
 
 ![Update CI Pipeline](./update_pipeline_ci.jpg "update CI Pipeline")
 
-<br>
+<br />
 
 Click on your CI Pipeline, to update the changes to your CI Pipeline.
 
-<br>
-
+&nbsp;&nbsp;
 
 ![Update CI Pipeline](./edit_pipeline.jpg "update CI Pipeline")
 
+<br />
 
-<br>
 Click on `Update Pipeline` to update the changes you have made to your CI Pipeline
 
-<br>
+<br />
 
 ## Delete CI Pipeline 
 
 You can delete the CI pipeline, if you don't require the CI pipeline. You can only delete CI Pipeline if you have no CD Pipeline created in your workflow or to delete CI Pipeline you first have to delete CD Pipeline if you have created it.
 
-<br>
+<br />
+
 To Delete a CI Pipeline, go to the App Configurations and then click on Workflow editor
 
-<br>
+&nbsp;&nbsp;
 
 ![Delete CI Pipeline](./edit_pipeline.jpg "update CI Pipeline")
 
+<br />
 
-<br>
 Click on `Delete Pipeline` to delete the CD Pipeline
 
-<br>
+<br />
 
 
 ##  Pre/Post CI Stage
@@ -84,18 +89,20 @@ Click on `Delete Pipeline` to delete the CD Pipeline
 ##### Pre-build Stages: 
 These stages are run in sequence before the docker image is built
 
-<br>
-![Create new workflow](./pre_build.jpg)
-<br>
+&nbsp;&nbsp;
 
+![Create new workflow](./pre_build.jpg)
+
+&nbsp;&nbsp;
 
 ##### Post-build Stages
 These stages are run in sequence after the docker image is built
 
+&nbsp;&nbsp;
 
-<br>
 ![Create new workflow](./post_build.jpg)
-<br>
+
+&nbsp;&nbsp;
 
 ## Automated Test suite integration in CI step using devtron-ci.yaml
 
@@ -103,12 +110,11 @@ User can run the Test case using the Devtron Dashboard `or` by including the Tes
 
 The test cases given in the script will run before the Test Cases given in the  `devtron.ci.yaml`
 
-
-<br>
+&nbsp;&nbsp;
 
 ![Yaml File](./yaml.jpg "Create Yaml File")
 
-<br>
+&nbsp;&nbsp;
 
 Field | Description
 ------|------------ 
@@ -121,7 +127,7 @@ Field | Description
 `afterDockerBuildStages`  | script to run after the docker build step
 `outputLocation`          | location where you want to see the output of report of Test cases 
 
-<br>
+<br />
 
 
 
@@ -130,20 +136,18 @@ Field | Description
 You can use Devtron for Deployments on Kubernetes while still using your own CI tool such as Jenkins. External CI feature can be used for such cases where 
 the CI tool is hosted outside Devtron architecture.
 
-<br>
-
+&nbsp;&nbsp;
 
 ![Create CI Pipeline](./external_pipeline.jpg "External CI Pipeline")
 
-<br>
+&nbsp;&nbsp;
 
 You can send the 'Payload script' to your CI tool such as Jenkins and `Devtron` will receive the build image everytime the CI Service is triggered or
 you can you use the `Webhook URL` which will build image everytime CI Service is triggered using `Devtron` Dashboard. 
 
-<br>
+<br />
 
-<br>
-
+<br />
 
 Key | Description
 -----|-----
@@ -159,8 +163,8 @@ Key | Description
 If one code is shared across multiple applications Linked CI Pipeline can be used, and only one image will be build for multiple applications because
 if there is only one build, it is not advisable to create multiple CI Pipelines.
 
-<br>
+&nbsp;&nbsp;
 
 ![Create CI Pipeline](../../linked.jpg "Linked CI Pipeline")
 
-<br>
+<br />

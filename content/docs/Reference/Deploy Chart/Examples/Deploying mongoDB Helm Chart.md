@@ -11,7 +11,8 @@ Let's assume that you are building an application which needs mongoDB.
 
 
 ![An image](../../../mongo.jpg) <!-- .element height="50%" width="70%" "border"="1px solid #D0D4D9" "padding"="16px"-->
-&nbsp;&nbsp;
+
+&nbsp;&nbsp; 
 
 Deploying applications as Helm Charts is the easiest way to create applications on Devtron. 
 
@@ -20,25 +21,27 @@ This guide will introduce you to how to deploy the mongoDB's Helm chart.
 
 ## Step 1: Discover the Chart from the Chart Store
 
-Select the `Charts` section from the left pane, you will be landed to the `Chart Store` page. Click on `Discover` and find `stable/mongodb-replicaset` Helm Chart. <br /> <br />
+Select the `Charts` section from the left pane, you will be landed to the `Chart Store` page. Click on `Discover` and find `stable/mongodb-replicaset` Helm Chart.
 
-![Create Group](../../../first.jpg  "Create Groups")&nbsp;&nbsp;
+&nbsp;&nbsp;
 
+![Create Group](../../../first.jpg  "Create Groups")
+
+&nbsp;&nbsp;
 
 ## Step 2: Configure the Chart 
 
 After selecting the stable/mongodb helm chart, click on `Deploy` 
 
-<br />
+&nbsp;&nbsp;
 
-![Create Group](../../../second.jpg  "Create Groups")&nbsp;&nbsp;
+![Create Group](../../../second.jpg  "Create Groups")
 
-<br />
+&nbsp;&nbsp;
 
 Enter the following details, to deploy mongoDB chart:
 
 <br />
-
 
 Key        | Description
 -----------|-------------
@@ -58,12 +61,11 @@ In this example `replicas` is set to **1** and `persistenceVolume` is set to **f
 
 To learn about different parameters used in the chart, you can check [Documentation of mongodb Helm chart](https://hub.helm.sh/charts/bitnami/mongodb)
 
-<br />
+&nbsp;&nbsp;
 
+![Create Group](../../../15.jpg  "Create Groups")
 
-![Create Group](../../../15.jpg  "Create Groups")&nbsp;&nbsp;
-
-<br />
+&nbsp;&nbsp;
 
 Click on `Deploy` after you have finished configuring the chart. 
 
@@ -76,13 +78,11 @@ After clicking on `Deploy` you will land on a page, that shows the Status of the
 
 The Status of the chart should be `Healthy`. It might take few seconds after  initiating the deployment of the chart.
 
-<br />
+&nbsp;&nbsp;
 
+![Create Group](../../../16.jpg  "Create Groups")
 
-![Create Group](../../../16.jpg  "Create Groups")&nbsp;&nbsp;
-
-<br />
-
+&nbsp;&nbsp;
 
 In case the Status of the deployment is `Degraded` or takes a long time to get deployed. 
 
@@ -93,12 +93,12 @@ Click on the `Status` or check the logs  of the pods to debug the issue.
 
 Copy the service name, it will be used to connect your application to mongoDB .
 
-<br />
-
+&nbsp;&nbsp;
 
 ![Create Group](../../../18.jpg  "Create Groups")&nbsp;&nbsp;
 
-<br />
+&nbsp;&nbsp;
+
 
 
 
