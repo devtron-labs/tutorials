@@ -12,7 +12,7 @@ Let's assume that you are building an application which needs mongoDB.
 <br />
 
 
-![Helm Chart](../../../mongo.jpg "Deploying Chart"){: align="center}
+![Helm Chart](../../../mongo.jpg "Deploying Chart"){: align="center"}
 
 <br />
 

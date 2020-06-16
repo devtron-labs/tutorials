@@ -27,7 +27,7 @@ Click on README.MD to get more idea about the configurations of the chart
 
 <br />
 
-![Deployment Charts](../../custom.jpg "Deployment Charts")
+![Deployment Charts](../../custom.jpg?classes=border,shadow)
 
 <br>
 Select the Chart Version that you want to use and Chart Value, you can either use the default Values or custom values.
