@@ -15,17 +15,17 @@ Click on Global Configurations-> Notification
 
 Click on **Configurations** to manage `SES Configurations` or `Slack Configurations`
 
-<br />
+&nbsp;&nbsp;
 
 ![Notification](../not2.jpg  "Notification")
 
-<br />
+&nbsp;&nbsp;
 
 ### Manage SES Configurations
 
 You can manage the SES configuration to recieve e-mails by entering the valid credentials. Make sure your e-mail is verified by SES. 
 
-<br />
+&nbsp;&nbsp;
 
 ![Notification](../not1.jpg  "Notification")
 
@@ -33,11 +33,11 @@ You can manage the SES configuration to recieve e-mails by entering the valid cr
 
 Click on `Add` and configure SES.
 
-<br />
+&nbsp;&nbsp;
 
 ![Notification](../not3.jpg  "Notification")
 
-<br />
+&nbsp;&nbsp;
 
 Key | Description
 ----|----
@@ -47,27 +47,26 @@ Key | Description
 `AWS Region` | Select the AWS Region from the drop-down menu 
 `E-mail`     | Enter the SES verified e-mail id on which you wish to recieve e-mail notifications
 
-<br />
+&nbsp;&nbsp;
 
 ### Manage Slack Configurations
 
 You can manage the Slack configurations to recieve notifications on your preferred Slack channel.
 
-
-
-<br />
+&nbsp;&nbsp;
 
 ![Notification](../not4.jpg "Notification")
 
-<br/>
+
+<br />
 
 Click on `Add` to add new Slack Channel.
 
-<br />
+&nbsp;&nbsp;
 
 ![Notification](../not5.jpg  "Notification")
 
-<br />
+&nbsp;&nbsp;
 
 Key | Description
 ----|----
@@ -75,24 +74,25 @@ Key | Description
 `Webhook URL` | Enter the valid [Webhook URL link](https://slack.com/intl/en-gb/help/articles/115005265063-Incoming-webhooks-for-Slack) 
 `Project` | Select the project name to control user access
 
-
-<br />
+&nbsp;&nbsp;
 
 ## Manage Notifications
 
 Click on **Add New** to recieve new notification.
 
-<br />
+&nbsp;&nbsp;
 
 ![Notification](../notifi7.jpg  "Notification")
 
-<br />
+&nbsp;&nbsp;
 
 ### Manage Slack Notifications
 
+&nbsp;&nbsp;
+
 ![Notification](../notifi6.jpg  "Notification")
 
-<br />
+&nbsp;&nbsp;
 
 **Send To**
 
@@ -109,23 +109,23 @@ If you have not yet configured the Slack Channel, Click on [Configure Slack Chan
 
    * Then you will see a list of pipelines, you can select any number of pipelines. For each pipeline there are 3 types of events `Trigger`, `Success` and `Failure`. Click on the check boxes for the events, you wish to recieve notifications. 
 
-<br />
+&nbsp;&nbsp;
 
 ![Notification](../not10.jpg  "Notification")
 
 <br />
 
-
 Click on `Save` after you have configured Slack notifications. 
-
 
 <br />
 
 ### Manage SES Notifications
 
+&nbsp;&nbsp;
+
 ![Notification](../notifi6.jpg  "Notification")
 
-<br />
+&nbsp;&nbsp;
 
 **Send To**
 
@@ -143,7 +143,7 @@ If you have not yet configured SES, Click on [Configure SES](https://docs.devtro
 
    * Then you will see a list of pipelines, you can select any number of pipelines. For each pipeline there are 3 types of events Trigger, Success and Failure. Click on the check boxes for the events, you wish to recieve notifications. 
 
-<br />
+&nbsp;&nbsp;
 
 ![Notification](../not9.jpg  "Notification")
 

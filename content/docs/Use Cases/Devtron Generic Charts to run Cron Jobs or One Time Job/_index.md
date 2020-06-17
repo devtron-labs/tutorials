@@ -14,30 +14,30 @@ You can use **Devtron-generic-Helm Chart** to run the cron jobs or one time job.
 
 Select the **Devtron-generic Helm Chart** from the Devtron Chart Store.
 
-<br />
+&nbsp;&nbsp;
 
 ![Generic Charts](../gc-1.jpg "Deploying Chart")
 
-<br />
+&nbsp;&nbsp;
 
 Select the Chart Version and the Chart Value of the Chart.
 
 
 And, then Click on **Deploy** 
 
-<br />
+&nbsp;&nbsp;
 
 ![Generic Charts](../gc-2.jpg "Deploying Chart")
 
-<br />
+&nbsp;&nbsp;
 
 **Configure Devtron-generic-helm chart** 
 
-<br />
+&nbsp;&nbsp;
 
 ![Generic Charts](../gc-4.jpg "Deploying Chart")
 
-<br />
+&nbsp;&nbsp;
 
 Click on **Deploy Chart**
 
