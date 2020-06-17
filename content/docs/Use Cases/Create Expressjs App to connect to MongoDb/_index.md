@@ -22,7 +22,7 @@ To deploy mongoDb Helm Chart, you can refer to our documentation on [Deploy mong
 
 For this example, we are using the following [GitHub Repo](https://github.com/devtron-labs/DockerNodeMongo), you can clone this repository and make following changes in the files.
 
-### - Dockerfile
+### * Dockerfile
 
 This is the Dockerfile. This exposes our expressjs application to port number 8080
 
@@ -38,7 +38,7 @@ CMD node server.js
 EXPOSE 8080
 ```
 
-### - db.js File
+### * db.js File
 
 This file will be used to connect to our database. This will include the `service-name` of the mongoDb Helm Chart, that you have deployed in Step1.
 
@@ -65,15 +65,15 @@ To learn how to create an application on Devtron, refer to our documentation on 
 
 <br />
 
-### - Git Material
+### * Git Material
 
 In this example, we are using the url of the forked Git Repository.
 
-### - Docker configuration 
+### * Docker configuration 
 
 Give, the path of the Dockerfile.
 
-### - Configure Deployment Template
+### * Configure Deployment Template
 
 Enable `Ingress`, and give the path on which you want to host the application.
 
@@ -83,11 +83,11 @@ Enable `Ingress`, and give the path on which you want to host the application.
 
 &nbsp;&nbsp;
 
-### - Set up the CI/CD Pipelines
+### * Set up the CI/CD Pipelines
 
 Set up the CI/CD pipelines. You can set them to trigger automatically or manually.
 
-### - Trigger Pipelines
+### * Trigger Pipelines
 
 Trigger the CI Pipeline, build should be **Successful**, then trigger the CD Pipeline, deployment pipeline will be initiated, after some time the status should be **Healthy**
 
