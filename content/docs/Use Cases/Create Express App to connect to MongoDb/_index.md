@@ -98,13 +98,13 @@ Go and hit the application url.
 
 The syntax is: `http://<hostname>/<path>/`
 
-**path** will be the one that you had given in Step 3 while configuring the Deployment Template.
+**path** will be the one that you have given in Step 3 while configuring the Deployment Template.
 
 The output of our application should be as follows:
 
 ![path](../two.jpg "database path") 
 
-&nbsp;&nbsp;
+<br />
 
 You can see that we are getting the JSON response. We have successfully connected our express application to the mongoDb database.
 
