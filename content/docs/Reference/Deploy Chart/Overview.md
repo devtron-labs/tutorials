@@ -32,7 +32,7 @@ Click on README.MD to get more idea about the configurations of the chart
 <br />
 
 Select the Chart Version that you want to use and Chart Value, you can either use the default Values or custom values.
-To know about Custom Values, Click On: [Custom Values](https://docs.devtron.ai/docs/deploying-charts/#custom-values)
+To know about Custom Values, Click On: [Custom Values](https://docs.devtron.ai/docs/reference/deploy-chart/overview/#custom-values)
 
 <br />
 
