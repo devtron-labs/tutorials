@@ -16,7 +16,7 @@ Follow the below mentioned steps, to deploy the application on Devtron using mon
 
 To deploy mongoDb Helm Chart, you can refer to our documentation on [Deploy mongoDb Helm Chart](https://docs.devtron.ai/docs/reference/deploy-chart/examples/deploying-mongodb-helm-chart/)
 
-&nbsp;&nbsp;
+<br />
 
 ## Step 2: Fork the Git Repository
 
@@ -28,7 +28,7 @@ This is the Dockerfile. This exposes our expressjs application to port number 80
 
 &nbsp;&nbsp;
 
-```git
+```bash
 FROM node:7
 WORKDIR /app
 COPY package.json /app
@@ -78,7 +78,7 @@ Enable `Ingress`, and give the path on which you want to host the application.
 
 &nbsp;&nbsp;
 
-<img src="../one.jpg" width="100" height="100">
+![ingress](../one.jpg "ingress annotations")
 
 &nbsp;&nbsp;
 
@@ -89,19 +89,19 @@ Set up the CI/CD pipelines. You can set them to trigger automatically or manuall
 ### 5.) Trigger Pipelines
 
 Trigger the CI Pipeline, build should be **Successful**, then trigger the CD Pipeline, deployment pipeline will be initiated, after some time the status should be `Healthy`.
-
+c
 
 ## Step 4: Final Step
 
 Go and hit the application url.
 
-The syntax is: http://<hostname>/<path>/
+The syntax is: `http://<hostname>/<path>/`
 
-*path* will be the one that you had given in Step 3 while configuring the Deployment Template.
+**path** will be the one that you had given in Step 3 while configuring the Deployment Template.
 
 The output of our application should be as follows:
 
-<img src="../two.jpg" width="100" height="100">
+![path](../two.jpg "database path") 
 
 &nbsp;&nbsp;
 
