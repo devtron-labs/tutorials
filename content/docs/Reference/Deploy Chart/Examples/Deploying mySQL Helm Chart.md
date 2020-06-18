@@ -17,7 +17,7 @@ stable/mysql Helm chart bootstraps a single node MySQL deployment on a Kubernete
 
 &nbsp;&nbsp;
 
-## Step 1: Discover the chart from the Chart Store
+## 1. Discover the chart from the Chart Store
 
 Select the `Charts` section from the left pane, you will be landed to the `Chart Store` page. Click on `Discover` and find `stable/mongodb-replicaset` Helm Chart.
 
@@ -26,7 +26,7 @@ Select the `Charts` section from the left pane, you will be landed to the `Chart
 
 &nbsp;&nbsp;
 
-## Step 2: Configure the Chart
+## 2. Configure the Chart
 
 After selecting the stable/mySQL Helm chart, click on `Deploy` 
 
@@ -71,7 +71,7 @@ Click on `Deploy` to deploy the Chart
 
 <br />
 
-## Step 3: Check the Status of Deployment
+## 3. Check the Status of Deployment
 
 After clicking on `Deploy` you will land on a page, that shows the Status of the deployment of the Chart. 
 
@@ -89,7 +89,7 @@ Click on the `Status` or check the logs  of the pods to debug the issue.
 
 
 
-## Step 4: Extract the Service Name
+## 4. Extract the Service Name
 
 Copy the service name, it will be used to connect your application to mySQL.
 

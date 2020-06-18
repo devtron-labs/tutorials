@@ -19,7 +19,7 @@ Deploying applications as Helm Charts is the easiest way to create applications 
 This guide will introduce you to how to deploy the mongoDB's Helm chart. 
 
 
-## Step 1: Discover the Chart from the Chart Store
+## 1. Discover the Chart from the Chart Store
 
 Select the `Charts` section from the left pane, you will be landed to the `Chart Store` page. Click on `Discover` and find `stable/mongodb-replicaset` Helm Chart.
 
@@ -29,7 +29,7 @@ Select the `Charts` section from the left pane, you will be landed to the `Chart
 
 &nbsp;&nbsp;
 
-## Step 2: Configure the Chart 
+## 2. Configure the Chart 
 
 After selecting the stable/mongodb helm chart, click on `Deploy` 
 
@@ -72,7 +72,7 @@ Click on `Deploy` after you have finished configuring the chart.
 <br />
 
 
-## Step 3: Check the Status of Deployment
+## 3. Check the Status of Deployment
 
 After clicking on `Deploy` you will land on a page, that shows the Status of the deployment of the Chart. 
 
@@ -89,7 +89,7 @@ In case the Status of the deployment is `Degraded` or takes a long time to get d
 Click on the `Status` or check the logs  of the pods to debug the issue.
 
 
-## Step 4: Extract the Service name
+## 4. Extract the Service name
 
 Copy the service name, it will be used to connect your application to mongoDB .
 
