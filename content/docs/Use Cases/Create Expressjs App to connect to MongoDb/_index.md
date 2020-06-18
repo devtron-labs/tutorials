@@ -1,6 +1,6 @@
 ---
 bookCollapseSection: false
-weight: 40
+weight: 41
 ---
 
 # Introduction
@@ -106,7 +106,7 @@ The output of our application should be as follows:
 
 <br />
 
-You can see that we are getting the JSON response. We have successfully connected our express application to the mongoDb database.
+You can see that we are getting the JSON response. We have successfully connected our expressjs application to the mongoDb database.
 
 
 
