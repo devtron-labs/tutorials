@@ -99,7 +99,7 @@ Set up the CI/CD pipelines. You can set them to trigger automatically or manuall
 
 ### * Trigger Pipelines
 
-Trigger the CI Pipeline, build should be **Successful**, then trigger the CD Pipeline, deployment pipeline will be initiated, after some time the status should be **Healthy**
+Trigger the CI Pipeline, build should be **Successful**. Then trigger the CD Pipeline, deployment pipeline will be initiated, after some time the status should be **Healthy**.
 
 <br />
 
@@ -129,7 +129,7 @@ To view all student records, GET Request is:
 
 &nbsp;&nbsp;
 
-http://<hostname>/<path-name>/viewAll
+`http://<hostname>/<path-name>/viewAll`
 
 &nbsp;&nbsp;
 
@@ -145,7 +145,7 @@ To view student data by student id, GET Request is:
 
 <br />
 
-http://<hostname>/<path-name>/view/<id>
+`http://<hostname>/<path-name>/view/<id>`
 
 &nbsp;&nbsp;
 
