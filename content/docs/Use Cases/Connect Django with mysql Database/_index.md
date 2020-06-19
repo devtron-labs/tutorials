@@ -71,7 +71,7 @@ Enable `Ingress`, and give the path on which you want to host the application.
 
 &nbsp;&nbsp;
 
-![ingress](../deply_t.jpg "ingress annotations")
+![ingress](../deploy_t.jpg "ingress annotations")
 
 &nbsp;&nbsp;
 
