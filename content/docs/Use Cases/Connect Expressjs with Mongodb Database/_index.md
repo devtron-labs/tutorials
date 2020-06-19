@@ -94,7 +94,7 @@ Trigger the CI Pipeline, build should be **Successful**, then trigger the CD Pip
 
 ## 4. Final Step
 
-Go and hit the application url.
+Check the Expressjs app connected to mongodb database, running successfully by hitting your application url.
 
 The syntax is: `http://<hostname>/<path>/`
 
