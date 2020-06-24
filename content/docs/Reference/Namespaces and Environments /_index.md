@@ -27,7 +27,10 @@ Here multiple environments can be created
 
 An environment created here actually means that a new namespace is created in kubernetes.
 
++++
 
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/w7Ft2ymGmfc?autoplay=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
 
-{{< youtube whsma0Q5ps4&t=2s >}}
