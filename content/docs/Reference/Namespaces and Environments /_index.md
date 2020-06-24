@@ -28,3 +28,12 @@ Here multiple environments can be created
 
 An environment created here actually means that a new namespace is created in kubernetes.
 
+<!DOCTYPE html>
+<html>
+<body>
+<h1>
+Welcome
+</h1>
+</body>
+</html>
+ 
