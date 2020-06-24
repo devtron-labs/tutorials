@@ -27,4 +27,3 @@ Global Configuration->Clusters & Environments
 Here multiple environments can be created
 
 
-{{< yt id="whsma0Q5ps4" autoplay="false" >}}

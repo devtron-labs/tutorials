@@ -7,6 +7,11 @@ weight: 20
 
 Welcome! This is the documentation for Creating Applications
 
+<br />
+
+{{< yt id="whsma0Q5ps4" autoplay="false" >}}
+
+
 **Parts of Documentation** 
 
 [Git Material](https://docs.devtron.ai/docs/reference/creating-application/git-material/)
