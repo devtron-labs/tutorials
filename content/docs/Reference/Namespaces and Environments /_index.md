@@ -26,7 +26,7 @@ Global Configuration->Clusters & Environments
 
 Here multiple environments can be created
 
-{{< youtube id="whsma0Q5ps4&t=2s" autoplay="true" >}}
+{{< youtube whsma0Q5ps4&t=2s >}}
 
 An environment created here actually means that a new namespace is created in kubernetes.
 
