@@ -57,27 +57,37 @@ The Manifest shows the critical information such as Container-image, restartCoun
 
 &nbsp;&nbsp;
 
-![Debuggind Deployment](./app_details4.jpg "Debuggind Deployment")
+![Debugging Deployment](../events5.png "Debuggind Deployment")
 
 &nbsp;&nbsp;
 
 You might run into a situation where you need to delete Pods. You may need to bounce or restart a pod.
 
-Deleting a Pod is not an irksome task, it can simply be deleted by Clicking on "Delete Pod".
+Deleting a Pod is not an irksome task, it can simply be deleted by Clicking on `Delete Pod`.
 
 Suppose you want to setup a new environment, you can delete a pod and thereafter a new pod will be created automatically depending upon the replica count.
 
 
-### Other
+### Application Objects
+
+You can view `Application Objects`, such as:
+
+1.)***Workloads***(ReplicaSet, Status of Pods)
+2.)***Networking***(Services, Endpoints, Ingress)
+3.)***Config & Storage***(ConfigMap)
+4.)***Custom Resource***(Rollout, ServiceMonitor)
+
+in this section of `App Details`.
 
 &nbsp;&nbsp;
 
-![Debuggind Deployment](./app_details5.jpg "Debuggind Deployment")
+![Debugging Deployment](../app_details5.jpg "Debuggind Deployment")
 
 &nbsp;&nbsp;
 
-Status of Pods, ReplicaSet, Services, Endpoints, Ingress, ConfigMap, Secret, ExternalSecret, StatefulSet and ServiceMonitor can be accessed by Clicking on the name of that component.
 
+
+<br />
 ## Monitoring
 
 &nbsp;&nbsp;
@@ -86,17 +96,16 @@ Status of Pods, ReplicaSet, Services, Endpoints, Ingress, ConfigMap, Secret, Ext
 
 &nbsp;&nbsp;
 
-You can monitor the application in this section.
+You can monitor the application in the `App Details`section.
 
-Metrics like CPU Usage, Memory Usage, Status 5xx, Throughput and Latency are visible over here.
+Metrics like CPU Usage, Memory Usage, Throughput and Latency can be viewed here.
 
 Key | Description
 ----|----
-`CPU Usage` | CPU being used by app
-`Memory Usage` | Memory being used by app
-`Status 5xx,4xx,2xx` | Response status hits
-`Throughput` | Throughput of the app
-`Latency` | Latency of the app
+`CPU Usage` | Percentage of CPU's cycles used by the app.
+`Memory Usage` | Amount of memory used by app.
+`Throughput` | Performance of the app.
+`Latency` | Delay caused while transmitting the data.
 
 
 
