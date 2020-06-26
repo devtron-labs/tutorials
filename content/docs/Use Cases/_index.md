@@ -24,7 +24,7 @@ weight: 38
 
 [Connect Expressjs With Mongodb Database]((https://docs.devtron.ai/docs/use-cases/connect-expressjs-with-mongodb-database/))
 
-![Generic Charts](https://miro.medium.com/max/5760/1*-nv68eBqrOGVOgkocssb4Q@2x.png "Deploying Chart")
+![Generic Charts](https://miro.medium.com/max/5760/1*-nv68eBqrOGVOgkocssb4Q@2x.png){:height="24px" width="48px"}
 
 &nbsp;&nbsp;
 
