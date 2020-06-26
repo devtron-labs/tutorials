@@ -10,7 +10,6 @@ weight: 20
 
 {{< yt id="whsma0Q5ps4" autoplay="false" >}}
 
-
 **Parts of Documentation** 
 
 [Git Material](https://docs.devtron.ai/docs/reference/creating-application/git-material/)

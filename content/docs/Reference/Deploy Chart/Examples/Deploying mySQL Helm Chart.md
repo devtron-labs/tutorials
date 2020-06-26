@@ -79,11 +79,11 @@ The Status of the chart should be `Healthy`. It might take few seconds after  in
 
 &nbsp;&nbsp;
 
-![Create Group](../../../21.jpg  "Create Groups")
+![Create Group](../../../sql1.png  "Create Groups")
 
 &nbsp;&nbsp;
 
-In case the Status of the deployment is `Degraded` or takes a long time to get deployed. 
+In case the Status, of the deployment is `Degraded` or takes a long time to get deployed. 
 
 Click on the `Status` or check the logs  of the pods to debug the issue.
 
@@ -95,6 +95,6 @@ Copy the service name, it will be used to connect your application to mySQL.
 
 &nbsp;&nbsp;
 
-![Create Group](../../../22.jpg  "Create Groups")
+![Create Group](../../../sql2.png  "Create Groups")
 
 &nbsp;&nbsp;
