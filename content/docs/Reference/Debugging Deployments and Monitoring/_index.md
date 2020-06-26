@@ -70,21 +70,19 @@ Suppose you want to setup a new environment, you can delete a pod and thereafter
 
 ### Application Objects
 
-You can view `Application Objects`, such as:
+You can view `Application Objects` in this section of `App Details`, such as:
 
-1.)***Workloads***(ReplicaSet, Status of Pods)
-2.)***Networking***(Services, Endpoints, Ingress)
-3.)***Config & Storage***(ConfigMap)
-4.)***Custom Resource***(Rollout, ServiceMonitor)
+1.)***Workloads***(ReplicaSet, Status of Pods) <br />
+2.)***Networking***(Services, Endpoints, Ingress) <br />
+3.)***Config & Storage***(ConfigMap) <br />
+4.)***Custom Resource***(Rollout, ServiceMonitor) <br />
 
-in this section of `App Details`.
-
-&nbsp;&nbsp;
-
-![Debugging Deployment](../app_details5.jpg "Debuggind Deployment")
 
 &nbsp;&nbsp;
 
+![Debugging Deployment](../events6.png "Debuggind Deployment")
+
+&nbsp;&nbsp;
 
 
 <br />
