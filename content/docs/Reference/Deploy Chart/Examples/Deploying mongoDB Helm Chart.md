@@ -63,7 +63,7 @@ To learn about different parameters used in the chart, you can check [Documentat
 
 &nbsp;&nbsp;
 
-![Create Group](../../../15.jpg  "Create Groups")
+![Create Group](../../../mongo1.jpg  "Create Groups")
 
 &nbsp;&nbsp;
 
@@ -80,7 +80,7 @@ The Status of the chart should be `Healthy`. It might take few seconds after  in
 
 &nbsp;&nbsp;
 
-![Create Group](../../../16.jpg  "Create Groups")
+![Create Group](../../../mongo4.png  "Create Groups")
 
 &nbsp;&nbsp;
 
@@ -95,7 +95,7 @@ Copy the service name, it will be used to connect your application to mongoDB .
 
 &nbsp;&nbsp;
 
-![Create Group](../../../18.jpg  "Create Groups")&nbsp;&nbsp;
+![Create Group](../../../mongo6.png  "Create Groups")&nbsp;&nbsp;
 
 &nbsp;&nbsp;
 
