@@ -47,6 +47,8 @@ Logs contain the logs of the Pods and Containers deployed which you can use for 
 
 ![Debuggind Deployment](../events3.jpg "Debuggind Deployment")
 
+&nbsp;&nbsp;
+
 <br />
 
 The Manifest shows the critical information such as Container-image, restartCount, state, phase, podIP, startTime etc. and status of the pods deployed.
@@ -80,7 +82,7 @@ Status of Pods, ReplicaSet, Services, Endpoints, Ingress, ConfigMap, Secret, Ext
 
 &nbsp;&nbsp;
 
-![Debuggind Deployment](./app_detail7.jpg "Debuggind Deployment")
+![Debuggind Deployment](../events4.jpg "Debuggind Deployment")
 
 &nbsp;&nbsp;
 
