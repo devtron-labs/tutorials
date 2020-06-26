@@ -31,5 +31,9 @@ weight: 38
 
 [Connect Django With Mysql Database](https://docs.devtron.ai/docs/use-cases/connect-django-with-mysql-database/)
 
-![Generic Charts](https://studygyaan.com/wp-content/uploads/2019/11/Django-MySQL-Connection.png "Deploying Chart")
+
+<img src="https://studygyaan.com/wp-content/uploads/2019/11/Django-MySQL-Connection.png" width="300" />
+
+
+
 
