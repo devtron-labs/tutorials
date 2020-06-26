@@ -72,10 +72,12 @@ Suppose you want to setup a new environment, you can delete a pod and thereafter
 
 You can view `Application Objects` in this section of `App Details`, such as:
 
-1.)***Workloads***(ReplicaSet, Status of Pods) <br />
-2.)***Networking***(Services, Endpoints, Ingress) <br />
-3.)***Config & Storage***(ConfigMap) <br />
-4.)***Custom Resource***(Rollout, ServiceMonitor) <br />
+Key | Description
+----|----
+`Workloads` | ReplicaSet(ensures how many replica of pod should be running), Status of Pods(status of the Pod)
+`Networking` | Services, Endpoints, Ingress
+`Config & Storage` | ConfigMap
+`Custom Resource` | Rollout, ServiceMonitor
 
 
 &nbsp;&nbsp;
