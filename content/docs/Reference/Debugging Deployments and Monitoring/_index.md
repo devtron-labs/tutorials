@@ -74,10 +74,10 @@ You can view `Application Objects` in this section of `App Details`, such as:
 
 Key | Description
 ----|----
-`Workloads` | ReplicaSet(ensures how many replica of pod should be running), Status of Pods(status of the Pod)
-`Networking` | Services(an abstraction which defines a logical set of Pods), Endpoints, Ingress(API object that manages external access to the services in a cluster)
-`Config & Storage` | ConfigMap( API object used to store non-confidential data in key-value pairs)
-`Custom Resource` | Rollout(new Pods will be scheduled on Nodes with available resources), ServiceMonitor
+`Workloads` | *ReplicaSet*(ensures how many replica of pod should be running), *Status of Pod*(status of the Pod)
+`Networking` | *Service*(an abstraction which defines a logical set of Pods), *Endpoints*(names of the endpoints that implement a Service), *Ingress*(API object that manages external access to the services in a cluster)
+`Config & Storage` | *ConfigMap*( API object used to store non-confidential data in key-value pairs)
+`Custom Resource` | *Rollout*(new Pods will be scheduled on Nodes with available resources), *ServiceMonitor*(specifies how groups of services should be monitored)
 
 
 &nbsp;&nbsp;
