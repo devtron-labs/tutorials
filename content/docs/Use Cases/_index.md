@@ -15,3 +15,8 @@ weight: 38
 
 
 <br />
+[Connect SpringBoot with Mysql Database](https://docs.devtron.ai/docs/use-cases/connect-spring-boot-with-mysql-database/)
+&nbsp;&nbsp;
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQNIKpsOGedJby2x4ULG2BUQDlcYHczoCh0ww&usqp=CAU"></img>
+
+&nbsp;&nbsp;
