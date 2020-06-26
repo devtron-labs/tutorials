@@ -19,7 +19,7 @@ Over here, you can see the status of the app as Healthy. If there are some error
 
 &nbsp;&nbsp;
 
-![Debuggind Deployment](./app_detail1.jpg "Debuggind Deployment")
+![Debuggind Deployment](../events1.jpg "Debuggind Deployment")
 
 &nbsp;&nbsp;
 
@@ -35,21 +35,21 @@ Events section displays you the events that took place during the deployment of 
 
 &nbsp;&nbsp;
 
-![Debuggind Deployment](./app_detail2.jpg "Debuggind Deployment")
+![Debuggind Deployment](../events2.jpg "Debuggind Deployment")
 
 &nbsp;&nbsp;
 
 Logs contain the logs of the Pods and Containers deployed which you can use for the process of debugging.
 
-### Pod Status
+### Manifest
 
 &nbsp;&nbsp;
 
-![Debuggind Deployment](./app_detail3.jpg "Debuggind Deployment")
+![Debuggind Deployment](../events3.jpg "Debuggind Deployment")
 
 <br />
 
-The Pod Status shows the critical information such as Container-image, restartCount, state, phase, podIP, startTime etc. and status of the pods deployed.
+The Manifest shows the critical information such as Container-image, restartCount, state, phase, podIP, startTime etc. and status of the pods deployed.
 
 ### Deleting Pods
 

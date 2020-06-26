@@ -4,8 +4,7 @@ weight: 20
 ---
 
 
-
-Welcome! This is the documentation for Creating Applications
+***Welcome! This is the documentation for Creating Applications***
 
 <br />
 
