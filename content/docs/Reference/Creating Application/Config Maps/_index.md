@@ -26,12 +26,12 @@ Click on `Add ConfigMap` to add a config map to your application.
 
 Key  | Description
 -----|-----
-`Name` | Name of ConfigMap
-`Environment Variable` | Select if there are Environment Variables to be injected in pods
-`Data Volume` | Specify, if there is a volume that is accessible to Containers running in a pod needs to be added
-`Kubernetes ConfigMap` | ConfigMap that is created by Devtron 
-`Key` | Key 
-`Value` | Value for a given key
+`Data Type(Kubernetes ConfigMap)` | ConfigMap that is created by Devtron.
+`Name` | Name of ConfigMap.
+`Environment Variable` | Select if there are Environment Variables to be injected in pods.
+`Data Volume` | Specify, if there is a volume that is accessible to Containers running in a pod needs to be added.
+`Key` | Key.
+`Value` | Value for a given key.
 
 <br />
 
@@ -51,7 +51,7 @@ You can Select the Data Type as `Kubernetes ConfigMap` if you wish to use the Co
 
 <br />
 
-Click Save ConfigMap to save the configMap.
+Click `Save ConfigMap` to save the configMap.
 
 <br />
 
