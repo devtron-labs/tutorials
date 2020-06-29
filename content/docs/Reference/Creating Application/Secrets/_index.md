@@ -17,7 +17,7 @@ Click on `Add Secret` to add a new secret.
 
 ### Configure Secret
 
-&nbsp;&nbsp;
+<br />
 
 ![Add Secret](../../secret1.jpg "Add Secret")
 
@@ -40,15 +40,15 @@ Key | Description
 
 There are namely five Data types, that you can use to save your secret.
 
-* *Kubernetes Secret* : The secret that you create using Devtron.
+* ***Kubernetes Secret*** : The secret that you create using Devtron.
 
-* *Kubernetes External Secret* : The secret data of your application is fetched externally, converts the Kubernetes External Secret to Kubernetes Secret. The conversion is completely transparent to Pods and secrets are accessed normally.
+* ***Kubernetes External Secret*** : The secret data of your application is fetched externally, converts the Kubernetes External Secret to Kubernetes Secret. The conversion is completely transparent to Pods and secrets are accessed normally.
 
-* *AWS Secret Manager* : The secret data of your application is fetched from AWS Secret Manager, converts AWS Secret to Kubernetes Secret. The conversion is completely transparent to Pods that can access secrets normally.
+* ***AWS Secret Manager*** : The secret data of your application is fetched from AWS Secret Manager, converts AWS Secret to Kubernetes Secret. The conversion is completely transparent to Pods that can access secrets normally.
 
-* *AWS System Manager* : The secret data for your application is fetched from AWS Secret Manager, converts the secrets stored in AWS System Manager to Kubernetes Secret. The conversion is completely transparent to Pods that can access secrets normally.
+* ***AWS System Manager*** : The secret data for your application is fetched from AWS Secret Manager, converts the secrets stored in AWS System Manager to Kubernetes Secret. The conversion is completely transparent to Pods that can access secrets normally.
 
-* *Harshi Corp Vault* : The secret data for your application is fetched from AWS Secret Manager, converts the secrets stored in Harshi Corp Vault to Kubernetes Secret. The conversion is completely transparent to Pods that can access secrets normally.
+* ***Harshi Corp Vault*** : The secret data for your application is fetched from AWS Secret Manager, converts the secrets stored in Harshi Corp Vault to Kubernetes Secret. The conversion is completely transparent to Pods that can access secrets normally.
 
 <br />
 
@@ -69,7 +69,7 @@ Click on `Save Secret` to save the secret.
 
 ![Save Secret](../../secret4.png "Save Secret")
 
-&nbsp;&nbsp;
+<br />
 
 You can see the Secret is added.
 
