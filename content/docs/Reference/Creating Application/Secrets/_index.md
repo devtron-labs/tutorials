@@ -19,7 +19,7 @@ Click on `Add Secret` to add a new secret.
 
 <br />
 
-![Add Secret](../../secret1.jpg "Add Secret")
+![Add Secret](../../secret8.jpg "Add Secret")
 
 &nbsp;&nbsp;
 
