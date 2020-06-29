@@ -20,7 +20,7 @@ Click on `Add ConfigMap` to add a config map to your application.
 
 &nbsp;&nbsp;
 
-![Config Map](../../cf2.jpg "Create config map")
+![Config Map](../../config1.jpg "Create config map")
 
 &nbsp;&nbsp;
 
@@ -47,7 +47,7 @@ You can Select the Data Type as `Kubernetes ConfigMap` if you wish to use the Co
 
 &nbsp;&nbsp;
 
-![Data Volume](../../cf3.jpg "Data Volume")
+![Data Volume](../../config2.jpg "Data Volume")
 
 <br />
 
@@ -65,7 +65,7 @@ You have to ensure that the External ConfigMap exists and is made available to t
 
 &nbsp;&nbsp;
 
-![Config Map Added](../../cf5.jpg "Config Map is added")
+![Config Map Added](../../config4.jpg "Config Map is added")
 
 <br />
 The config map is created.
