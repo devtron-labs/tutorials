@@ -5,27 +5,13 @@ weight: 38
 
 [Run Cron Jobs or One Time Job using Devtron Generic Helm Chart](https://docs.devtron.ai/docs/use-cases/devtron-generic-charts-to-run-cron-jobs-or-one-time-job/)
 
-<br />
+&nbsp;&nbsp;&nbsp; 
 
-<p align="right">
-  <img src="./dev_chart.jpg" />
-</p>
-
-
-
-
-<br />
-
-&nbsp;&nbsp;&nbsp; [Connect SpringBoot with Mysql Database](https://docs.devtron.ai/docs/use-cases/connect-spring-boot-with-mysql-database/)
-
-
+[Connect SpringBoot with Mysql Database](https://docs.devtron.ai/docs/use-cases/connect-spring-boot-with-mysql-database/)
 
 &nbsp;&nbsp;
 
 [Connect Expressjs With Mongodb Database]((https://docs.devtron.ai/docs/use-cases/connect-expressjs-with-mongodb-database/))
-
-
-
 
 &nbsp;&nbsp;
 
