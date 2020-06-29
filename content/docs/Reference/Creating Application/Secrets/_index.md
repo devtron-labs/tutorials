@@ -8,7 +8,7 @@ Secret objects lets you store and manage sensitive information, such as password
 
 &nbsp;&nbsp;
 
-![Secret](../../sec1.jpg "Secret")
+![Secret](../../secret1.png "Secret")
 
 <br />
 Click on `Add Secret` to add a new secret.
@@ -19,7 +19,7 @@ Click on `Add Secret` to add a new secret.
 
 &nbsp;&nbsp;
 
-![Add Secret](../../sec2.jpg "Add Secret")
+![Add Secret](../../secret1.jpg "Add Secret")
 
 &nbsp;&nbsp;
 
@@ -59,17 +59,17 @@ Specify Volume Mount folder path in `Volume Mount Path`, path where the data vol
 
 &nbsp;&nbsp;
 
-![Save Secret](../../sec3i.jpg "Save Secret")
-
-<br />
-
-Click on Save Secret to save the secret.
+![Save Secret](../../secret3.jpg "Save Secret")
 
 &nbsp;&nbsp;
 
-![Save Secret](../../sec5.jpg "Save Secret")
+Click on `Save Secret` to save the secret.
 
-<br />
+&nbsp;&nbsp;
+
+![Save Secret](../../secret4.png "Save Secret")
+
+&nbsp;&nbsp;
 
 You can see the Secret is added.
 
