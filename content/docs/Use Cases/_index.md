@@ -11,7 +11,7 @@ weight: 38
 
 &nbsp;&nbsp;
 
-[Connect Expressjs With Mongodb Database]((https://docs.devtron.ai/docs/use-cases/connect-expressjs-with-mongodb-database/)
+[Connect Expressjs With Mongodb Database](https://docs.devtron.ai/docs/use-cases/connect-expressjs-with-mongodb-database/)
 
 
 &nbsp;&nbsp;
