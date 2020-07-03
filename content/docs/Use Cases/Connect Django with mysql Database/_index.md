@@ -51,7 +51,7 @@ The `settings.py` contains the configuration for your SQL database. Make sure th
 
 &nbsp;&nbsp;
 
-## 3. Create Application on Devtron
+## **3. Create Application on Devtron**
 
 To learn how to create an application on Devtron, refer to our documentation on [Creating Application](https://docs.devtron.ai/docs/reference/creating-application/)
 
