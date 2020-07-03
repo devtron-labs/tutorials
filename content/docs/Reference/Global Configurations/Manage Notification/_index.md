@@ -11,7 +11,7 @@ Click on Global Configurations-> Notification
 
 <br />
 
-## Manage Configuration
+## **Manage Configuration**
 
 Click on **Configurations** to manage `SES Configurations` or `Slack Configurations`
 
@@ -21,7 +21,7 @@ Click on **Configurations** to manage `SES Configurations` or `Slack Configurati
 
 &nbsp;&nbsp;
 
-### Manage SES Configurations
+### **Manage SES Configurations**
 
 You can manage the SES configuration to recieve e-mails by entering the valid credentials. Make sure your e-mail is verified by SES. 
 
@@ -49,7 +49,7 @@ Key | Description
 
 &nbsp;&nbsp;
 
-### Manage Slack Configurations
+### **Manage Slack Configurations**
 
 You can manage the Slack configurations to recieve notifications on your preferred Slack channel.
 
@@ -76,7 +76,7 @@ Key | Description
 
 &nbsp;&nbsp;
 
-## Manage Notifications
+## **Manage Notifications**
 
 Click on **Add New** to recieve new notification.
 
@@ -86,7 +86,7 @@ Click on **Add New** to recieve new notification.
 
 &nbsp;&nbsp;
 
-### Manage Slack Notifications
+### **Manage Slack Notifications**
 
 &nbsp;&nbsp;
 
@@ -94,14 +94,14 @@ Click on **Add New** to recieve new notification.
 
 &nbsp;&nbsp;
 
-**Send To**
+*Send To*
 
 First, enter the name of your Slack Channel if you have already configured Slack Channel. 
 If you have not yet configured the Slack Channel, Click on [Configure Slack Channel](https://docs.devtron.ai/docs/reference/manage-notifications/#manage-slack-configurations)
 
 <br />
 
-**Select Pipelines**
+*Select Pipelines*
 
 * Then, to fetch pipelines of an application, project and environment.
 
@@ -127,7 +127,7 @@ Click on `Save` after you have configured Slack notifications.
 
 &nbsp;&nbsp;
 
-**Send To**
+*Send To*
 
 * First, enter the e-mail address/addresses on which you want to send e-mail notifications. Make sure e-mail id's are SES Verified.
 
@@ -135,7 +135,7 @@ If you have not yet configured SES, Click on [Configure SES](https://docs.devtro
 
 <br />
 
-**Select Pipelines**
+*Select Pipelines*
 
 * Then, to fetch pipelines of an application, project and environment.
 

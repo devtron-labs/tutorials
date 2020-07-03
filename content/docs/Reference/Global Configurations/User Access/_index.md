@@ -128,7 +128,7 @@ Once you have finished assigning the appropriate permissions for the listed user
 
 ### **3. Manage Chart Group Permissions**
 
-The chart group permissions for the group will be managed in the same as **Manage chart group permissions for users**. For reference, check [Manage chart group permissions for users](https://docs.devtron.ai/docs/reference/global-configurations/user-access/#4-manage-chart-group-permissions)
+The chart group permissions for the group will be managed in the same way as for the users. For reference, check [Manage chart group permissions for users](https://docs.devtron.ai/docs/reference/global-configurations/user-access/#4-manage-chart-group-permissions)
 
 
 
