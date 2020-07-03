@@ -78,7 +78,7 @@ Key | Description
 
 ## **Manage Notifications**
 
-Click on **Add New** to recieve new notification.
+Click on `Add New` to recieve new notification.
 
 &nbsp;&nbsp;
 
