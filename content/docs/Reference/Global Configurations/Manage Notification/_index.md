@@ -94,14 +94,14 @@ Click on **Add New** to recieve new notification.
 
 &nbsp;&nbsp;
 
-*Send To*
+***Send To***
 
 First, enter the name of your Slack Channel if you have already configured Slack Channel. 
 If you have not yet configured the Slack Channel, Click on [Configure Slack Channel](https://docs.devtron.ai/docs/reference/manage-notifications/#manage-slack-configurations)
 
 <br />
 
-*Select Pipelines*
+***Select Pipelines***
 
 * Then, to fetch pipelines of an application, project and environment.
 
@@ -119,7 +119,7 @@ Click on `Save` after you have configured Slack notifications.
 
 <br />
 
-### Manage SES Notifications
+### **Manage SES Notifications**
 
 &nbsp;&nbsp;
 
@@ -127,7 +127,7 @@ Click on `Save` after you have configured Slack notifications.
 
 &nbsp;&nbsp;
 
-*Send To*
+***Send To***
 
 * First, enter the e-mail address/addresses on which you want to send e-mail notifications. Make sure e-mail id's are SES Verified.
 
@@ -135,7 +135,7 @@ If you have not yet configured SES, Click on [Configure SES](https://docs.devtro
 
 <br />
 
-*Select Pipelines*
+***Select Pipelines***
 
 * Then, to fetch pipelines of an application, project and environment.
 
