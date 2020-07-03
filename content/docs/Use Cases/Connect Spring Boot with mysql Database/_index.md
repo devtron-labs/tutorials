@@ -22,7 +22,7 @@ To deploy mysql Helm Chart, you can refer to our documentation on [Deploy mysql 
 
 For this example, we are using the following [GitHub Repo](https://github.com/devtron-labs/springboot), you can clone this repository and make following changes in the files.
 
-### * Configure application.properties 
+### * ***Configure application.properties*** 
 
 Set the database configuration in this file.
 
@@ -42,7 +42,7 @@ spring.jpa.open-in-view=true
 
 <br />
 
-### * Configure the Dockerfile
+### * ***Configure the Dockerfile***
 
 ```bash
 # syntax=docker/dockerfile:experimental
@@ -75,15 +75,15 @@ To learn how to create an application on Devtron, refer to our documentation on 
 
 <br />
 
-### * Git Material
+### * ***Git Material***
 
 In this example, we are using the url of the forked Git Repository.
 
-### * Docker configuration 
+### * ***Docker configuration*** 
 
 Give, the path of the Dockerfile.
 
-### * Configure Deployment Template
+### * ***Configure Deployment Template***
 
 Enable `Ingress`, and give the path on which you want to host the application.
 
@@ -93,11 +93,11 @@ Enable `Ingress`, and give the path on which you want to host the application.
 
 &nbsp;&nbsp;
 
-### * Set up the CI/CD Pipelines
+### * ***Set up the CI/CD Pipelines***
 
 Set up the CI/CD pipelines. You can set them to trigger automatically or manually.
 
-### * Trigger Pipelines
+### * ***Trigger Pipelines***
 
 Trigger the CI Pipeline, build should be **Successful**. Then trigger the CD Pipeline, deployment pipeline will be initiated, after some time the status should be **Healthy**.
 
@@ -105,7 +105,7 @@ Trigger the CI Pipeline, build should be **Successful**. Then trigger the CD Pip
 
 ## 4. Final Step
 
-### * Test Rest API
+### * ***Test Rest API***
 
 It exposes 3 REST endpoints for it's users to create, to *view specific* student record and *view all* student records.
 

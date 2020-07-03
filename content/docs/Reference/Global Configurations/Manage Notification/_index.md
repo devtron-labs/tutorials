@@ -1,6 +1,6 @@
 ---
 bookCollapseSection: false
-weight: 36
+weight: 37
 ---
 
 # Notification
@@ -18,7 +18,7 @@ Click on **Configurations** to manage `SES Configurations` or `Slack Configurati
 &nbsp;&nbsp;
 
 ![Notification](../not2.jpg  "Notification")
-
+s
 &nbsp;&nbsp;
 
 ### Manage SES Configurations
