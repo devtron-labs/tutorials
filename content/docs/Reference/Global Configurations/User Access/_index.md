@@ -10,7 +10,7 @@ Manage the `User` and `Group` access to Projects, Applications, Chart Groups, En
 To control the `User` and `Group` access, 
 Go to the left main panel -> Select `Global Configurations` -> Select `User Access` 
 
-## Users
+## **Users**
 
 ### **1. Add the new user**
 
@@ -88,7 +88,7 @@ Once you have configured all the required permissions for the users, Click on `S
 
 
 
-## Groups
+## **Groups**
 
 
 ### **1. Add new Group**
@@ -128,7 +128,7 @@ Once you have finished assigning the appropriate permissions for the listed user
 
 ### **3. Manage Chart Group Permissions**
 
-The chart group permissions for the group will be managed in the same as **Manage chart group permissions for users**. For reference, check [Manage chart group permissions for users]()
+The chart group permissions for the group will be managed in the same as **Manage chart group permissions for users**. For reference, check [Manage chart group permissions for users](https://docs.devtron.ai/docs/reference/global-configurations/user-access/#4-manage-chart-group-permissions)
 
 
 
