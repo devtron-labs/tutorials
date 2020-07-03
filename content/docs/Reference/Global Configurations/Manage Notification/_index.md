@@ -17,8 +17,8 @@ Click on **Configurations** to manage `SES Configurations` or `Slack Configurati
 
 &nbsp;&nbsp;
 
-![Notification](../not2.jpg  "Notification")
-s
+![Notification](../../not2.jpg  "Notification")
+
 &nbsp;&nbsp;
 
 ### Manage SES Configurations
@@ -27,7 +27,7 @@ You can manage the SES configuration to recieve e-mails by entering the valid cr
 
 &nbsp;&nbsp;
 
-![Notification](../not1.jpg  "Notification")
+![Notification](../../not1.jpg  "Notification")
 
 <br />
 
@@ -35,7 +35,7 @@ Click on `Add` and configure SES.
 
 &nbsp;&nbsp;
 
-![Notification](../not3.jpg  "Notification")
+![Notification](../../not3.jpg  "Notification")
 
 &nbsp;&nbsp;
 
@@ -55,7 +55,7 @@ You can manage the Slack configurations to recieve notifications on your preferr
 
 &nbsp;&nbsp;
 
-![Notification](../not4.jpg "Notification")
+![Notification](../../not4.jpg "Notification")
 
 
 <br />
@@ -64,7 +64,7 @@ Click on `Add` to add new Slack Channel.
 
 &nbsp;&nbsp;
 
-![Notification](../not5.jpg  "Notification")
+![Notification](../../not5.jpg  "Notification")
 
 &nbsp;&nbsp;
 
@@ -82,7 +82,7 @@ Click on **Add New** to recieve new notification.
 
 &nbsp;&nbsp;
 
-![Notification](../notifi7.jpg  "Notification")
+![Notification](../../notifi7.jpg  "Notification")
 
 &nbsp;&nbsp;
 
@@ -90,7 +90,7 @@ Click on **Add New** to recieve new notification.
 
 &nbsp;&nbsp;
 
-![Notification](../notifi6.jpg  "Notification")
+![Notification](../../notifi6.jpg  "Notification")
 
 &nbsp;&nbsp;
 
@@ -111,7 +111,7 @@ If you have not yet configured the Slack Channel, Click on [Configure Slack Chan
 
 &nbsp;&nbsp;
 
-![Notification](../not10.jpg  "Notification")
+![Notification](../../not10.jpg  "Notification")
 
 <br />
 
@@ -123,7 +123,7 @@ Click on `Save` after you have configured Slack notifications.
 
 &nbsp;&nbsp;
 
-![Notification](../notifi6.jpg  "Notification")
+![Notification](../../notifi6.jpg  "Notification")
 
 &nbsp;&nbsp;
 
@@ -145,7 +145,7 @@ If you have not yet configured SES, Click on [Configure SES](https://docs.devtro
 
 &nbsp;&nbsp;
 
-![Notification](../not9.jpg  "Notification")
+![Notification](../../not9.jpg  "Notification")
 
 <br />
 

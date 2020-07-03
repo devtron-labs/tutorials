@@ -12,7 +12,7 @@ Go to the left main panel -> Select `Global Configurations` -> Select `User Acce
 
 ## Users
 
-**1. Add the new user**
+### **1. Add the new user**
 
 Click on `Add New User`, to add one or multiple users.
 
@@ -23,7 +23,7 @@ Click on `Add New User`, to add one or multiple users.
 &nbsp;&nbsp;
 
 
-**2. Assign Super Admin Permissions**
+### **2. Assign Super Admin Permissions**
 
 After, you Click on `Add New User`, enter the *email addresses* of the users and Check the box of `Assign Super Admin Permissions`. 
 
@@ -37,7 +37,7 @@ If you click on the check box of `Assign Super Admin Permissions`, you give the 
 Click on `Save`, to assign super admin permissions to all the mentioned users.
 
 
-**3. Give limited access to users**
+### **3. Give limited access to users**
 
 If you do not wish to give the users super admin permissions, then control their access in `Direct Permissions` section. Manage the project, Environment, Application and Role access given to the users.
 
@@ -52,7 +52,7 @@ You can add multiple rows, for `Direct Permissions`.
 Once you have finished assigning the appropriate permissions for the listed users, Click on `Save`.
 
 
-**4. Manage Chart Group Permissions**
+### **4. Manage Chart Group Permissions**
 
 You can also manage the access of users to Chart Groups in your project.
 
@@ -91,7 +91,7 @@ Once you have configured all the required permissions for the users, Click on `S
 ## Groups
 
 
-**1. Add new Group**
+### **1. Add new Group**
 
 Click on `Add Group`, to create a new group. 
 
@@ -109,7 +109,7 @@ Enter the `Group Name` and `Description`.
 
 &nbsp;&nbsp;
 
-**2. Give limited access to groups**
+### **2. Give limited access to groups**
 
 Once you have given the group name and group description.
 
@@ -126,7 +126,7 @@ You can add multiple rows, for `Direct Permissions` section.
 Once you have finished assigning the appropriate permissions for the listed users, Click on `Save`. 
 
 
-**3. Manage Chart Group Permissions**
+### **3. Manage Chart Group Permissions**
 
 The chart group permissions for the group will be managed in the same as **Manage chart group permissions for users**. For reference, check [Manage chart group permissions for users]()
 
