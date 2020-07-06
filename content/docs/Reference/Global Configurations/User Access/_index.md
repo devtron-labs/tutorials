@@ -9,7 +9,18 @@ Authorization is used to determine what functions, data, or other parts of an ap
 
 You can manage the `User` and `Group` access to Projects, Applications, Chart Groups, Environments, and Roles using the `User Access` feature.
 
-To control the `User` and `Group` access, 
+
+**View Access Levels**
+
+There are four different view access levels available for both `User` and `Group`, namely:
+
+* ***View Only:*** User(s)/Group(s) can view only selected applications.
+* ***Admin:*** User(s)/Group(s) can view trigger and edit selected applications.
+* ***Manager:*** User(s)/Group(s) can view, trigger and edit selected applications, can also manage user access.
+* ***Build and Deploy:*** User(s)/Group(s) can build and deploy applications on selected environments.
+
+
+To control the access of `User` and `Group`,  
 Go to the left main panel -> Select `Global Configurations` -> Select `User Access` 
 
 ## **Users**
@@ -177,7 +188,7 @@ After you have done editing the group permissions. Click on `Save`.
 If you want to delete the groups with particular permissions. Click on `Delete`.
 
 
-### **3. Manage Chart Group Permissions**
+### **4. Manage Chart Group Permissions**
 
 The chart group permissions for the group will be managed in the same way as for the users. For reference, check [Manage chart group permissions for users](https://docs.devtron.ai/docs/reference/global-configurations/user-access/#4-manage-chart-group-permissions)
 
