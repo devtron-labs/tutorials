@@ -56,7 +56,7 @@ Once you have finished assigning the appropriate permissions for the listed user
 
 ### **4. Edit User Permissions**
 
-You can edit the user permissions, by clicking on the downward arrow
+You can edit the user permissions, by clicking on the downward arrow.
 
 &nbsp;&nbsp;
 
@@ -152,6 +152,29 @@ Then, control the access permissions of groups in `Direct Permissions`section. M
 You can add multiple rows, for `Direct Permissions` section.
 
 Once you have finished assigning the appropriate permissions for the listed users, Click on `Save`. 
+
+
+### **3. Edit Group Permissions**
+
+You can edit the group permissions, by clicking on the downward arrow.
+
+&nbsp;&nbsp;
+
+![limit](../../edit4.jpg "limit")
+
+&nbsp;&nbsp;
+
+You can then edit the user permissions here.
+
+&nbsp;&nbsp;
+
+![edit](../../edit7.jpg)
+
+&nbsp;&nbsp;
+
+After you have done editing the group permissions. Click on `Save`. 
+
+If you want to delete the groups with particular permissions. Click on `Delete`.
 
 
 ### **3. Manage Chart Group Permissions**
