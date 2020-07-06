@@ -97,7 +97,7 @@ Click on `Add New` to recieve new notification.
 ***Send To***
 
 First, enter the name of your Slack Channel if you have already configured Slack Channel. 
-If you have not yet configured the Slack Channel, Click on [Configure Slack Channel](https://docs.devtron.ai/docs/reference/manage-notifications/#manage-slack-configurations)
+If you have not yet configured the Slack Channel, Click on [Configure Slack Channel](https://docs.devtron.ai/docs/reference/global-configurations/manage-notification/#manage-slack-configurations)
 
 <br />
 
@@ -131,7 +131,7 @@ Click on `Save` after you have configured Slack notifications.
 
 * First, enter the e-mail address/addresses on which you want to send e-mail notifications. Make sure e-mail id's are SES Verified.
 
-If you have not yet configured SES, Click on [Configure SES](https://docs.devtron.ai/docs/reference/manage-notifications/#manage-ses-configurations)
+If you have not yet configured SES, Click on [Configure SES](https://docs.devtron.ai/docs/reference/global-configurations/manage-notification/#manage-ses-notifications)
 
 <br />
 

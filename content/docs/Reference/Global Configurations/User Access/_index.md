@@ -3,16 +3,18 @@ bookCollapseSection: false
 weight: 38
 ---
 
-# User Access
+# User/Group Authorization
 
-Manage the `User` and `Group` access to Projects, Applications, Chart Groups, Environments, and Roles.
+Authorization is used to determine what functions, data, or other parts of an application the user or the group has the access to.
+
+You can manage the `User` and `Group` access to Projects, Applications, Chart Groups, Environments, and Roles using the `User Access` feature.
 
 To control the `User` and `Group` access, 
 Go to the left main panel -> Select `Global Configurations` -> Select `User Access` 
 
 ## **Users**
 
-### **1. Add the new user**
+### **1. Add new user**
 
 Click on `Add New User`, to add one or multiple users.
 
@@ -37,7 +39,7 @@ If you click on the check box of `Assign Super Admin Permissions`, you give the 
 Click on `Save`, to assign super admin permissions to all the mentioned users.
 
 
-### **3. Give limited access to users**
+### **3. User Permissions**
 
 If you do not wish to give the users super admin permissions, then control their access in `Direct Permissions` section. Manage the project, Environment, Application and Role access given to the users.
 
@@ -52,7 +54,30 @@ You can add multiple rows, for `Direct Permissions`.
 Once you have finished assigning the appropriate permissions for the listed users, Click on `Save`.
 
 
-### **4. Manage Chart Group Permissions**
+### **4. Edit User Permissions**
+
+You can edit the user permissions, by clicking on the downward arrow
+
+&nbsp;&nbsp;
+
+![edit](../../edit1.jpg "users")
+
+&nbsp;
+
+
+You can then edit the user permissions here.
+
+&nbsp;&nbsp;
+
+![edit](../../edit2.jpg)
+
+&nbsp;&nbsp;
+
+After you have done editing the user permissions. Click on `Save`. 
+
+If you want to delete the user/users with particular permissions. Click on `Delete`.
+
+### **5. Manage Chart Group Permissions**
 
 You can also manage the access of users to Chart Groups in your project.
 
@@ -90,6 +115,9 @@ Once you have configured all the required permissions for the users, Click on `S
 
 ## **Groups**
 
+The advantage of the groups is to define a set of privileges like create, edit or delete for the given set of resources that can be shared among the users within the group.
+Users can be added to an existing group to utilize the privileges that it grants.
+
 
 ### **1. Add new Group**
 
@@ -109,7 +137,7 @@ Enter the `Group Name` and `Description`.
 
 &nbsp;&nbsp;
 
-### **2. Give limited access to groups**
+### **2. Group Permissions**
 
 Once you have given the group name and group description.
 

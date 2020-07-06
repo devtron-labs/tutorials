@@ -147,10 +147,9 @@ To view student data by student id, GET Request is:
 
 <br />
 
-***path*** will be the one that you have given in Step 3 while configuring the Deployment Template.
-
 `http://<hostname>/<path>/view/<id>`
 
+***path*** will be the one that you have given in Step 3 while configuring the Deployment Template.
 
 &nbsp;&nbsp;
 
