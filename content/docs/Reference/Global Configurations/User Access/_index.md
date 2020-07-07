@@ -14,11 +14,13 @@ You can manage the `User` and `Group` access to Projects, Applications, Chart Gr
 
 There are four different view access levels/Role available for both `User` and `Group`, namely:
 
-* ***View Only:*** User(s)/Group(s) can view only selected applications.
-* ***Admin:*** User(s)/Group(s) can view trigger and edit selected applications.
-* ***Manager:*** User(s)/Group(s) can view, trigger and edit selected applications, can also manage user access.
-* ***Build and Deploy:*** User(s)/Group(s) can build and deploy applications on selected environments.
+* ***View Only :*** User(s)/Group(s) can view only selected applications.
 
+* ***Build and Deploy :*** User(s)/Group(s) can build and deploy applications on selected environments.
+
+* ***Admin :*** User(s)/Group(s) can view trigger and edit selected applications.
+
+* ***Manager :*** User(s)/Group(s) can view, trigger and edit selected applications, can also manage user access.
 
 To control the access of `User` and `Group`,  
 Go to the left main panel -> Select `Global Configurations` -> Select `User Access` 
@@ -36,21 +38,7 @@ Click on `Add New User`, to add one or multiple users.
 &nbsp;&nbsp;
 
 
-### **2. Assign Super Admin Permissions**
-
-After, you Click on `Add New User`, enter the *email addresses* of the users and Check the box of `Assign Super Admin Permissions`. 
-
-
-If you click on the check box of `Assign Super Admin Permissions`, you give the assigned users complete access to all applications across the projects. Super Admin can add more Super Admins. 
-
-&nbsp;&nbsp;
-
-![admin permissions](../../user2.jpg "admin")
-
-Click on `Save`, to assign super admin permissions to all the mentioned users.
-
-
-### **3. Create User Permissions**
+### **2. Create User Permissions**
 
 If you do not wish to give the users super admin permissions, then control their access in `Direct Permissions` section. Manage the project, Environment, Application and Role access given to the users.
 
@@ -65,7 +53,7 @@ You can add multiple rows, for `Direct Permissions`.
 Once you have finished assigning the appropriate permissions for the listed users, Click on `Save`.
 
 
-### **4. Edit User Permissions**
+### **3. Edit User Permissions**
 
 You can edit the user permissions, by clicking on the downward arrow.
 
@@ -88,7 +76,7 @@ After you have done editing the user permissions. Click on `Save`.
 
 If you want to delete the user/users with particular permissions. Click on `Delete`.
 
-### **5. Manage Chart Group Permissions**
+### **4. Manage Chart Group Permissions**
 
 You can also manage the access of users to Chart Groups in your project.
 
