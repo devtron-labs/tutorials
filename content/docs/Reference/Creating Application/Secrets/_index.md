@@ -11,10 +11,7 @@ Secret objects lets you store and manage sensitive information, such as password
 ![Secret](../../secret1.png "Secret")
 
 
-<div align="center">
-<img src="../../secret1.png" >
-<p>Perfectly balanced</p>
-</div>
+{{< figure src="../../secret1.png" title="Steve Francia" >}}
 
 <br />
 Click on `Add Secret` to add a new secret.
