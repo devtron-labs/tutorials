@@ -7,9 +7,15 @@ bookToc: true
 # Git Material
 Git material is used to manage the source code repositories of your application.
 
+
+
+![git Material](../../one.gif#floatright )
+
 &nbsp;&nbsp;
 
 ![git Material](../../git_materia1.jpg "Adding multiple git materials")
+
+
 
 &nbsp;&nbsp;
 
