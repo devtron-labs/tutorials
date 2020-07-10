@@ -11,9 +11,9 @@ Secret objects lets you store and manage sensitive information, such as password
 ![Secret](../../secret1.png "Secret")
 
 
-<img class="special-img-class" style="width:100%" src="../../secret1.png" />
+<img src="../../secret1.png " style="width:10%;">
 
-<br />
+
 Click on `Add Secret` to add a new secret.
 
 <br />
