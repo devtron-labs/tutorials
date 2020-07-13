@@ -76,4 +76,7 @@ Click on `Save Secret` to save the secret.
 
 You can see the Secret is added.
 
+&nbsp;&nbsp;
+
+![Save Secret](../../arora3.gif "Save Secret")
 

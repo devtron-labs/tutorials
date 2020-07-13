@@ -72,7 +72,7 @@ The config map is created.
 
 &nbsp;&nbsp;
 
-![Config Map Added](../../move5.gif "Config Map is added")
+![Config Map Added](../../arora2.gif "Config Map is added")
 
 
 

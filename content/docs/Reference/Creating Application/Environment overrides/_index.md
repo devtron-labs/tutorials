@@ -18,8 +18,6 @@ For Example, You may have specified 100m CPU resource in the Deployment Template
 The changed configuration will not be added in the template, instead it will make a copy of the template and lets you customize it and then save it.
 And now this overriden template will be used always for your Production Environment instead of the one specified in deployment template.
 
-<iframe src="https://www.youtube.com/embed/{{ index .Params 0 }}?start={{ index .Params 1 }}"
-        style="position: absolute; top: 0; left: 0; width: 560; height: 315;"
-        allowfullscreen frameborder="0"
-        title="YouTube Video">
-</iframe>
+&nbsp;&nbsp;
+
+![Environment Overrides](./arora4.gif "Environment Overrides")
