@@ -10,7 +10,7 @@ Docker Build Configuration is required to execute CI Pipeline for your applicati
 
 &nbsp;&nbsp;
 
-![Docker Configuration](../../docker_config.jpg "Docker Build Configurations")
+![Docker Configuration](../../move2.gif "Docker Build Configurations")
 
 &nbsp;&nbsp;
 

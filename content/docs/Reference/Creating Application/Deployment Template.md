@@ -10,7 +10,7 @@ It is required to execute deployment pipelines for your application.
 
 &nbsp;&nbsp;
 
-![Deployment Template](../../deployment_template.jpg "Deployment Template")
+![Deployment Template](../../move3.gif "Deployment Template")
 
 &nbsp;&nbsp;
 
