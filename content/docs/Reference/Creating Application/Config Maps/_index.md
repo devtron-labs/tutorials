@@ -70,4 +70,9 @@ You have to ensure that the External ConfigMap exists and is made available to t
 <br />
 The config map is created.
 
+&nbsp;&nbsp;
+
+![Config Map Added](../../move5.gif "Config Map is added")
+
+
 

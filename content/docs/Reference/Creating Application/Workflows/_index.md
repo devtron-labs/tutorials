@@ -31,6 +31,11 @@ To know how to Create the CI Pipeline for your application Click On: [Create CI 
 
 To know how to Create the CD Pipeline for your application Click On: [Create CD Pipelines](https://docs.devtron.ai/docs/reference/creating-application/workflows/cd-pipelines/)
 
+&nbsp;
+
+![Create new workflow](../../move4.gif "Create new workflow")
+
+
 
 
 
