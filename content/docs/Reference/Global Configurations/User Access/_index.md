@@ -5,6 +5,12 @@ weight: 38
 
 # User/Group Authorization
 
+&nbsp;&nbsp;
+
+{{< ty id="VTqBRIFbuSU" autoplay="false" >}}  
+
+&nbsp;&nbsp;
+
 Authorization is used to determine what functions, data, or other parts of an application the user or the group has the access to.
 
 You can manage the `User` and `Group` access to Projects, Applications, Chart Groups, Environments, and Roles using the `User Access` feature.
