@@ -9,7 +9,7 @@ Git material is used to manage the source code repositories of your application.
 
 &nbsp;
 
-![git Material](../../one.gif#floatright )
+![git Material](../../move1.gif#floatright )
 
 &nbsp;&nbsp;
 
