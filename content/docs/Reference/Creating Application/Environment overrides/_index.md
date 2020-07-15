@@ -20,4 +20,4 @@ And now this overriden template will be used always for your Production Environm
 
 &nbsp;&nbsp;
 
-![Environment Overrides](./arora4.gif "Environment Overrides")
+![Environment Overrides](../../arora4.gif "Environment Overrides")
