@@ -3,7 +3,7 @@ bookCollapseSection: false
 weight: 23
 ---
 
-anushka
+
 ## ConfigMaps
 
 The ConfigMap API resource holds key-value pairs of configuration data that can be consumed in pods or used to store configuration data for system components such as controllers. ConfigMap is similar to Secrets, but designed to more conveniently support working with strings that do not contain sensitive information.

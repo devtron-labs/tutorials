@@ -7,6 +7,7 @@ weight: 21
 
 <br />
 
+dance 
 ![Cloning Apps](./d1.JPG "Duplicate Templates")
 
 &nbsp;&nbsp;
