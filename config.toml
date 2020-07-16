@@ -3,5 +3,6 @@ title = "Devtron Labs"
 theme = ["hugo-book"]
 baseURL= "https://docs.devtron.ai/"
 languageCode = "en-us"
+publishDir = "docs"
 
 
