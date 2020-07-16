@@ -25,7 +25,7 @@ If you want to see `Application Metrics` (For example: Status codes 2xx, 3xx, 5x
 ## Container
 
 This defines ports on which application services will be exposed to other services
-```html
+```yaml
 ContainerPort:
     name: app
     port: 8080
@@ -42,7 +42,7 @@ Key |Description
 ## Liveness Probe
 
 If this check fails, kubernetes restarts the pod. This should return error code in case of non-recoverable error
-```html
+```yaml
 LivenessProbe:
   Path: ""
   port: 8080
@@ -68,7 +68,7 @@ Key | Description
 ## Readiness Probe
 
 If this check fails, kubernetes stops sending traffic to the application. This should return error code in case of errors which can be recovered from if traffic is stopped
-```html
+```yaml
 ReadinessProbe:
   Path: ""
   port: 8080
@@ -93,7 +93,7 @@ Key  |Description
 ## Autoscaling 
 
 This is connected to HPA and controls scaling up and down in response to request load
-```html
+```yaml
 autoscaling:
   enabled: false
   MinReplicas: 1
@@ -117,7 +117,7 @@ Key   |Description
 ## Image
 
 
-```html
+```yaml
 image:
   pullPolicy: IfNotPresent
  
@@ -127,7 +127,7 @@ Image is used to access images in kubernetes, pullpolicy is used to define the i
 ## Ingress
 
 This allows public access to the url, please ensure you are using right nginx annotation for nginx class, its default value is nginx
-```html
+```yaml
 ingress:
   enabled: false
   annotations: {}
@@ -151,7 +151,7 @@ Key |Description
 ## Ingress Internal
  
  This allows private access to the url, please ensure you are using right nginx annotation for nginx class, its default value is nginx
-```html
+```yaml
 ingressInternal:
   enabled: false
   annotations: {}
@@ -174,7 +174,7 @@ Key |Description
 ## Resources
 
 These define minimum and maximum RAM and CPU available to the application
-```html
+```yaml
 resources:
   limits:
     cpu: '1'
@@ -199,7 +199,7 @@ Limits make sure a container never goes above a certain value. The container is 
 ## Service
 
 This defines annotations and the type of service, optionally can define name also
-```html
+```yaml
   service:
     type: ClusterIP
     annotations: {}
@@ -211,7 +211,7 @@ This defines annotations and the type of service, optionally can define name als
 ## Volumes
 
 
-```html
+```yaml
  volumes: []
 ```
 
@@ -220,7 +220,7 @@ It is required when some values need to be read from or written to an external d
 
 ## Volume Mounts
 
-```html
+```yaml
 volumeMounts: []
 ```
 
@@ -229,7 +229,7 @@ It is used to provide mounts to the volume
 
 ## Affinity and anti-affinity
 
-```html
+```yaml
 Spec:
   Affinity:
     Key:
@@ -252,7 +252,7 @@ Value part of the label for node selection, this should be same as that on node.
 
 ## Tolerations
 
-```html
+```yaml
 tolerations:
   key: "key"
   operator: "Equal"
@@ -267,7 +267,7 @@ Taints and tolerations work together to ensure that pods are not scheduled onto 
 
 ## Arguments
 
-```html
+```yaml
 args:
   enabled: false
   value: []
@@ -278,7 +278,7 @@ This is used to give arguments to command
 
 ## Command
 
-```html
+```yaml
 command:
   enabled: false
   value: []
@@ -294,7 +294,7 @@ Key     | Description
 
 ## Prometheus
 
-``` html
+``` yaml
   prometheus:
     release: monitoring
 ```
@@ -304,7 +304,7 @@ It is a kubernetes monitoring tool and the name of the file to be monitored as m
 
 ## Grace Period
 
-```html
+```yaml
 GracePeriod: 30
 ```
 If it has expired then the task is requeued to be executed again.
@@ -314,7 +314,7 @@ If it has expired then the task is requeued to be executed again.
 
 ## Min Ready Seconds
 
-```html
+```yaml
 MinReadySeconds: 60
 ```
 
@@ -322,7 +322,7 @@ Minimum number of seconds for which a newly created pod should be ready without 
 
 ## Server
 
-```html
+```yaml
 server:
   deployment:
     image_tag: 1-95a53
@@ -346,7 +346,7 @@ Key     | Description
 
 ## Service Monitor
 
-```html
+```yaml
 servicemonitor:
       enabled: true
       path: /abc
@@ -364,7 +364,7 @@ It gives the set of targets to be monitored.
 
 ## Db Migration Config
 
-```html
+```yaml
 dbMigrationConfig:
   enabled: false
 ```
@@ -386,7 +386,7 @@ A deployment strategy is a way to make changes to your application, without down
 
 ## Service Account
 
-```java  
+```yaml
 serviceAccountName: orchestrator
 ```
 
@@ -401,7 +401,7 @@ When you create a pod, if you do not create a service account, it is automatical
 
 ## Pod Disruption Budget 
 
-```html 
+```yaml 
 podDisruptionBudget: {}
      minAvailable: 1
      maxUnavailable: 1
@@ -419,7 +419,7 @@ With `maxAvailable` of 1, evictions are allowed as long as atmost 1 unhealthy re
 
 ## Envoy Proxy
 
-```html 
+```yaml 
 envoyproxy:
   image: envoyproxy/envoy:v1.14.1
   configMapName: ""
@@ -436,7 +436,7 @@ It can proxy any TCP protocol and includes many other interesting features as su
 
 ## Prometheus Rule 
 
-```html
+```yaml
 prometheusRule:
   enabled: true
   additionalLabels: {}
@@ -460,7 +460,7 @@ In this case, Prometheus will check that the alert continues to be active during
 
 ## Custom Metrics in HPA
 
-```html 
+```yaml 
 autoscaling:
   enabled: true
   MinReplicas: 1
