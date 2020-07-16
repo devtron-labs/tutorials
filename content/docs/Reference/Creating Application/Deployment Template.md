@@ -467,14 +467,6 @@ autoscaling:
   MaxReplicas: 2
   TargetCPUUtilizationPercentage: 90
   TargetMemoryUtilizationPercentage: 80
-  extraMetrics: []
-#    - external:
-#        metricName: pubsub.googleapis.com|subscription|num_undelivered_messages
-#        metricSelector:
-#          matchLabels:
-#            resource.labels.subscription_id: echo-read
-#        targetAverageValue: "2"
-#      type: External
 ```
 
 Custom Metrics API made it possible for monitoring systems like Prometheus to expose application-specific metrics to the HPA controller. 
