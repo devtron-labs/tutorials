@@ -1,8 +1,8 @@
 googleAnalytics = "UA-154884741-1"
 title = "Devtron Labs"
 theme = ["hugo-book"]
-baseURL= "https://devtron-labs.github.io/tutorials/"
+baseURL= "https://docs.devtron.ai/"
 languageCode = "en-us"
-publishDir = "docs"
+
 
 
