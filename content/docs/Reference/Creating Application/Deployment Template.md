@@ -381,12 +381,12 @@ A deployment strategy is a way to make changes to your application, without down
 
 
 
-## Add on features in Deployment Chart version 3.9.0 
+# Add on features in Deployment Chart version 3.9.0 
 
 
-### Service Account
+## Service Account
 
-```html 
+```java  
 serviceAccountName: orchestrator
 ```
 
@@ -399,7 +399,7 @@ When you access the cluster, you are authenticated by the apiserver as a particu
 When you create a pod, if you do not create a service account, it is automatically assigned the default service account in the namespace.
 
 
-### Pod Disruption Budget 
+## Pod Disruption Budget 
 
 ```html 
 podDisruptionBudget: {}
@@ -417,7 +417,7 @@ With `minAvailable` of 1, evictions are allowed as long as they leave behind 1 o
 With `maxAvailable` of 1, evictions are allowed as long as atmost 1 unhealthy replica among the total number of desired replicas.
 
 
-### Envoy Proxy
+## Envoy Proxy
 
 ```html 
 envoyproxy:
@@ -434,7 +434,7 @@ envoyproxy:
 Envoy Proxy is a modern, high performance, small footprint edge and service proxy. Envoy adds resilience and observability to your services, and it does so in a way that’s transparent to your service implementation.
 It can proxy any TCP protocol and includes many other interesting features as such it's a sidecar process, so it’s completely agnostic to your services and has a good flexibility around discovery and load balancing.
 
-### Prometheus Rule 
+## Prometheus Rule 
 
 ```html
 prometheusRule:
@@ -458,7 +458,7 @@ In this case, Prometheus will check that the alert continues to be active during
 
 
 
-### Custom Metrics in HPA
+## Custom Metrics in HPA
 
 ```html 
 autoscaling:
