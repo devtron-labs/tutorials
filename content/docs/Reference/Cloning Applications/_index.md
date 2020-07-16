@@ -11,7 +11,7 @@ weight: 21
 
 &nbsp;&nbsp;
 
-Select `Add New App` to Create a new app.
+Select `Add New App` to Create a new app. An
 
 &nbsp;&nbsp;
 
