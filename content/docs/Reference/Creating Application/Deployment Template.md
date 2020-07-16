@@ -14,9 +14,9 @@ It is required to execute deployment pipelines for your application.
 
 &nbsp;&nbsp;
 
-Key  | Description
+Key  | Descriptions
 -----|-----
-`Chart Version` | Select the Chart Version using which you want to deploy the  application
+`Chart Version` | Select the Chart Version using which you want to deploy the application.
 
 If you want to see `Application Metrics` (For example: Status codes 2xx, 3xx, 5xx; throughput and latency) over time for your application, then you need to make sure you select the latest `chart version`. 
 
@@ -227,7 +227,7 @@ volumeMounts: []
 It is used to provide mounts to the volume
 
 
-## Affinity 
+## Affinity and anti-affinity
 
 ```html
 Spec:
@@ -237,6 +237,10 @@ Spec:
 ```
 
 Spec is used to define the desire state of the given container.
+
+
+Node Affimity allows you to constrain which nodes your pod is eligible to schedule on, based on labels of the node.
+
 Inter-pod affinity allow you to constrain which nodes your pod is eligible to be scheduled based on labels on pods.
 
 ### Key
@@ -253,11 +257,13 @@ tolerations:
   key: "key"
   operator: "Equal"
   value: "value"
-  effect: "NoSchedule"
+  effect: "NoSchedule|PreferNoSchedule|NoExecute(1.6 only)"
 ```
+Taints are the opposite, they allow a node to repel a set of pods. 
 
 A given pod can access the given node and avoid the given taint only if the given pod satisfies a given taint.
 
+Taints and tolerations work together to ensure that pods are not scheduled onto the inappropriate nodes. One or more taints can be applied to a node, this marks that the node should not accept any pods that don't tolerate the taints.
 
 ## Arguments
 
@@ -334,7 +340,7 @@ It gives the details for deployment
 Key     | Description
 -------|--------
 `image_tag` |It is the image tag
-`image`      |It is the URL of the image
+`image`     |It is the URL of the image
 
 
 
@@ -342,7 +348,16 @@ Key     | Description
 
 ```html
 servicemonitor:
-  enabled: false
+      enabled: true
+      path: /abc
+      scheme: 'http'
+      interval: 30s
+      scrapeTimeout: 20s
+      metricRelabelings:
+        - sourceLabels: [namespace]
+          regex: '(.*)'
+          replacement: myapp
+          targetLabel: target_namespace
 ```
 
 It gives the set of targets to be monitored.
@@ -358,7 +373,7 @@ It is used to configure database migration
 
 ## Application Metrics
 
-Application metrics can be enabled to see your application's metrics-CPU usage,Memory Usage,Status,Throughput and Latency.
+Application metrics can be enabled to see your application's metrics-CPUService Monito usage,Memory Usage,Status,Throughput and Latency.
 
 ## Deployment Metrics 
 
@@ -366,4 +381,100 @@ A deployment strategy is a way to make changes to your application, without down
 
 
 
+## Add on features in Deployment Chart version 3.9.0 
 
+
+### Service Account
+
+```html 
+serviceAccountName: orchestrator
+```
+
+A service account provides an identity for the processes that run in a Pod.
+
+
+When you access the cluster, you are authenticated by the apiserver as a particular User Account. Processes in containers inside pod can also contact the apiserver. When you are authenticated as a particular Service Account.
+
+
+When you create a pod, if you do not create a service account, it is automatically assigned the default service account in the namespace.
+
+
+### Pod Disruption Budget 
+
+```html 
+podDisruptionBudget: {}
+     minAvailable: 1
+     maxUnavailable: 1
+```
+You can create `PodDisruptionBudget` for each application. A PDB limits the number of pods of 
+a replicated application that are down simultaneously from voluntary disruptions. 
+For example, an application would like to ensure the number of replicas running is never brought below the certain number. 
+
+You can specify `maxUnavailable` and `minAvailable` in a `PodDisruptionBudget`. 
+
+With `minAvailable` of 1, evictions are allowed as long as they leave behind 1 or more healthy pods of the total number of desired replicas.
+
+With `maxAvailable` of 1, evictions are allowed as long as atmost 1 unhealthy replica among the total number of desired replicas.
+
+
+### Envoy Proxy
+
+```html 
+envoyproxy:
+  image: envoyproxy/envoy:v1.14.1
+  configMapName: ""
+  resources:
+    limits:
+      cpu: 50m
+      memory: 50Mi
+    requests:
+      cpu: 50m
+      memory: 50Mi
+```
+Envoy Proxy is a modern, high performance, small footprint edge and service proxy. Envoy adds resilience and observability to your services, and it does so in a way that’s transparent to your service implementation.
+It can proxy any TCP protocol and includes many other interesting features as such it's a sidecar process, so it’s completely agnostic to your services and has a good flexibility around discovery and load balancing.
+
+### Prometheus Rule 
+
+```html
+prometheusRule:
+  enabled: true
+  additionalLabels: {}
+  namespace: ""
+  rules:
+    - alert: TooMany500s
+      expr: 100 * ( sum( nginx_ingress_controller_requests{status=~"5.+"} ) / sum(nginx_ingress_controller_requests) ) > 5
+      for: 1m
+      labels:
+        severity: critical
+      annotations:
+        description: Too many 5XXs
+        summary: More than 5% of the all requests did return 5XX, this require your attention
+```
+
+Alerting rules allow you to define alert conditions based on Prometheus expressions and to send notifications about firing alerts to an external service. 
+
+In this case, Prometheus will check that the alert continues to be active during each evaluation for 1 minute before firing the alert. Elements that are active, but not firing yet, are in the pending state.
+
+
+
+### Custom Metrics in HPA
+
+```html 
+autoscaling:
+  enabled: true
+  MinReplicas: 1
+  MaxReplicas: 2
+  TargetCPUUtilizationPercentage: 90
+  TargetMemoryUtilizationPercentage: 80
+  extraMetrics: []
+#    - external:
+#        metricName: pubsub.googleapis.com|subscription|num_undelivered_messages
+#        metricSelector:
+#          matchLabels:
+#            resource.labels.subscription_id: echo-read
+#        targetAverageValue: "2"
+#      type: External
+```
+
+Custom Metrics API made it possible for monitoring systems like Prometheus to expose application-specific metrics to the HPA controller. 
