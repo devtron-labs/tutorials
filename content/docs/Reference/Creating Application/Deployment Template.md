@@ -417,7 +417,7 @@ With `minAvailable` of 1, evictions are allowed as long as they leave behind 1 o
 With `maxAvailable` of 1, evictions are allowed as long as atmost 1 unhealthy replica among the total number of desired replicas.
 
 
-## Envoy Proxy
+## Application metrics Envoy Configurations
 
 ```yaml 
 envoyproxy:
@@ -431,8 +431,8 @@ envoyproxy:
       cpu: 50m
       memory: 50Mi
 ```
-Envoy Proxy is a modern, high performance, small footprint edge and service proxy. Envoy adds resilience and observability to your services, and it does so in a way that’s transparent to your service implementation.
-It can proxy any TCP protocol and includes many other interesting features as such it's a sidecar process, so it’s completely agnostic to your services and has a good flexibility around discovery and load balancing.
+
+Envoy is attached as a sidecar to the application container to collect metrics like 4XX, 5XX, Throughput and latency. You can now configure the envoy settings such as idleTimeout, resources etc.
 
 ## Prometheus Rule 
 
@@ -468,5 +468,6 @@ autoscaling:
   TargetCPUUtilizationPercentage: 90
   TargetMemoryUtilizationPercentage: 80
 ```
+HPA will be able to give metrics such as CPU and memory usage for cluster nodes or any of the pods. These metrics are useful for internal cluster sizing, but you probably want to configure wider set of metrics like service latency, I/O load etc.  
+The custom metrics in HPA can help you to achieve this.
 
-Custom Metrics API made it possible for monitoring systems like Prometheus to expose application-specific metrics to the HPA controller. 
