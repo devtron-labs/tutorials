@@ -3,5 +3,5 @@ title = "Devtron Labs"
 theme = ["hugo-book"]
 baseURL = " "
 languageCode = "en-us"
-
+publishDir = "docs"
 
